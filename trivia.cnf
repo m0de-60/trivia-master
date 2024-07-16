@@ -1,0 +1,6 @@
+[trivia]
+serverlist = servername1
+categories = acronym-soup,anatomy,animals,art-and-literature,brain-bender,category-bag,entertainment,food-and-drink,general,movies-tv-music,trivia-bag
+
+[servername1]
+channels = #channel
