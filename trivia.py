@@ -46,13 +46,13 @@ def plugin_stop_(server):
     global pdata
     if pdata != {}:
         mprint(f'Core Override: Trivia has been stopped on {server} by zCore')
-        for x in range(len(pdata['channel'])):
-            pdata[server, pdata['channel'][x]]['timerun'] = False
-            pdata[server, pdata['channel'][x]]['game'] = '0'
-            pdata[server, pdata['channel'][x]]['mode'] = '0'
-            freetriv(server, pdata['channel'][x])
-            pdata[server, pdata['channel'][x]]['streakname'] = '0'
-            pdata[server, pdata['channel'][x]]['streakcount'] = 0
+        for x in range(len(pdata[server, 'channel'])):
+            pdata[server, pdata[server, 'channel'][x]]['timerun'] = False
+            pdata[server, pdata[server, 'channel'][x]]['game'] = '0'
+            pdata[server, pdata[server, 'channel'][x]]['mode'] = '0'
+            freetriv(server, pdata[server, 'channel'][x])
+            pdata[server, pdata[server, 'channel'][x]]['streakname'] = '0'
+            pdata[server, pdata[server, 'channel'][x]]['streakcount'] = 0
             continue
         return 1
     return 0
@@ -562,7 +562,7 @@ async def trivia(server, channel, opt, cat='', opt2=''):
         pdata[server, chan]['game'] = 'play'
         pdata[server, chan]['response'] = time.time()
         pdata[server, chan]['pointimer'] = time.time()
-        pc.privmsg_(server, channel.encode(), '\x02\x0310,1[\x0314,1\x02No.\x02' + str(pdata[server, chan]['qnum']) + ' ' + pdata[server, chan]['category'] + '\x0310,1]\x0315,1   \x02 ' + pdata[server, chan]['question'] + '\x03')
+        pc.privmsg_(server, channel.encode(), '\x02\x0310,1[\x036,1\x02No.\x02' + str(pdata[server, chan]['qnum']) + ' ' + pdata[server, chan]['category'] + '\x0310,1]\x0315,1   \x02 ' + pdata[server, chan]['question'] + '\x03')
         pc.privmsg_(server, channel.encode(), '\x0315,1First hint in\x02\x036,1 20 \x02\x0315,1seconds...\x03')
 
         # testing
@@ -1214,7 +1214,8 @@ async def score_keep(server, channel, args):
     #    return
 
     if args == 'hs' or args == 'st':
-        datagot.sort(reverse=True)
+        # datagot.sort(reverse=True)
+        datagot.sort(key=lambda x: int(x.split('^')[0]), reverse=True)
 
     if len(datagot) == 1:
         score_msg = score_msg + eep(datagot[0])
