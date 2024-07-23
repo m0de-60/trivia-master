@@ -190,7 +190,7 @@ async def evt_join(server, joindata):
                 hintmsg = pdata[server, chan]['hint2']
             if pdata[server, chan]['hints'] > 2:
                 hintmsg = pdata[server, chan]['hint3']
-            pc.privmsg_(server, channel, '\x0315,1Welcome to\x0310,1 ' + channel.decode() + ', Use \x0310,1!thelp\x0315,1 for help. \x02\x036,1CURRENT TRIVIA:\x02\x0315,1 ' + pdata[server, chan]['question'] + ' \x02\x036,1HINT:\x02\x0310,1 ' + str(hintmsg) + '\x03')
+            pc.privmsg_(server, channel, '\x0315,1Welcome to\x0310,1 ' + channel.decode() + ',\x0315,1 Use \x0310,1!thelp\x0315,1 for help. \x02\x036,1CURRENT TRIVIA:\x02\x0315,1 ' + pdata[server, chan]['question'] + ' \x02\x036,1HINT:\x02\x0310,1 ' + str(hintmsg) + '\x03')
             return
     else:
         return
