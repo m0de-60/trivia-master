@@ -45,14 +45,17 @@ def plugin_exit_():
 def plugin_stop_(server):
     global pdata
     if pdata != {}:
+        pdata[server, 'connected'] = False
         mprint(f'Core Override: Trivia has been stopped on {server} by zCore')
         for x in range(len(pdata[server, 'channel'])):
-            pdata[server, pdata[server, 'channel'][x]]['timerun'] = False
-            pdata[server, pdata[server, 'channel'][x]]['game'] = '0'
-            pdata[server, pdata[server, 'channel'][x]]['mode'] = '0'
+            chan = str(pdata[server, 'channel'][x].replace('#', '')).lower()
+            pdata[server, chan]['timerun'] = False
+            pdata[server, chan]['trivia'] = False
+            pdata[server, chan]['game'] = '0'
+            pdata[server, chan]['mode'] = '0'
             freetriv(server, pdata[server, 'channel'][x])
-            pdata[server, pdata[server, 'channel'][x]]['streakname'] = '0'
-            pdata[server, pdata[server, 'channel'][x]]['streakcount'] = 0
+            pdata[server, chan]['streakname'] = '0'
+            pdata[server, chan]['streakcount'] = 0
             continue
         return 1
     return 0
