@@ -38,24 +38,25 @@ def system_req_():
 def plugin_exit_():
     global pdata
     mprint(f'Shutting down...')
+    for x in range(len(pdata['server'])):
+        server = pdata['server'][x]
+        for y in range(len(pdata[server, 'channel'])):
+            chan = pdata[server, 'channel'][x].replace('#', '')
+            if pdata[server, chan]['thread'] != '0':
+                pdata[server, chan]['thread'].join()
+            continue
+        continue
     pdata = {}
+    return
 
 # stopping the module on specific server and it's channels (connection loss)
 # SSLError and OSError reconnects from zCore
 def plugin_stop_(server):
     global pdata
     if pdata != {}:
-        pdata[server, 'connected'] = False
         mprint(f'Core Override: Trivia has been stopped on {server} by zCore')
         for x in range(len(pdata[server, 'channel'])):
-            chan = str(pdata[server, 'channel'][x].replace('#', '')).lower()
-            pdata[server, chan]['timerun'] = False
-            pdata[server, chan]['trivia'] = False
-            pdata[server, chan]['game'] = '0'
-            pdata[server, chan]['mode'] = '0'
-            freetriv(server, pdata[server, 'channel'][x])
-            pdata[server, chan]['streakname'] = '0'
-            pdata[server, chan]['streakcount'] = 0
+            trivia(server, pdata[server, 'channel'][x], 'inter')
             continue
         return 1
     return 0
@@ -87,9 +88,11 @@ def plugin_init_():
     pdata['categories'] = pc.cnfread('trivia.cnf', 'trivia', 'categories').lower()  # category list
     pdata['category'] = pdata['categories'].split(',')  # individual category name pdata['category'][x]
     pdata['defmode'] = 'random'  # default start mode
-    pdata['c_day'] = pc.cday()  # Current day of the year
-    pdata['c_week'] = pc.cweek()  # Current week of the year
-    pdata['c_mont'] = pc.cmonth()  # Current month of the year
+    pdata['c_hour'] = pc.cnfread('trivia.cnf', 'trivia', 'hour')  # Last saved hour of the day (no minutes)
+    pdata['c_day'] = pc.cnfread('trivia.cnf', 'trivia', 'day')  # Last saved day of the year
+    pdata['c_week'] = pc.cnfread('trivia.cnf', 'trivia', 'week')  # Last saved week of the year
+    pdata['c_month'] = pc.cnfread('trivia.cnf', 'trivia', 'month')  # Last saved month of the year
+    pdata['c_year'] = pc.cnfread('trivia.cnf', 'trivia', 'year')  # Last saved year
     # IRC stuff
     pdata['serverlist'] = pc.cnfread('trivia.cnf', 'trivia', 'serverlist').lower()  # server list
     pdata['server'] = pdata['serverlist'].split(',')
@@ -132,7 +135,32 @@ def plugin_init_():
             pdata[server, chan]['response'] = '0'  # keeps track of response times
             pdata[server, chan]['streakname'] = '0'
             pdata[server, chan]['streakcount'] = 0
-            pdata[server, chan]['fpotd'] = '0'
+            # pdata[server, chan]['fpotd'] = '0'
+            # time control (for hourly, daily, weekly, etc)
+            pdata[server, chan]['time_control'] = pc.cnfread('trivia.cnf', server, 'time_control')
+            pdata[server, chan]['control_main'] = ''  # Main control thread for #channel on server
+            pdata[server, chan]['control_timer1'] = '0'  # control timer for hourly stats
+            # pdata[server, chan]['control_timer2'] = '0'  # control timer for daily, weekly and monthly stats
+            # pdata[server, chan]['control_timer3'] = '0'  # control timer for alltime and yearly
+            pdata[server, chan]['controlA'] = '0'  # for timer1 event tracking do not change
+            # pdata[server, chan]['controlB'] = '0'  # for timer2 event tracking do not change
+            # pdata[server, chan]['controlC'] = '0'  # for timer3 event tracking do not change
+            # pdata[server, chan]['control_run'] = False
+            tok = 'h,d,w,m,y'
+            token = tok.split(',')
+            for z in range(len(token)):
+                dckt = server + '_tcd'
+                chantag = chan + '_' + token[z]
+                if pc.cnfexists('trivia.cnf', dckt, chantag) is False:
+                    pc.cnfwrite('trivia.cnf', dckt, chantag, '0')
+                    pdata[server, chan][token[z]] = ''
+                    continue
+                elif pc.cnfread('trivia.cnf', dckt, chantag) == '0':
+                    pdata[server, chan][token[z]] = ''
+                    continue
+                else:
+                    pdata[server, chan][token[z]] = pc.cnfread('trivia.cnf', dckt, chantag)
+                    continue
             continue
         continue
 
@@ -180,20 +208,27 @@ async def evt_join(server, joindata):
         await trivia(server, dchannel, 'start')
         return
 
-    if pdata[server, chan]['trivia'] is True:
+    if pdata[server, chan]['trivia'] is True and pdata[server, chan]['game'] != 0:
         if pdata[server, chan]['game'] == 'time':
             ctime = 20 - round(time.time() - float(pdata[server, chan]['timer']))
-            time.sleep(0.5)
-            pc.privmsg_(server, channel, '\x0315,1Welcome to\x0310,1 ' + channel.decode() + ', \x0315,1Next question in\x02\x036,1 ' + str(ctime) + ' \x02\x0315,1seconds. Use \x0310,1!thelp\x0315,1 for help.\x03')
+            if ctime < 0:
+                await trivia(server, dchannel, 'stop')
+                time.sleep(1)
+                await trivia(server, dchannel, 'start')
+                return
+            # need to check for time errors here and restart trivia
+            #
+            time.sleep(0.05)
+            pc.privmsg_(server, channel, '\x0315,1Welcome to \x02\x0311,1Trivia-Master\x02\x0310,1 on ' + channel.decode() + '! \x0315,1Next question in\x02\x033,1 ' + str(ctime) + ' \x02\x0315,1seconds. Use \x0310,1!thelp\x0315,1 for help.\x03')
             return
         if pdata[server, chan]['game'] == 'play':
-            time.sleep(0.5)
+            time.sleep(0.05)
             hintmsg = pdata[server, chan]['hint']
             if pdata[server, chan]['hints'] > 1:
                 hintmsg = pdata[server, chan]['hint2']
             if pdata[server, chan]['hints'] > 2:
                 hintmsg = pdata[server, chan]['hint3']
-            pc.privmsg_(server, channel, '\x0315,1Welcome to\x0310,1 ' + channel.decode() + ',\x0315,1 Use \x0310,1!thelp\x0315,1 for help. \x02\x036,1CURRENT TRIVIA:\x02\x0315,1 ' + pdata[server, chan]['question'] + ' \x02\x036,1HINT:\x02\x0310,1 ' + str(hintmsg) + '\x03')
+            pc.privmsg_(server, channel, '\x0315,1Welcome to \x02\x0311,1Trivia-Master\x02\x0310,1 on ' + channel.decode() + '!\x0315,1 Use \x0310,1!thelp\x0315,1 for help. \x02\x033,1CURRENT TRIVIA:\x02\x0315,1 ' + pdata[server, chan]['question'] + ' \x02\x033,1HINT:\x02\x0310,1 ' + str(hintmsg) + '\x03')
             return
     else:
         return
@@ -217,6 +252,7 @@ async def evt_privmsg(server, message):
     dchannel = channel.decode()
     dchannel = dchannel.lower()
     chan = dchannel.replace('#', '')
+    chandat = server + '_' + chan
 
     if server not in pdata['server']:
         return
@@ -284,7 +320,6 @@ async def evt_privmsg(server, message):
             if pc.iistok(pdata['categories'], cat.lower(), ',') is False or pc.isfile(filename) is False:
                 pc.notice_(server, username, '[T-M] * ERROR: Category ' + cat.lower() + ' not found.')
                 return
-            print(f'Here')
             new_q = new_q.decode()
             file = open(filename, 'a')
             file.write('\n' + new_q)
@@ -335,57 +370,61 @@ async def evt_privmsg(server, message):
                 return
             if pdata[server, chan]['game'] == 'time':
                 ctime = 20 - round(time.time() - float(pdata[server, chan]['timer']))
-                time.sleep(0.4)
-                pc.privmsg_(server, channel, '\x0315,1New question coming up in\x02\x036,1 ' + str(ctime) + ' \x02\x03seconds.')
+                time.sleep(0.04)
+                pc.privmsg_(server, channel, '\x0315,1New question coming up in\x02\x033,1 ' + str(ctime) + ' \x02\x03seconds.')
                 return
 
         if mdata[4].lower() == b'skip' and pdata[server, chan]['trivia'] is False:
-            time.sleep(0.5)
+            time.sleep(0.05)
             pc.privmsg_(server, channel, 'Trivia is not currently enabled.')
             return
 
         # !trivia on
         if mdata[4].lower() == b'on':
             if pdata[server, chan]['trivia'] is True:
-                time.sleep(0.5)
+                time.sleep(0.05)
                 pc.notice_(server, username, 'Trivia is already enabled.')
             else:
                 pdata[server, chan]['trivia'] = True
-                time.sleep(0.5)
+                time.sleep(0.05)
                 # pc.privmsg_(server, channel, 'Trivia has been enabled.')
                 await trivia(server, dchannel, 'start')
 
         # !trivia off
         if mdata[4].lower() == b'off':
             if pdata[server, chan]['trivia'] is False:
-                time.sleep(0.5)
+                time.sleep(0.05)
                 pc.notice_(server, username, 'Trivia is already disabled.')
             else:
                 pdata[server, chan]['trivia'] = False
-                time.sleep(0.5)
+                time.sleep(0.05)
                 # pc.notice_(server, username, 'Trivia has been disabled.')
                 await trivia(server, dchannel, 'stop')
 
     # ------------------------------------------------------------------------------------------------------------------
     # !thelp - displays help
-    elif mdata[3].lower() == b':!thelp':
+    elif mdata[3].lower() == b':!thelp' or mdata[3].lower() == b':!help':
         if pdata[server, chan]['trivia'] is False:
             return
-        time.sleep(0.25)
-        pc.privmsg_(server, channel, '\x02\x0315,1USER COMMANDS:\x02\x036,1  !myscore  !highscore  !streaks  !thelp\x03')
+        time.sleep(0.05)
+        pc.privmsg_(server, channel, '\x02\x0315,1Trivia Commands:\x02\x033,1   !myscore   !highscore   !fastest   !streaks   !thelp\x03')
+        pc.privmsg_(server, channel, '\x02\x0315,1Trivia Commands:\x02\x033,1   !alltime  or  !a    !hourly  or  !h    !daily  or  !d    !weekly  or  !w    !monthly  or  !m    !yearly  or  !y\x03')
         return
     # ------------------------------------------------------------------------------------------------------------------
     # !myscore - displays user score and statistics
-    elif mdata[3].lower() == b':!myscore':
+    elif mdata[3].lower() == b':!myscore' or mdata[3] == b':!score':
         if pdata[server, chan]['trivia'] is False:
             return
+        if len(mdata) == 5 and mdata[3] == b':!score':
+            username = mdata[4]
+            dusername = str(username.decode()).lower()
         if pc.cnfexists('trivia.cnf', server + '_' + chan, dusername) is False:
-            pc.privmsg_(server, channel, str(username.decode()) + 'you have not played yet.')
+            pc.privmsg_(server, channel, '\x02\x0311,1' + str(username.decode()) + '\x02\x0315,1 has not played yet.\x03')
             return
-        score = '\x037,1[\x036,1Score:\x038,1 ' + str(playerstats(server, channel, dusername, 'score')) + '\x037,1]'
-        wins = '\x037,1[\x036,1Wins:\x038,1 ' + str(playerstats(server, channel, dusername, 'wins')) + '\x037,1]'
-        streak = '\x037,1[\x036,1Longest Streak:\x038,1 ' + str(playerstats(server, channel, dusername, 'streak')) + '\x037,1]'
-        best = '\x037,1[\x036,1Best Time:\x038,1 ' + str(playerstats(server, channel, dusername, 'best')) + '\x037,1]\x03'
+        score = '\x0310,1[\x033,1Score:\x0311,1 ' + str(playerstats(server, channel, dusername, 'score')) + '\x0310,1]'
+        wins = '\x0310,1[\x033,1Wins:\x0311,1 ' + str(playerstats(server, channel, dusername, 'wins')) + '\x0310,1]'
+        streak = '\x0310,1[\x033,1Longest Streak:\x0311,1 ' + str(playerstats(server, channel, dusername, 'streak')) + '\x0310,1]'
+        best = '\x0310,1[\x033,1Best Time:\x0311,1 ' + str(playerstats(server, channel, dusername, 'best')) + '\x0310,1]\x03'
         stats = '\x02\x0315,1PLAYER SCORE:\x02\x0310,1    ' + username.decode() + '    ' + score + wins + streak + best
         # add stuff here so can be toggled from privmsg or notice
         time.sleep(0.5)
@@ -397,7 +436,9 @@ async def evt_privmsg(server, message):
     elif mdata[3].lower() == b':!highscore':
         if pdata[server, chan]['trivia'] is False:
             return
-        # high_score(server, dchannel)
+        if pc.cnfread('trivia.cnf', chandat, 'cache') == 0:
+            pc.privmsg(server, channel, '\x0315,1There are currently no high scores.\x03')
+            return
         await score_keep(server, channel, 'hs')
         return
 
@@ -406,6 +447,9 @@ async def evt_privmsg(server, message):
     elif mdata[3].lower() == b':!streaks':
         if pdata[server, chan]['trivia'] is False:
             return
+        if pc.cnfread('trivia.cnf', chandat, 'cache') == 0:
+            pc.privmsg(server, channel, '\x0315,1There are currently no streaks.\x03')
+            return
         await score_keep(server, channel, 'st')
         return
 
@@ -413,12 +457,59 @@ async def evt_privmsg(server, message):
     # !fastest - displays fastest players
     # Does not work, here for documentation
     # Needs good way of sorting floating number values
-    # elif mdata[3].lower() == b':!fastest':
-    #    if pdata[server, chan]['trivia'] is False:
-    #        return
-    #    await score_keep(server, channel, 'fp')
-    #    return
+    elif mdata[3].lower() == b':!fastest':
+        if pdata[server, chan]['trivia'] is False:
+            return
+        if pc.cnfread('trivia.cnf', chandat, 'cache') == 0:
+            pc.privmsg(server, channel, '\x0315,1There are currently no fastest times.\x03')
+            return
+        await score_keep(server, channel, 'fp')
+        return
 
+    # ------------------------------------------------------------------------------------------------------------------
+    # Timely Functions
+
+    # !today -----------------------------------------------------------------------------------------------------------
+    # General description of hourly and daily scores
+    # elif mdata[3].lower() == b':!today' or mdata[3].lower() == b':!t':
+    #   describe the daily top player, all time high score, longest streak and fastest time
+    
+    # !hourly or !h ----------------------------------------------------------------------------------------------------
+    elif mdata[3].lower() == b':!hourly' or mdata[3].lower() == b':!h':
+        if pdata[server, chan]['trivia'] is False or pdata[server, chan]['time_control'] == 'off':
+            return
+        await time_event(server, dchannel, 'hourly', 'req')
+        return
+    # !daily or !d -----------------------------------------------------------------------------------------------------
+    elif mdata[3].lower() == b':!daily' or mdata[3].lower() == b':!d':
+        if pdata[server, chan]['trivia'] is False or pdata[server, chan]['time_control'] == 'off':
+            return
+        await time_event(server, dchannel, 'daily', 'req')
+        return
+    # !weekly or !w ----------------------------------------------------------------------------------------------------
+    elif mdata[3].lower() == b':!weekly' or mdata[3].lower() == b':!w':
+        if pdata[server, chan]['trivia'] is False or pdata[server, chan]['time_control'] == 'off':
+            return
+        await time_event(server, dchannel, 'weekly', 'req')
+        return
+    # !monthly or !m ---------------------------------------------------------------------------------------------------
+    elif mdata[3].lower() == b':!monthly' or mdata[3].lower() == b':!m':
+        if pdata[server, chan]['trivia'] is False or pdata[server, chan]['time_control'] == 'off':
+            return
+        await time_event(server, dchannel, 'monthly', 'req')
+        return
+    # !yearly or !y ----------------------------------------------------------------------------------------------------
+    elif mdata[3].lower() == b':!yearly' or mdata[3].lower() == b':!y':
+        if pdata[server, chan]['trivia'] is False or pdata[server, chan]['time_control'] == 'off':
+            return
+        await time_event(server, dchannel, 'yearly', 'req')
+        return
+    # !alltime or !a ----------------------------------------------------------------------------------------------------
+    elif mdata[3].lower() == b':!alltime' or mdata[3].lower() == b':!a':
+        if pdata[server, chan]['trivia'] is False or pdata[server, chan]['time_control'] == 'off':
+            return
+        await time_event(server, dchannel, 'alltime', 'req')
+        return
     # ------------------------------------------------------------------------------------------------------------------
     # User answer input for Trivia
     else:
@@ -431,14 +522,17 @@ async def evt_privmsg(server, message):
                 totaltime = round(time.time() - pdata[server, chan]['response'], 2)
                 pdata[server, chan]['game'] = 'win'
                 pdata[server, chan]['timerun'] = False
-                pc.privmsg_(server, channel, '\x02\x0310,1' + username.decode() + '\x02   \x0315,1Wins\x037,1 ' + str(pdata[server, chan]['points']) + ' \x0315,1points!    \x02\x038,1ANSWER ---->\x02 ' + pdata[server, chan]['answer'] + '    \x02\x0315,1TIME:\x02\x037,1 ' + str(totaltime) + ' seconds\x03')
+                pc.privmsg_(server, channel, '\x02\x0310,1' + username.decode() + '\x02   \x0315,1Wins\x0311,1 ' + str(pdata[server, chan]['points']) + ' points!    \x02\x033,1ANSWER ---->\x02 ' + pdata[server, chan]['answer'] + '    \x02\x0315,1TIME:\x02\x0311,1 ' + str(totaltime) + ' seconds\x03')
                 wins = int(playerstats(server, channel, dusername, 'wins')) + 1
                 playerstats(server, channel, dusername, 'wins', 'c', str(wins))
                 points = int(playerstats(server, channel, dusername, 'score')) + int(pdata[server, chan]['points'])
                 playerstats(server, channel, dusername, 'score', 'c', str(points))
-                if playerstats(server, channel, dusername, 'best') == 'NA' or totaltime < float(playerstats(server, channel, dusername, 'best')):
-                    pc.privmsg_(server, channel, '\x02\x0310,1' + username.decode() + '\x02   \x037,1Set a new best time record!   \x02\x038,1>\x036,1 ' + str(totaltime) + ' seconds\x038,1 <\x02\x03')
+                if playerstats(server, channel, dusername, 'best') != 'NA' and totaltime < float(playerstats(server, channel, dusername, 'best')):
+                    pc.privmsg_(server, channel, '\x02\x0310,1' + username.decode() + '\x02   \x0311,1Set a new best time record!   \x02\x038,1>\x0311,1 ' + str(totaltime) + ' seconds\x038,1 <\x02\x03')
                     playerstats(server, channel, dusername, 'best', 'c', str(totaltime))
+                # set up for timely stats
+                if pdata[server, chan]['time_control'] == 'on':
+                    await time_event(server, channel.decode(), 'add', username.decode(), pdata[server, chan]['points'])
                 # set up for winning streak
                 if pdata[server, chan]['streakname'] != dusername:
                     pdata[server, chan]['streakcount'] = 0
@@ -448,7 +542,7 @@ async def evt_privmsg(server, message):
                     playerstats(server, channel.decode(), dusername, 'streak', 'c', str(pdata[server, chan]['streakcount']))
                 if pdata[server, chan]['streakcount'] > 1:
                     time.sleep(0.2)
-                    pc.privmsg_(server, channel, '\x02\x0310,1' + username.decode() + '\x02   \x0315,1Won\x02\x036,1 ' + str(pdata[server, chan]['streakcount']) + ' \x02\x0315,1in a row!   \x02\x037,1 * WINNING STREAK *\x02\x03')
+                    pc.privmsg_(server, channel, '\x02\x0310,1' + username.decode() + '\x02   \x0315,1Won\x02\x033,1 ' + str(pdata[server, chan]['streakcount']) + ' \x02\x0315,1in a row!   \x02\x0311,1 * WINNING STREAK *\x02\x03')
                 time.sleep(1.25)
                 freetriv(server, dchannel)
                 await trivia(server, dchannel, 'next')
@@ -482,11 +576,34 @@ async def trivia(server, channel, opt, cat='', opt2=''):
             cmsg = 'Random Category'
             if opt2 != '':
                 pdata[server, chan]['category'] = opt2
-        pc.privmsg_(server, channel.encode(), '\x02\x0314,1Trivia Master \x036,1   v' + pdata['pversion'] + '\x02\x0315,1    Now running:\x037,1 \x02' + cmsg + '\x02\x03')
+        pc.privmsg_(server, channel.encode(), '\x02\x0314,1Trivia Master \x033,1   v' + pdata['pversion'] + '\x02\x0315,1    Now running:\x0310,1 \x02' + cmsg + '\x02\x03')
         time.sleep(1)
         pdata[server, chan]['game'] = 'time'
+        # time control
+        if pdata[server, chan]['time_control'] == 'on':
+            pdata[server, chan]['control_timer1'] = time.time()
+            # pdata[server, chan]['control_timer2'] = time.time()
+            # pdata[server, chan]['control_timer3'] = time.time()
+
+        # pdata[server, chan]['control_main'] = threading.Thread(target=time_control, args=(server, channel,), daemon=True)
+        # pdata[server, chan]['control_main'].start()
+
         # mprint(f'AWAIT NEXT')
         await trivia(server, channel, 'next')
+
+    # ------------------------------------------------------------------------------------------------------------------
+    # interrupt trivia (similar to 'stop' but used when connection is interrupted)
+    # trivia(server, channel, 'inter')
+    if opt == 'inter':
+        mprint(f'TRIVIA INTERRUPT: {server} {channel}')
+        pdata[server, chan]['timerun'] = False
+        pdata[server, chan]['game'] = '0'
+        pdata[server, chan]['mode'] = '0'
+        freetriv(server, channel)
+        pdata[server, chan]['streakname'] = '0'
+        pdata[server, chan]['streakcount'] = 0
+        pdata[server, chan]['thread'].join()
+        return
 
     # ------------------------------------------------------------------------------------------------------------------
     # stop trivia
@@ -499,7 +616,7 @@ async def trivia(server, channel, opt, cat='', opt2=''):
         freetriv(server, channel)
         pdata[server, chan]['streakname'] = '0'
         pdata[server, chan]['streakcount'] = 0
-        pc.privmsg_(server, channel.encode(), '\x02\x0314,1Trivia Master \x036,1   v' + pdata['pversion'] + '\x02\x0315,1    Stopped.\x03')
+        pc.privmsg_(server, channel.encode(), '\x02\x0314,1Trivia Master \x033,1   v' + pdata['pversion'] + '\x02\x0315,1    Stopped.\x03')
         return
     # ------------------------------------------------------------------------------------------------------------------
     # next question
@@ -554,7 +671,7 @@ async def trivia(server, channel, opt, cat='', opt2=''):
 
             pdata[server, chan]['timerun'] = True
             pdata[server, chan]['timer'] = time.time()
-            pc.privmsg_(server, channel.encode(), '\x0315,1Next question in\x02\x036,1 20 \x02\x0315,1seconds...\x03')
+            pc.privmsg_(server, channel.encode(), '\x0315,1Next question in\x02\x033,1 20 \x02\x0315,1seconds...\x03')
             pdata[server, chan]['thread'] = threading.Thread(target=timer, args=(server, channel,), daemon=True)
             pdata[server, chan]['thread'].start()
 
@@ -565,8 +682,8 @@ async def trivia(server, channel, opt, cat='', opt2=''):
         pdata[server, chan]['game'] = 'play'
         pdata[server, chan]['response'] = time.time()
         pdata[server, chan]['pointimer'] = time.time()
-        pc.privmsg_(server, channel.encode(), '\x02\x0310,1[\x036,1\x02No.\x02' + str(pdata[server, chan]['qnum']) + ' ' + pdata[server, chan]['category'] + '\x0310,1]\x0315,1   \x02 ' + pdata[server, chan]['question'] + '\x03')
-        pc.privmsg_(server, channel.encode(), '\x0315,1First hint in\x02\x036,1 20 \x02\x0315,1seconds...\x03')
+        pc.privmsg_(server, channel.encode(), '\x02\x0310,1[\x033,1\x02No.\x02 ' + str(pdata[server, chan]['qnum']) + ' ' + pdata[server, chan]['category'] + '\x0310,1]\x0315,1   \x02 ' + pdata[server, chan]['question'] + '\x03')
+        pc.privmsg_(server, channel.encode(), '\x0315,1First hint in\x02\x033,1 20 \x02\x0315,1seconds...\x03')
 
         # testing
         # mprint(f'Q: {pdata[server, chan]['question']}')
@@ -593,7 +710,7 @@ async def trivia(server, channel, opt, cat='', opt2=''):
         # create hint!!
         hintx = 'hint' + str(pdata[server, chan]['hints'])
         hint = pdata[server, chan][hintx]
-        pc.privmsg_(server, channel.encode(), '\x02\x0314,1Hint\x0315,1 # ' + str(pdata[server, chan]['hints']) + ':\x02\x0310,1 ' + hint + '\x03')
+        pc.privmsg_(server, channel.encode(), '\x02\x0314,1Hint # ' + str(pdata[server, chan]['hints']) + ': ' + str(hint) + '\x02\x03')
         # hint = hint_gen(ans, int(pdata[server, chan]['hints']), hnt)
         # pc.privmsg_(server, channel.encode(), 'Hint #' + str(pdata[server, chan]['hints']) + ': ' + hint)
 
@@ -611,7 +728,7 @@ async def trivia(server, channel, opt, cat='', opt2=''):
         pdata[server, chan]['timerun'] = False
         pdata[server, chan]['streakname'] = '0'
         pdata[server, chan]['streakcount'] = 0
-        pc.privmsg_(server, channel.encode(), '\x02\x037,1Time is up!\x02\x0315,1    The answer is:\x02\x036,1 ' + pdata[server, chan]['answer'] + '\x03\x02')
+        pc.privmsg_(server, channel.encode(), '\x02\x0311,1Time is up!\x02\x0315,1    The answer is:\x02\x033,1 ' + pdata[server, chan]['answer'] + '\x03\x02')
         time.sleep(1)
         freetriv(server, channel)
         await trivia(server, channel, 'next')
@@ -634,7 +751,7 @@ async def trivia(server, channel, opt, cat='', opt2=''):
         # duser = channel.decode()
         # duser = duser.lower()
         duser = channel
-        totalerr = 0
+        totalerr = '0^0'
         if cat == 'all':
             # pc.notice_(server, duser.encode(), 'Check All')
             mprint('Checking all trivia categories for errors...')
@@ -642,70 +759,126 @@ async def trivia(server, channel, opt, cat='', opt2=''):
                 filename = './qafiles/' + pdata['category'][x] + '.txt'
                 mprint('Checking file ' + cat.lower() + '.txt for trivia errors...')
                 errnum = t_file_clean(filename)
-                if errnum != 0:
-                    mprint('Error check for ' + pdata['category'][x] + '.txt complete. Errors removed: ' + str(errnum) + ' and stored in ./qafiles/qlog.txt')
-                else:
-                    mprint('Error check for ' + pdata['category'][x] + '.txt complete. Errors found: ' + str(errnum))
-                totalerr = totalerr + errnum
+                mprint('Error check for ' + pdata['category'][x] + '.txt complete. [Errors fixed: ' + str(pc.gettok(errnum, 1, '^')) + '] [Errors removed: ' + str(pc.gettok(errnum, 0, '^')) + ' and stored in ./qafiles/qlog.txt]')
+                err = int(pc.gettok(totalerr, 0, '^')) + int(pc.gettok(errnum, 0, '^'))
+                fix = int(pc.gettok(totalerr, 1, '^')) + int(pc.gettok(errnum, 1, '^'))
+                totalerr = str(err) + '^' + str(fix)
                 continue
-            mprint('Error checking for all trivia categories is complete. Errors found and removed: ' + str(totalerr))
-            pc.notice_(server, duser.encode(), '[T-M] * Check All complete. Errors found and removed: ' + str(totalerr))
+            mprint('Error checking for all trivia categories is complete. [Errors fixed: ' + str(pc.gettok(totalerr, 1, '^')) + '] [Errors removed: ' + str(pc.gettok(totalerr, 0, '^')) + ' and stored in ./zcore/qafiles/qlog.txt]')
+            pc.notice_(server, duser.encode(), '[T-M] * Check All complete. [Errors fixed: ' + str(pc.gettok(totalerr, 1, '^')) + '] [Errors removed: ' + str(pc.gettok(totalerr, 0, '^')) + ' and stored in ./qafiles/qlog.txt]')
             return
         else:
             filename = './qafiles/' + cat.lower() + '.txt'
             # pc.notice_(server, duser.encode(), 'Checking ' + cat.lower())
             mprint('Checking file ' + cat.lower() + '.txt for trivia errors...')
             errnum = t_file_clean(filename)
-            if errnum != 0:
-                mprint('Error check for ' + cat.lower() + '.txt complete. Errors removed: ' + str(errnum) + ' and stored in ./qafiles/qlog.txt')
-                pc.notice_(server, duser.encode(), '[T-M] * Checking complete. Errors removed: ' + str(errnum))
-            else:
-                mprint('Error check for ' + cat.lower() + '.txt complete. Errors found: ' + str(errnum))
-                pc.notice_(server, duser.encode(), '[T-M] * Checking complete. Errors found: ' + str(errnum))
+            mprint('Error check for ' + cat.lower() + '.txt complete. [Errors fixed: ' + str(pc.gettok(errnum, 1, '^')) + '] [Errors removed: ' + str(pc.gettok(errnum, 0, '^')) + ' and stored in ./qafiles/qlog.txt]')
+            pc.notice_(server, duser.encode(), '[T-M] * Category check for ' + cat.lower() + ' complete. [Errors fixed: ' + str(pc.gettok(errnum, 1, '^')) + '] [Errors removed: ' + str(pc.gettok(errnum, 0, '^')) + ' and stored in ./qafiles/qlog.txt]')
             return
 
 # End trivia() =========================================================================================================
 
 # ======================================================================================================================
 # Trivia category file cleaner
-# File must exist in qafiles folder in zCore directory. zcore/qafiles/filename.txt
+# File must exist in qafiles folder in zCore directory. ./zcore/qafiles/filename.txt
+# ### Improperly formatted trivia data will cause errors in the game.
+# ### BUG REMOVAL!! Make sure to scan all new trivia files to fix or remove
+# to add better correction for ':'
+
 def t_file_clean(filename):
     # Scan the file for improperly formatted questions
     fname = filename
     file = open(fname, 'r')
     filelines = file.readlines()
+    # filelines = filelines.splitlines()
     # properly formatted questions are stored in the 'clean file'
     c_file = open('./qafiles/cleanfile.txt', 'a')
     # improperly formatted questions are removed and stored in the qlog.txt
     qlog = open('./qafiles/qlog.txt', 'a')
-    # how many errors are found? Starts with 0
+    # how many errors are found? Starts with 0 same for fixes
     errnum = 0
+    fixnum = 0
+    # lasttok = ''
+    # l_tok1 = ''
+    # l_tok2 = ''
+    # tokenc = 0
     # scanning for and removing improperly formatted questions
     for x in range(len(filelines)):
-        if pc.numtok(filelines[x], '`') != 2:
+        fileline = filelines[x].replace('\n', '')
+        # Remove questions that do not contain proper token seperator character " ` " (grave accent mark)
+        if pc.numtok(fileline, '`') != 2:
             errnum += 1
-            qlog.write(filelines[x])
+            qlog.write('ERR-BAD-SYN: ' + fileline + '\n')
             continue
         else:
-            c_file.write(filelines[x])
+            q = pc.gettok(fileline, 0, '`')
+            a = pc.gettok(fileline, 1, '`')
+            # print(f'Q: {q} TOK: {pc.numtok(q, ': ')}')
+
+            # answer is present in question
+            if a in q:
+                errnum += 1
+                qlog.write('ERR-BAD-FRM: ' + fileline + '\n')
+                continue
+
+            # Remove 5 letter answers that contain white spaces
+            if len(a) == 5 and pc.numtok(a, ' ') > 1:
+                errnum += 1
+                qlog.write('ERR-5-CHR: ' + fileline + '\n')
+                continue
+
+            # Fix erroneous colan formats
+            # Category: Question
+            if pc.numtok(q, ': ') == 2:
+                q = pc.gettok(q, 1, ': ')
+                fixnum += 1
+                qlog.write('ERR-FIX-MOD1: ' + fileline + '\n')
+                c_file.write(str(q) + '`' + str(a) + '\n')
+                continue
+
+            # Fix erroneous colan formats (remove Category: and leave Sub-Category:)
+            # Category: Sub-category: Question
+            if pc.numtok(q, ': ') == 3:
+                q = pc.gettok(q, 1, ': ') + ': ' + pc.gettok(q, 2, ': ')
+                fixnum += 1
+                # print(f'PRINTEST: {q}`{a}')
+                qlog.write('ERR-FIX-MOD2: ' + fileline + '\n')
+                c_file.write(str(q) + '`' + str(a) + '\n')
+                continue
+
+            # Category : Question
+            if pc.numtok(q, ' : ') == 2:
+                q = pc.gettok(q, 1, ' : ')
+                fixnum += 1
+                qlog.write('ERR-FIX-MOD3: ' + fileline + '\n')
+                c_file.write(str(q) + '`' + str(a) + '\n')
+                continue
+
+            # Category:Question
+            if pc.numtok(q, ':') == 2:
+                q = pc.gettok(q, 1, ':')
+                fixnum += 1
+                qlog.write('ERR-FIX-MOD4: ' + fileline + '\n')
+                c_file.write(str(q) + '`' + str(a) + '\n')
+                continue
+
+            # Remove erroneous excessive colon formats
+            if pc.numtok(q, ':') >= 4:
+                errnum += 1
+                qlog.write('ERR-TOK-EXC: ' + fileline + '\n')
+                continue
+
+            # Properly formatted question, write to file.
+            c_file.write(fileline + '\n')
             continue
     file.close()
     c_file.close()
     qlog.close()
-    # saving the 'cleaned list' as the category file.
-    open(fname, 'w').close()
-    file = open(fname, 'a')
-    c_file = open('./qafiles/cleanfile.txt', 'r')
-    filelines = c_file.readlines()
-    # errnum = 0
-    for x in range(len(filelines)):
-        # errnum += 1
-        file.write(filelines[x])
-        continue
-    c_file.close()
-    pc.remfile('./qafiles/cleanfile.txt')
-    # returns the number of errors found
-    return errnum
+    # removing old and resaving the 'cleaned list' as the category file.
+    pc.remfile(filename)
+    pc.renamefile('./qafiles/cleanfile.txt', filename)
+    # returns the number of errors found and fixed or removed
+    return str(errnum) + '^' + str(fixnum)
 
 # ----------------------------------------------------------------------------------------------------------------------
 # free up resources (test)
@@ -734,8 +907,8 @@ def timer(server, channel):
     chan = channel.replace('#', '')
     chan = chan.lower()
     # while pdata[server, chan]['timerun'] is True:
-    while True:
-        if pdata[server, chan]['timerun'] is False:
+    while pdata[server, chan]['game'] != '0':
+        if pdata[server, chan]['timerun'] is False:  # ???
             break
 
         # if pdata[server, chan]['game'] == '0':  # This is useful or not idk
@@ -744,13 +917,77 @@ def timer(server, channel):
 
         time.sleep(0.1)
         # after timer sleep, check stats
-
-        # if pdata[server, chan]['mode'] == '0' or pdata[server, chan]['game'] == '0':
-        #     pdata[server, chan]['timerun'] = False
-        #     break
         if pdata[server, chan]['timerun'] is False:
             break
 
+        # Time Control (only performed between questions on a 1 hour timer!)
+        if pdata[server, chan]['time_control'] == 'on' and pdata[server, chan]['game'] == 'time':
+
+            # hour has changed
+            if pdata['c_hour'] != pc.chour():
+                pc.cnfwrite('trivia.cnf', 'trivia', 'hour', str(pc.chour()))
+                pdata['c_hour'] = pc.chour()
+                pdata[server, chan]['control_timer1'] = time.time()
+                pdata[server, chan]['controlA'] = '0'
+                mprint(f'Hour has changed to: {pdata['c_hour']}')
+                asyncio.run(time_event(server, channel, 'hourly', 'new'))
+
+            # day has changed
+            if pdata['c_day'] != pc.cday():
+                pc.cnfwrite('trivia.cnf', 'trivia', 'day', str(pc.cday()))
+                pdata['c_day'] = pc.cday()
+                mprint(f'Day has changed to: {pdata['c_day']}')
+                asyncio.run(time_event(server, channel, 'daily', 'new'))
+
+            # week has changed
+            if pdata['c_week'] != pc.cweek():
+                pc.cnfwrite('trivia.cnf', 'trivia', 'week', str(pc.cweek()))
+                pdata['c_week'] = pc.cweek()
+                mprint(f'Week has changed to: {pdata['c_week']}')
+                asyncio.run(time_event(server, channel, 'weekly', 'new'))
+
+            # month has changed
+            if pdata['c_month'] != pc.cmonth():
+                pc.cnfwrite('trivia.cnf', 'trivia', 'month', str(pc.cmonth()))
+                pdata['c_month'] = pc.cmonth()
+                mprint(f'Month has changed to: {pdata['c_week']}')
+                asyncio.run(time_event(server, channel, 'monthly', 'new'))
+
+            # year has changed
+            if pdata['c_year'] != pc.cyear():
+                pc.cnfwrite('trivia.cnf', 'trivia', 'year', str(pc.cyear()))
+                pdata['c_year'] = pc.cyear()
+                mprint(f'Year has changed to: {pdata['c_year']}')
+                asyncio.run(time_event(server, channel, 'yearly', 'new'))
+
+            tcu = time.time() - float(pdata[server, chan]['control_timer1'])
+
+            # 10 minutes - Today's Top Players
+            if round(tcu) >= 600 and pdata[server, chan]['controlA'] == '0':
+                pdata[server, chan]['controlA'] = 'A'
+                asyncio.run(time_event(server, channel, 'daily', 'auto'))
+            # 20 minutes - All Time Top Players
+            elif round(tcu) >= 1200 and pdata[server, chan]['controlA'] == 'A':
+                pdata[server, chan]['controlA'] = 'B'
+                asyncio.run(time_event(server, channel, 'alltime', 'auto'))
+            # 30 minutes - Hourly Top Players
+            elif round(tcu) >= 1800 and pdata[server, chan]['controlA'] == 'B':
+                pdata[server, chan]['controlA'] = 'C'
+                asyncio.run(time_event(server, channel, 'hourly', 'auto'))
+            # 40 minutes - Weekly Top Players
+            elif round(tcu) >= 2400 and pdata[server, chan]['controlA'] == 'C':
+                pdata[server, chan]['controlA'] = 'D'
+                asyncio.run(time_event(server, channel, 'weekly', 'auto'))
+            # 50 minutes - Monthly Top Players
+            elif round(tcu) >= 3000 and pdata[server, chan]['controlA'] == 'D':
+                pdata[server, chan]['controlA'] = 'E'
+                asyncio.run(time_event(server, channel, 'monthly', 'auto'))
+            # 59min 59seconds 59 milsec - end of timer, restart
+            elif tcu >= 3599.9983 and pdata[server, chan]['controlA'] == 'E':
+                pdata[server, chan]['controlA'] = '0'
+                pdata[server, chan]['control_timer1'] = time.time()
+
+        # regular operating stuff
         # points decrease every 5 seconds until time is up
         if pdata[server, chan]['game'] == 'play':
             if pdata[server, chan]['pointimer'] == '0':
@@ -1167,7 +1404,7 @@ async def score_keep(server, channel, args):
     chan_dat = server + '_' + chan
     parser = RawConfigParser()
     datagot = ''
-    if args == 'hs' or args == 'st':
+    if args == 'hs' or args == 'st' or args == 'fp':
         datagot = []
     # if args == 'fp':
     #    datagot = {}
@@ -1185,15 +1422,14 @@ async def score_keep(server, channel, args):
             else:
                 datagot.append(str(playerstats(server, channel, datkey, 'score')) + '^' + datkey)
             continue
-        # if args == 'fp':
-        #    if score_msg == '':
-        #        score_msg = '\x02\x0315,1FASTEST PLAYERS:\x02 '
-        #    if playerstats(server, channel, datkey, 'best') == 'NA':
-        #        continue
-        #    else:
-        #        datagot[datkey] = float(playerstats(server, channel, datkey, 'best'))
-        #        # datagot.append(str(playerstats(server, channel, datkey, 'best')) + '^' + datkey)
-        #        continue
+        if args == 'fp':
+            if score_msg == '':
+                score_msg = '\x02\x0315,1FASTEST PLAYERS:\x02 '
+            if playerstats(server, channel, datkey, 'best') == 'NA':
+                continue
+            else:
+                datagot.append(str(playerstats(server, channel, datkey, 'best')) + '^' + datkey)
+            continue
         if args == 'st':
             if score_msg == '':
                 score_msg = '\x02\x0315,1BEST STREAKS:\x02   '
@@ -1217,41 +1453,289 @@ async def score_keep(server, channel, args):
     #    return
 
     if args == 'hs' or args == 'st':
-        # datagot.sort(reverse=True)
-        datagot.sort(key=lambda x: int(x.split('^')[0]), reverse=True)
+        # There was a sorting bug here, thank you to katia for fixing this! :)
+        datagot.sort(key=lambda o: int(o.split('^')[0]), reverse=True)  # katia fixed this
+
+    if args == 'fp':
+        # Used the same method as katia but changed to float.
+        datagot.sort(key=lambda o: float(o.split('^')[0]), reverse=False)
+
+    if len(datagot) > 1:
+        for x in range(len(datagot)):
+            if x == 0:
+                if args == 'fp':
+                    score_msg = score_msg + eep(datagot[x]) + ' seconds'
+                else:
+                    score_msg = score_msg + eep(datagot[x])
+            else:
+                if args == 'fp':
+                    score_msg = score_msg + ' \x02\x0310,1|\x02 ' + eep(datagot[x]) + ' seconds'
+                else:
+                    score_msg = score_msg + ' \x02\x0310,1|\x02 ' + eep(datagot[x])
+
+            if x == 4:
+                break
+            else:
+                continue
 
     if len(datagot) == 1:
         score_msg = score_msg + eep(datagot[0])
-    if len(datagot) == 2:
-        score_msg = score_msg + eep(datagot[0]) + ' \x02\x037,1|\x02 ' + eep(datagot[1])
-    if len(datagot) == 3:
-        score_msg = score_msg + eep(datagot[0]) + ' \x02\x037,1|\x02 ' + eep(datagot[1]) + ' \x02\x037,1|\x02 ' + eep(datagot[2])
-    if len(datagot) == 4:
-        score_msg = score_msg + eep(datagot[0]) + ' \x02\x037,1|\x02 ' + eep(datagot[1]) + ' \x02\x037,1|\x02 ' + eep(datagot[2]) + ' \x02\x037,1|\x02 ' + eep(datagot[3])
-    if len(datagot) >= 5:
-        score_msg = score_msg + eep(datagot[0]) + ' \x02\x037,1|\x02 ' + eep(datagot[1]) + ' \x02\x037,1|\x02 ' + eep(datagot[2]) + ' \x02\x037,1|\x02 ' + eep(datagot[3]) + ' \x02\x037,1|\x02 ' + eep(datagot[4])
 
     pc.privmsg_(server, channel, score_msg)
     return
 
-# ¯\_(o.O)_/¯ Is this Sparta?
+# ¯\_(o.O)_/¯ Is this Sparta? (This actually just seperates and formats player score)
 def eep(wildeep):  # This is quite the useful tool
     wild = pc.gettok(wildeep, 1, '^')
     eep_ = pc.gettok(wildeep, 0, '^')
-    return str('\x0310,1' + wild + '\x036,1 ' + eep_)
+    return str('\x0310,1' + wild + '\x033,1 ' + eep_)
 
 # ----------------------------------------------------------------------------------------------------------------------
-# Fastest Players of the day
-    # if args == 'fpotd':
+# Top Players stats for various time control events
+# async def time_event(server, channel, spec, args, ext='', exc=''):
+async def time_event(server, channel, spec, args, ext=''):
+    global pdata
 
-# ----------------------------------------------------------------------------------------------------------------------
-# fastest players of the week, month
+    chan = str(channel.replace('#', '')).lower()
+    chandat = server + '_' + chan
+    tcd = server + '_tcd'
 
-# ----------------------------------------------------------------------------------------------------------------------
-# High scores (highest current player scores)
+    # time_event('serverid', '#channel', 'start')
+    # start timers
+    # if args == 'start':
+    #    pdata[server, chan]['control_run'] = True
+    #    pdata[server, chan]['control_timer1'] = time.time()
+    #    start = ''
 
-# ----------------------------------------------------------------------------------------------------------------------
-# The longest winning streaks of the week, month
+    # time_event(server, channel, 'add', 'username', 'points')
+    if spec == 'add':
+        user = args
+        points = ext
+        toklist = 'h,d,w,m,y'
+        tok = toklist.split(',')
+        setbreak = False
+        for x in range(len(tok)):
+            if pdata[server, chan][tok[x]] == '':
+                pdata[server, chan][tok[x]] = str(points) + '^' + user
+                chand = chan + '_' + tok[x]
+                pc.cnfwrite('trivia.cnf', tcd, chand, pdata[server, chan][tok[x]])
+                continue
+            else:
+                stok = pdata[server, chan][tok[x]].split(',')
+                for y in range(len(stok)):
+                    usr = pc.gettok(stok[y], 1, '^')
+                    if usr.lower() == user.lower():
+                        math = int(pc.gettok(stok[y], 0, '^')) + int(points)
+                        newtok = str(math) + '^' + user
+                        if len(stok) == 1:
+                            pdata[server, chan][tok[x]] = newtok
+                        else:
+                            pdata[server, chan][tok[x]] = pc.reptok(pdata[server, chan][tok[x]], y, ',', newtok)
+                        setbreak = True
+                        break
+                    else:
+                        chand = chan + '_' + tok[x]
+                        pc.cnfwrite('trivia.cnf', tcd, chand, pdata[server, chan][tok[x]])
+                        continue
+                if setbreak is False:
+                    pdata[server, chan][tok[x]] = pdata[server, chan][tok[x]] + ',' + str(points) + '^' + user
+            chand = chan + '_' + tok[x]
+            pc.cnfwrite('trivia.cnf', tcd, chand, pdata[server, chan][tok[x]])
+            continue
+        return
+
+    # time_event('serverid', '#channel', 'hourly', args, ext)
+    # hourly player scores
+    if spec == 'hourly':
+        if args == 'req':
+            if pdata[server, chan]['h'] == '':
+                pc.privmsg_(server, channel.encode(), '\x02\x0311,1Hourly:\x02\x0310,1 No players have yet to score this hour!\x03')
+                return
+            else:
+                pc.privmsg_(server, channel.encode(), '\x02\x0311,1Hourly top players:\x02\x0310,1 ' + cont_sort(pdata[server, chan]['h']) + '\x03')
+                return
+        if args == 'new':
+            if pdata[server, chan]['h'] != '':
+                if pdata['c_hour'] != '0':
+                    pc.privmsg_(server, channel.encode(), '\x02\x0311,1Top Players This Hour:\x02\x0310,1 ' + cont_sort(pdata[server, chan]['h']) + '\x03')
+                    pc.privmsg_(server, channel.encode(), '\x02\x0311,1Hourly Top Players\x02\x0310,1 have been reset for a new hour!\x03')
+                pc.cnfwrite('trivia.cnf', server + '_tcd', chan + '_h', '0')
+                pdata[server, chan]['h'] = ''
+                return
+            else:
+                pc.privmsg_(server, channel.encode(), '\x02\x0311,1Hourly:\x02\x0310,1 No players scored in the last hour!\x03')
+                return
+        if args == 'auto':
+            if pdata[server, chan]['h'] != '':
+                pc.privmsg_(server, channel.encode(), '\x02\x0311,1Hourly Top Players:\x02\x0310,1 ' + cont_sort(pdata[server, chan]['h']) + '\x03')
+                return
+            else:
+                pc.privmsg_(server, channel.encode(), '\x02\x0311,1Hourly:\x02\x0310,1 No players scored recently!\x03')
+                return
+    # time_event('serverid', '#channel', 'daily', args, ext)
+    # daily player scores
+    if spec == 'daily':
+        if args == 'req':
+            if pdata[server, chan]['d'] == '':
+                pc.privmsg_(server, channel.encode(), '\x02\x0311,1Daily:\x02\x0310,1 No players have scored today!\x03')
+                return
+            else:
+                pc.privmsg_(server, channel.encode(), "\x02\x0311,1Today's Top Players:\x02\x0310,1 " + cont_sort(pdata[server, chan]['d']) + '\x03')
+                return
+        if args == 'new':
+            if pdata[server, chan]['d'] != '':
+                if pdata['c_day'] != '0':
+                    pc.privmsg_(server, channel.encode(), '\x02\x0311,1Yesterdays Top Players:\x02\x0310,1 ' + cont_sort(pdata[server, chan]['d']) + '\x03')
+                    pc.privmsg_(server, channel.encode(), "\x02\x0311,1Today's Top Players\x02\x0310,1 have been reset for a new day!\x03")
+                pc.cnfwrite('trivia.cnf', server + '_tcd', chan + '_d', '0')
+                pdata[server, chan]['d'] = ''
+                return
+            else:
+                pc.privmsg_(server, channel.encode(), '\x02\x0311,1Daily:\x02\x0310,1 No players have scored yesterday! It is a new day\x03')
+                return
+        if args == 'auto':
+            if pdata[server, chan]['d'] != '':
+                pc.privmsg_(server, channel.encode(), "\x02\x0311,1Today's Top Players:\x02\x0310,1 " + cont_sort(pdata[server, chan]['d']) + '\x03')
+                return
+            else:
+                pc.privmsg_(server, channel.encode(), '\x02\x0311,1Daily:\x02\x0310,1 No players scored today!\x03')
+                return
+
+    # time_event('serverid', '#channel', 'weekly', args, ext)
+    if spec == 'weekly':
+        if args == 'req':
+            if pdata[server, chan]['w'] == '':
+                pc.privmsg_(server, channel.encode(), '\x02\x0311,1Weekly:\x02\x0310,1 No players have scored this week!\x03')
+                return
+            else:
+                pc.privmsg_(server, channel.encode(), "\x02\x0311,1Weekly Top Players:\x02\x0310,1 " + cont_sort(pdata[server, chan]['w']) + '\x03')
+                return
+        if args == 'new':
+            if pdata[server, chan]['w'] != '':
+                if pdata['c_week'] != '0':
+                    pc.privmsg_(server, channel.encode(), "\x02\x0311,1Last Week's Top Players:\x02\x0310,1 " + cont_sort(pdata[server, chan]['w']) + '\x03')
+                    pc.privmsg_(server, channel.encode(), "\x02\x0311,1Weekly Top Players\x02\x0310,1 have been reset for a new week!\x03")
+                pdata[server, chan]['w'] = ''
+                pc.cnfwrite('trivia.cnf', server + '_tcd', chan + '_w', '0')
+                return
+            else:
+                pc.privmsg_(server, channel.encode(), '\x02\x0311,1Weekly:\x02\x0310,1 No players have scored last week! It is a new week.\x03')
+                return
+        if args == 'auto':
+            if pdata[server, chan]['w'] != '':
+                pc.privmsg_(server, channel.encode(), "\x02\x0311,1Weekly Top Players:\x02\x0310,1 " + cont_sort(pdata[server, chan]['w']) + '\x03')
+                return
+            else:
+                pc.privmsg_(server, channel.encode(), '\x02\x0311,1Weekly:\x02\x0310,1 No players scored this week!\x03')
+                return
+
+    # time_event('serverid', '#channel', 'monthly', args, ext)
+    if spec == 'monthly':
+        if args == 'req':
+            if pdata[server, chan]['m'] == '':
+                pc.privmsg_(server, channel.encode(), '\x02\x0311,1Monthly:\x02\x0310,1 No players have scored this month!\x03')
+                return
+            else:
+                pc.privmsg_(server, channel.encode(), "\x02\x0311,1Monthly Top Players:\x02\x0310,1 " + cont_sort(pdata[server, chan]['m']) + '\x03')
+                return
+        if args == 'new':
+            if pdata[server, chan]['m'] != '':
+                if pdata['c_month'] != '0':
+                    pc.privmsg_(server, channel.encode(), "\x02\x0311,1Last Month's Top Players:\x02\x0310,1 " + cont_sort(pdata[server, chan]['m']) + '\x03')
+                    pc.privmsg_(server, channel.encode(), "\x02\x0311,1Monthly Top Players\x02\x0310,1 have been reset for a new month!\x03")
+                pc.cnfwrite('trivia.cnf', server + '_tcd', chan + '_m', '0')
+                pdata[server, chan]['m'] = ''
+                return
+            else:
+                pc.privmsg_(server, channel.encode(), '\x02\x0311,1Monthly:\x02\x0310,1 No players scored last month! It is a new month.\x03')
+                return
+        if args == 'auto':
+            if pdata[server, chan]['m'] != '':
+                pc.privmsg_(server, channel.encode(), "\x02\x0311,1Monthly Top Players:\x02\x0310,1 " + cont_sort(pdata[server, chan]['m']) + '\x03')
+                return
+            else:
+                pc.privmsg_(server, channel.encode(), '\x02\x0311,1Monthly:\x02\x0310,1 No players scored this month!\x03')
+                return
+
+    # time_event('serverid', '#channel', 'yearly', args, ext)
+    if spec == 'yearly':
+        if args == 'req':
+            if pdata[server, chan]['y'] == '':
+                pc.privmsg_(server, channel.encode(), '\x02\x0311,1Yearly:\x02\x0310,1 No players have scored this year!\x03')
+                return
+            else:
+                pc.privmsg_(server, channel.encode(), "\x02\x0311,1Yearly Top Players:\x02\x0310,1 " + cont_sort(pdata[server, chan]['y']) + '\x03')
+                return
+        if args == 'new':
+            if pdata[server, chan]['y'] != '':
+                if pdata['c_year'] != '0':
+                    pc.privmsg_(server, channel.encode(), "\x02\x0311,1Last Year's Top Players:\x02\x0310,1 " + cont_sort(pdata[server, chan]['y']) + '\x03')
+                    pc.privmsg_(server, channel.encode(), "\x02\x0311,1Yearly Top Players\x02\x0310,1 have been reset for a new week!\x03")
+                pc.cnfwrite('trivia.cnf', server + '_tcd', chan + '_y', '0')
+                pdata[server, chan]['y'] = ''
+                return
+            else:
+                pc.privmsg_(server, channel.encode(), '\x02\x0311,1Yearly:\x02\x0310,1 No players have scored last year! It is a new year.\x03')
+                return
+        if args == 'auto':
+            if pdata[server, chan]['y'] != '':
+                pc.privmsg_(server, channel.encode(), "\x02\x0311,1Yearly Top Players:\x02\x0310,1 " + cont_sort(pdata[server, chan]['y']) + '\x03')
+                return
+            else:
+                pc.privmsg_(server, channel.encode(), '\x02\x0311,1Yearly:\x02\x0310,1 No players have scored this year!\x03')
+                return
+
+    # time_event('serverid', '#channel', 'alltime', args, ext)
+    if spec == 'alltime':
+        # datagot = ''
+        parser = RawConfigParser()
+        tokstr = ''
+        parser.read('trivia.cnf')
+        for name, value in parser.items(chandat):
+            datkey = '%s' % name
+            if datkey == 'cache':
+                continue
+            if str(playerstats(server, channel, datkey, 'score')) == '0':
+                continue
+            if tokstr == '':
+                tokstr = str(playerstats(server, channel, datkey, 'score')) + '^' + datkey
+                continue
+            tokstr = tokstr + ',' + str(playerstats(server, channel, datkey, 'score')) + '^' + datkey
+            continue
+        if args == 'req':
+            if tokstr == '':
+                pc.privmsg_(server, channel.encode(), '\x02\x0311,1All-Time:\x02\x0310,1 No players have scored yet!\x03')
+                return
+            else:
+                pc.privmsg_(server, channel.encode(), "\x02\x0311,1All-Time Top Players:\x02\x0310,1 " + cont_sort(tokstr) + '\x03')
+                return
+        if args == 'auto':
+            if tokstr != '':
+                pc.privmsg_(server, channel.encode(), "\x02\x0311,1All-Time Top Players:\x02\x0310,1 " + cont_sort(tokstr) + '\x03')
+                return
+            else:
+                pc.privmsg_(server, channel.encode(), '\x02\x0311,1All-Time:\x02\x0310,1 No players have scored yet!\x03')
+                return
+
+def cont_sort(cont_data):
+    data = cont_data.split(',')
+    datalist = []
+    for x in range(len(data)):
+        datalist.append(data[x])
+        continue
+    datalist.sort(key=lambda o: int(o.split('^')[0]), reverse=True)
+    sorter = ''
+    for x in range(len(datalist)):
+        if x > 9:
+            return sorter
+        newtok = '\x0310,1' + pc.gettok(datalist[x], 1, '^') + '\x033,1 ' + pc.gettok(datalist[x], 0, '^')
+        if sorter == '':
+            sorter = newtok
+            continue
+        else:
+            sorter = sorter + ' \x0311,1| ' + newtok
+            continue
+    return sorter
 
 
 # ######################################
