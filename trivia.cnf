@@ -4,3 +4,8 @@ categories = acronym-soup,anatomy,animals,art-and-literature,brain-bender,catego
 
 [servername1]
 channels = #channel
+hour = 0
+day = 0
+week = 0
+month = 0
+year = 0
