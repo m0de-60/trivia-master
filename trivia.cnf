@@ -9,3 +9,6 @@ day = 0
 week = 0
 month = 0
 year = 0
+
+[servername1_channel]
+cache = 0
