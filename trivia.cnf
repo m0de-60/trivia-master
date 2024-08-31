@@ -4,6 +4,7 @@ categories = acronym-soup,anatomy,animals,art-and-literature,brain-bender,catego
 
 [servername1]
 channels = #channel
+time_control = on
 hour = 0
 day = 0
 week = 0
