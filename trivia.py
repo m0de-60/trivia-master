@@ -530,6 +530,8 @@ async def evt_privmsg(server, message):
                 if playerstats(server, channel, dusername, 'best') != 'NA' and totaltime < float(playerstats(server, channel, dusername, 'best')):
                     pc.privmsg_(server, channel, '\x02\x0310,1' + username.decode() + '\x02   \x0311,1Set a new best time record!   \x02\x038,1>\x0311,1 ' + str(totaltime) + ' seconds\x038,1 <\x02\x03')
                     playerstats(server, channel, dusername, 'best', 'c', str(totaltime))
+                if playerstats(server, channel, dusername, 'best') == 'NA':
+                    playerstats(server, channel, dusername, 'best', 'c', str(totaltime))
                 # set up for timely stats
                 if pdata[server, chan]['time_control'] == 'on':
                     await time_event(server, channel.decode(), 'add', username.decode(), pdata[server, chan]['points'])
@@ -950,7 +952,7 @@ def timer(server, channel):
             if pdata['c_month'] != pc.cmonth():
                 pc.cnfwrite('trivia.cnf', 'trivia', 'month', str(pc.cmonth()))
                 pdata['c_month'] = pc.cmonth()
-                mprint(f'Month has changed to: {pdata['c_week']}')
+                mprint(f'Month has changed to: {pdata['c_month']}')
                 asyncio.run(time_event(server, channel, 'monthly', 'new'))
 
             # year has changed
