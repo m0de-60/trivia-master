@@ -513,41 +513,48 @@ async def evt_privmsg(server, message):
     # ------------------------------------------------------------------------------------------------------------------
     # User answer input for Trivia
     else:
-        if pdata[server, chan]['game'] == 'play':
-            if umsg == pdata[server, chan]['answer'].lower():
-                if isplayer(server, channel, dusername) is False:
-                    playerstats(server, channel.decode(), dusername, 'new')
-                # pdata[server, chan]['thread'].join()
-                # pc.privmsg_(server, channel, 'Correct')
-                totaltime = round(time.time() - pdata[server, chan]['response'], 2)
-                pdata[server, chan]['game'] = 'win'
-                pdata[server, chan]['timerun'] = False
-                pc.privmsg_(server, channel, '\x02\x0310,1' + username.decode() + '\x02   \x0315,1Wins\x0311,1 ' + str(pdata[server, chan]['points']) + ' points!    \x02\x033,1ANSWER ---->\x02 ' + pdata[server, chan]['answer'] + '    \x02\x0315,1TIME:\x02\x0311,1 ' + str(totaltime) + ' seconds\x03')
-                wins = int(playerstats(server, channel, dusername, 'wins')) + 1
-                playerstats(server, channel, dusername, 'wins', 'c', str(wins))
-                points = int(playerstats(server, channel, dusername, 'score')) + int(pdata[server, chan]['points'])
-                playerstats(server, channel, dusername, 'score', 'c', str(points))
-                if playerstats(server, channel, dusername, 'best') != 'NA' and totaltime < float(playerstats(server, channel, dusername, 'best')):
-                    pc.privmsg_(server, channel, '\x02\x0310,1' + username.decode() + '\x02   \x0311,1Set a new best time record!   \x02\x038,1>\x0311,1 ' + str(totaltime) + ' seconds\x038,1 <\x02\x03')
-                    playerstats(server, channel, dusername, 'best', 'c', str(totaltime))
-                if playerstats(server, channel, dusername, 'best') == 'NA':
-                    playerstats(server, channel, dusername, 'best', 'c', str(totaltime))
-                # set up for timely stats
-                if pdata[server, chan]['time_control'] == 'on':
-                    await time_event(server, channel.decode(), 'add', username.decode(), pdata[server, chan]['points'])
-                # set up for winning streak
-                if pdata[server, chan]['streakname'] != dusername:
-                    pdata[server, chan]['streakcount'] = 0
-                pdata[server, chan]['streakname'] = dusername
-                pdata[server, chan]['streakcount'] += 1
-                if pdata[server, chan]['streakcount'] > int(playerstats(server, channel.decode(), dusername, 'streak')):
-                    playerstats(server, channel.decode(), dusername, 'streak', 'c', str(pdata[server, chan]['streakcount']))
-                if pdata[server, chan]['streakcount'] > 1:
-                    time.sleep(0.2)
-                    pc.privmsg_(server, channel, '\x02\x0310,1' + username.decode() + '\x02   \x0315,1Won\x02\x033,1 ' + str(pdata[server, chan]['streakcount']) + ' \x02\x0315,1in a row!   \x02\x0311,1 * WINNING STREAK *\x02\x03')
-                time.sleep(1.25)
-                freetriv(server, dchannel)
-                await trivia(server, dchannel, 'next')
+        try:
+            if chan == pdata[server, 'botname']:
+                mprint('[ERROR] ************ An error has occured at line 516 of trivia.py and been bypassed.')
+                return
+            if pdata[server, chan]['game'] == 'play':
+                if umsg == pdata[server, chan]['answer'].lower():
+                    if isplayer(server, channel, dusername) is False:
+                        playerstats(server, channel.decode(), dusername, 'new')
+                    # pdata[server, chan]['thread'].join()
+                    # pc.privmsg_(server, channel, 'Correct')
+                    totaltime = round(time.time() - pdata[server, chan]['response'], 2)
+                    pdata[server, chan]['game'] = 'win'
+                    pdata[server, chan]['timerun'] = False
+                    pc.privmsg_(server, channel, '\x02\x0310,1' + username.decode() + '\x02   \x0315,1Wins\x0311,1 ' + str(pdata[server, chan]['points']) + ' points!    \x02\x033,1ANSWER ---->\x02 ' + pdata[server, chan]['answer'] + '    \x02\x0315,1TIME:\x02\x0311,1 ' + str(totaltime) + ' seconds\x03')
+                    wins = int(playerstats(server, channel, dusername, 'wins')) + 1
+                    playerstats(server, channel, dusername, 'wins', 'c', str(wins))
+                    points = int(playerstats(server, channel, dusername, 'score')) + int(pdata[server, chan]['points'])
+                    playerstats(server, channel, dusername, 'score', 'c', str(points))
+                    if playerstats(server, channel, dusername, 'best') != 'NA' and totaltime < float(playerstats(server, channel, dusername, 'best')):
+                        pc.privmsg_(server, channel, '\x02\x0310,1' + username.decode() + '\x02   \x0311,1Set a new best time record!   \x02\x038,1>\x0311,1 ' + str(totaltime) + ' seconds\x038,1 <\x02\x03')
+                        playerstats(server, channel, dusername, 'best', 'c', str(totaltime))
+                    if playerstats(server, channel, dusername, 'best') == 'NA':
+                        playerstats(server, channel, dusername, 'best', 'c', str(totaltime))
+                    # set up for timely stats
+                    if pdata[server, chan]['time_control'] == 'on':
+                        await time_event(server, channel.decode(), 'add', username.decode(), pdata[server, chan]['points'])
+                    # set up for winning streak
+                    if pdata[server, chan]['streakname'] != dusername:
+                        pdata[server, chan]['streakcount'] = 0
+                    pdata[server, chan]['streakname'] = dusername
+                    pdata[server, chan]['streakcount'] += 1
+                    if pdata[server, chan]['streakcount'] > int(playerstats(server, channel.decode(), dusername, 'streak')):
+                        playerstats(server, channel.decode(), dusername, 'streak', 'c', str(pdata[server, chan]['streakcount']))
+                    if pdata[server, chan]['streakcount'] > 1:
+                        time.sleep(0.2)
+                        pc.privmsg_(server, channel, '\x02\x0310,1' + username.decode() + '\x02   \x0315,1Won\x02\x033,1 ' + str(pdata[server, chan]['streakcount']) + ' \x02\x0315,1in a row!   \x02\x0311,1 * WINNING STREAK *\x02\x03')
+                    time.sleep(1.25)
+                    freetriv(server, dchannel)
+                    await trivia(server, dchannel, 'next')
+        except KeyError:
+            mprint('[ERROR] ************ An error has occured at line 516 of trivia.py and been bypassed.')
+            return
 # End of EVENTS --------------------------------------------------------------------------------------------------------
 
 # ======================================================================================================================
