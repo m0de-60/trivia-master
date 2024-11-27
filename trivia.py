@@ -168,9 +168,10 @@ def plugin_init_():
     mprint(f'{pdata['ptitle']} * Version: {pdata['pversion']} By: {pdata['pauthor']} - Loaded successfully.')
 
 # Screen printing [*REQUIRED FUNCTION*]---------------------------------------------------------------------------------
-# For module printing and testing purposes after plugin is loaded use this instead of print()
+# For module printing, logging and testing purposes, AFTER plugin is loaded use this instead of print()
 # function name 'mprint' can be anything you define
-# set pdata['moduleprint'] = False above to disable
+# set pdata['moduleprint'] = False above to disable screen print
+# set pdata['debug'] = False (at the top) to disable logging
 def mprint(string):
     global pdata  # always call this first from every function
     if pdata['moduleprint'] is True:
@@ -203,11 +204,13 @@ async def evt_join(server, joindata):
     if dchannel not in pdata[server, 'channel']:
         return
 
+    # auto start
     if pdata['trivia'] is True and dusername.lower() == pdata[server, 'botname'].lower():
         time.sleep(0.75)
         await trivia(server, dchannel, 'start')
         return
 
+    # trivia join message
     if pdata[server, chan]['trivia'] is True and pdata[server, chan]['game'] != 0:
         if pdata[server, chan]['game'] == 'time':
             ctime = 20 - round(time.time() - float(pdata[server, chan]['timer']))
@@ -404,7 +407,7 @@ async def evt_privmsg(server, message):
     # ------------------------------------------------------------------------------------------------------------------
     # !thelp - displays help
     elif mdata[3].lower() == b':!thelp' or mdata[3].lower() == b':!help':
-        if pdata[server, chan]['trivia'] is False:
+        if not chan == pdata[server, 'botname'] and pdata[server, chan]['trivia'] is False:
             return
         time.sleep(0.05)
         pc.privmsg_(server, channel, '\x02\x0315,1Trivia Commands:\x02\x033,1   !myscore   !highscore   !fastest   !streaks   !thelp\x03')
@@ -515,7 +518,7 @@ async def evt_privmsg(server, message):
     else:
         try:
             if chan == pdata[server, 'botname']:
-                mprint('[ERROR] ************ An error has occured at line 516 of trivia.py and been bypassed.')
+                mprint('[ERROR] ************ An error has occured at line 520 of trivia.py and been bypassed.')
                 return
             if pdata[server, chan]['game'] == 'play':
                 if umsg == pdata[server, chan]['answer'].lower():
@@ -553,7 +556,7 @@ async def evt_privmsg(server, message):
                     freetriv(server, dchannel)
                     await trivia(server, dchannel, 'next')
         except KeyError:
-            mprint('[ERROR] ************ An error has occured at line 516 of trivia.py and been bypassed.')
+            mprint('[ERROR] ************ An error has occured at line 520 of trivia.py and been bypassed.')
             return
 # End of EVENTS --------------------------------------------------------------------------------------------------------
 
