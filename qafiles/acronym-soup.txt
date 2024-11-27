@@ -1,1456 +1,1454 @@
-Acronym: aa`alcholics anonymous
-Acronym: aamof`as a matter of fact
-Acronym: abbr`abbreviation
-Acronym: ack`acknowledgement
-Acronym: acronym`abbreviated coded rendition of name yielding meaning
-Acronym: adn`any day now
-Acronym: afaiaa`as far as i am aware
-Acronym: afaiac`as far as i am concerned
-Acronym: afaict`as far as i can tell
-Acronym: afaik`as far as i know
-Acronym: afair`as far as i remember
-Acronym: afk`away from the keyboard
-Acronym: afl`absofreakinlutely
-Acronym: ai`artificial intelligence
-Acronym: aisb`as i said before
-Acronym: aka`also known as
-Acronym: anfawfos `and now for a word from our sponsor
-Acronym: ansi `american national standards institute
-Acronym: aob`any other business
-Acronym: aobtd`another one bites the dust
-Acronym: aol`america on line
-Acronym: apac`all praise and credit
-Acronym: api`application program interface
-Acronym: arpa`advanced research projects agency
-Acronym: a/s`age/sex
-Acronym: asap`as soon as possible
-Acronym: ascii`american standard code for information interchange
-Acronym: a/s/l`age/sex/location
-Acronym: atb`all the best
-Acronym: atk`at the keyboard
-Acronym: atla`another three letter acronym
-Acronym: atm`at the moment
-Acronym: attn`attention
-Acronym: attyob`anything that turns you on baby
-Acronym: au`australia
-Acronym: avg`average
-Acronym: awcigo`and where can i get one
-Acronym: awhfy`are we having fun yet
-Acronym: ayt`are you there
-Acronym: b4`before
-Acronym: b4n`bye for now
-Acronym: bac`by any chance
-Acronym: bad`broken as designed
-ACRONYM:BAFTA`British Academy of Film & Televison
-Acronym: bak`back at keyboard
-Acronym: bbb`busy beyond belief
-Acronym: bbfn`bye bye for now
-Acronym: bbiab`be back in a bit
-Acronym: bbiaf`be back in a flash
-Acronym: bbiam`be back in a minute
-Acronym: bbias`be back in a sec
-Acronym: bbl`be back later
-Acronym: bbn`bye bye now
-Acronym: bbr`burnt beyond repair
-Acronym: bbs`bulletin board system
-Acronym: bc`basket case
-Acronym: b/c`because
-Acronym: bcc`blind carbon copy
-Acronym: bcnu`be seein you
-Acronym: <beg>`big evil grin
-Acronym: bf`boy friend
-Acronym: bfh`bastard from hell
-Acronym: bfmi`brute force and massive ignorance
-Acronym: bfn`bye for now
-Acronym: <bg>`big grin
-Acronym: bic`best in class
-Acronym: bil`brother in law
-Acronym: bion`believe it or not
-Acronym: bitd`beaten it to death
-Acronym: bk`because
-Acronym: bma`bite my ass
-Acronym: bmhatk`banging my head against the keyboard
-Acronym: bmhatw`banging my head against the wall
-Acronym: bmoc`big man on campus
-Acronym: bmta`brilliant minds think alike
-Acronym: bmtipg`brilliant minds think in parallel gutters
-Acronym: bnf`big name fan
-Acronym: boc`but of course
-Acronym: bof`birds of a feather
-Acronym: bol`best of luck
-Acronym: bos`boyfriend over shoulder
-Acronym: bot`back on topic
-Acronym: botec`back of the envelope calculation
-Acronym: brb`be right back
-Acronym: brbgp`be right back gotta pee
-Acronym: bro`brother
-Acronym: bros`brothers
-Acronym: brs`big red switch
-Acronym: brt`be right there
-Acronym: bsg`big smiling grin
-Acronym: bsod`blue screen of death
-Acronym: bst`british summer time
-Acronym: bta`but then again
-Acronym: btaicbw`but then again i could be wrong
-Acronym: btaim`be that as it may
-Acronym: btdt`been there done that
-Acronym: btdtgtts`been there done that got the t-shirt
-Acronym: btg`buck tooth grin
-Acronym: btobd`be there or be dead
-Acronym: btobs`be there or be square
-Acronym: bttp`back to the point
-Acronym: btw`by the way
-Acronym: bwl`bursting with laughter
-Acronym: bwq`buzz word quotient
-Acronym: by`busy
-Acronym: bykt`but you knew that
-Acronym: byob`bring your own bottle
-Acronym: cadet`can't add doesn't even try
-Acronym: cb`call back
-Acronym: cc`carbon copy
-Acronym: ccwc`can't cook won't cook
-Acronym: ce`creative editing
-Acronym: cert`computer emergency response team
-Acronym: cfd`call for discussion
-Acronym: cfv`call for votes
-Acronym: <cg>`cute grin
-Acronym: cgi`common gateway interface
-Acronym: chowur`see how you are
-Acronym: chp`california highway patrol
-Acronym: ciac`computer incident advisory capability
-Acronym: ciao`goodbye
-Acronym: cic`christ i'm confused
-Acronym: cico`coffee in coffee out
-Acronym: cid`crying in disgrace
-Acronym: cio`cut it out
-Acronym: cir.`circle
-Acronym: clab`crying like a baby
-Acronym: clm`career limiting move
-Acronym: cmiiw`correct me if i'm wrong
-Acronym: cnp`continued next post
-Acronym: c/o`care of
-Acronym: co`conference
-Acronym: cod`cash on delivery
-Acronym: cp`chat post
-Acronym: c&p`copy and paste
-Acronym: cpf`can pigs fly
-Acronym: crc`cyclic redundancy check
-Acronym: cs`cop shop
-Acronym: csg`chuckle snicker grin
-Acronym: cst`central standard time
-Acronym: ctr`choose the right
-Acronym: cttd`cute things they do
-Acronym: ctts`cute things they say
-Acronym: cul8r`see you later
-Acronym: cul`see you later
-Acronym: cu`see you
-Acronym: cv`curriculum vitae
-Acronym: cwyl`chat with you later
-Acronym: cyl`see you later
-Acronym: damhik`don't ask me how i know
-Acronym: dap`parents against dyslexia
-Acronym: darfc`ducking and running for cover
-Acronym: dd`due diligence
-Acronym: deg`deliciously evil grin
-Acronym: dfm`don't flame me
-Acronym: dfu`don't forget units
-Acronym: diik`damned if i know
-Acronym: diy`do it yourself
-Acronym: dk`don't know
-Acronym: d/l`download
-Acronym: dna`did not answer
-Acronym: dns`domain name system
-Acronym: doa`dead on arrival
-Acronym: dob`date of birth
-Acronym: dom`dirty old man
-Acronym: dos`disk operating system
-Acronym: dpkol`deep passionate kiss on the lips
-Acronym: dr.`doctor
-Acronym: dtp`desktop publishing
-Acronym: dtrt`do the right thing
-Acronym: dttah`don't try this at home
-Acronym: ducwic`do you see what i see
-Acronym: duk`dead upon keyboard
-Acronym: duwtwb`do you want to whiteboard
-Acronym: d&w`ducking and weaving
-Acronym: e2eg`ear to ear grin
-Acronym: ed`emotionally disturbed
-Acronym: edp`emotionally disturbed person
-Acronym: edt`eastern daylight savings time
-Acronym: <eg>`evil grin
-Acronym: eif`exercise in futility
-Acronym: elol`evil laughing out loud
-Acronym: emsg`email message
-Acronym: eob`end of business
-Acronym: eod`end of discussion
-Acronym: eof`end of file
-Acronym: eol`end of lecture
-Acronym: eom`end of message
-Acronym: eot`end of thread
-Acronym: epid`every person is different
-Acronym: esosl`endless snorts of stupid laughter
-Acronym: esp`especially
-Acronym: est`eastern standard time
-Acronym: eta`estimated time of arrival
-Acronym: etla`extended three letter acronym
-Acronym: f2f`face to face
-Acronym: faq`frequently asked question
-Acronym: faq`frequently asked questions
-Acronym: fart`fathers against radical teenagers
-Acronym: fcfs`first come first served
-Acronym: fcol`for crying out loud
-Acronym: fdrotfl`falling down rolling on the floor laughing
-Acronym: fftfm`fun for the feeble minded
-Acronym: ficcl`frankly i couldn't care less
-Acronym: fil`father in law
-Acronym: fiofy`figure it out for yourself
-Acronym: first`forum of incident response and security teams
-Acronym: fish`first in still here
-Acronym: fitb`fill in the blank
-Acronym: flea`four letter extended acronym
-Acronym: flotus`first lady of the united states
-Acronym: foaf`friend of a friend
-Acronym: foafoag`father of a friend of a girlfriend
-Acronym: foag`father of a girlfriend
-Acronym: focl`fell off chair laughing
-Acronym: fod`finger of death
+aa`alcholics anonymous
+aamof`as a matter of fact
+abbr`abbreviation
+ack`acknowledgement
+acronym`abbreviated coded rendition of name yielding meaning
+adn`any day now
+afaiaa`as far as i am aware
+afaiac`as far as i am concerned
+afaict`as far as i can tell
+afaik`as far as i know
+afair`as far as i remember
+afk`away from the keyboard
+afl`absofreakinlutely
+ai`artificial intelligence
+aisb`as i said before
+aka`also known as
+anfawfos `and now for a word from our sponsor
+ansi `american national standards institute
+aob`any other business
+aobtd`another one bites the dust
+aol`america on line
+apac`all praise and credit
+api`application program interface
+arpa`advanced research projects agency
+a/s`age/sex
+asap`as soon as possible
+ascii`american standard code for information interchange
+a/s/l`age/sex/location
+atb`all the best
+atk`at the keyboard
+atla`another three letter acronym
+atm`at the moment
+attn`attention
+attyob`anything that turns you on baby
+au`australia
+avg`average
+awcigo`and where can i get one
+awhfy`are we having fun yet
+ayt`are you there
+b4`before
+b4n`bye for now
+bac`by any chance
+bad`broken as designed
+BAFTA`British Academy of Film & Televison
+bak`back at keyboard
+bbb`busy beyond belief
+bbfn`bye bye for now
+bbiab`be back in a bit
+bbiaf`be back in a flash
+bbiam`be back in a minute
+bbias`be back in a sec
+bbl`be back later
+bbn`bye bye now
+bbr`burnt beyond repair
+bbs`bulletin board system
+bc`basket case
+b/c`because
+bcc`blind carbon copy
+bcnu`be seein you
+<beg>`big evil grin
+bf`boy friend
+bfh`bastard from hell
+bfmi`brute force and massive ignorance
+bfn`bye for now
+<bg>`big grin
+bic`best in class
+bil`brother in law
+bion`believe it or not
+bitd`beaten it to death
+bk`because
+bma`bite my ass
+bmhatk`banging my head against the keyboard
+bmhatw`banging my head against the wall
+bmoc`big man on campus
+bmta`brilliant minds think alike
+bmtipg`brilliant minds think in parallel gutters
+bnf`big name fan
+boc`but of course
+bof`birds of a feather
+bol`best of luck
+bos`boyfriend over shoulder
+bot`back on topic
+botec`back of the envelope calculation
+brb`be right back
+brbgp`be right back gotta pee
+bro`brother
+bros`brothers
+brs`big red switch
+brt`be right there
+bsg`big smiling grin
+bsod`blue screen of death
+bst`british summer time
+bta`but then again
+btaicbw`but then again i could be wrong
+btaim`be that as it may
+btdt`been there done that
+btdtgtts`been there done that got the t-shirt
+btg`buck tooth grin
+btobd`be there or be dead
+btobs`be there or be square
+bttp`back to the point
+btw`by the way
+bwl`bursting with laughter
+bwq`buzz word quotient
+by`busy
+bykt`but you knew that
+byob`bring your own bottle
+cadet`can't add doesn't even try
+cb`call back
+cc`carbon copy
+ccwc`can't cook won't cook
+ce`creative editing
+cert`computer emergency response team
+cfd`call for discussion
+cfv`call for votes
+<cg>`cute grin
+cgi`common gateway interface
+chowur`see how you are
+chp`california highway patrol
+ciac`computer incident advisory capability
+ciao`goodbye
+cic`christ i'm confused
+cico`coffee in coffee out
+cid`crying in disgrace
+cio`cut it out
+cir.`circle
+clab`crying like a baby
+clm`career limiting move
+cmiiw`correct me if i'm wrong
+cnp`continued next post
+c/o`care of
+co`conference
+cod`cash on delivery
+cp`chat post
+c&p`copy and paste
+cpf`can pigs fly
+crc`cyclic redundancy check
+cs`cop shop
+csg`chuckle snicker grin
+cst`central standard time
+ctr`choose the right
+cttd`cute things they do
+ctts`cute things they say
+cul8r`see you later
+cul`see you later
+cu`see you
+cv`curriculum vitae
+cwyl`chat with you later
+cyl`see you later
+damhik`don't ask me how i know
+dap`parents against dyslexia
+darfc`ducking and running for cover
+dd`due diligence
+deg`deliciously evil grin
+dfm`don't flame me
+dfu`don't forget units
+diik`damned if i know
+diy`do it yourself
+dk`don't know
+d/l`download
+dna`did not answer
+dns`domain name system
+doa`dead on arrival
+dob`date of birth
+dom`dirty old man
+dos`disk operating system
+dpkol`deep passionate kiss on the lips
+dr.`doctor
+dtp`desktop publishing
+dtrt`do the right thing
+dttah`don't try this at home
+ducwic`do you see what i see
+duk`dead upon keyboard
+duwtwb`do you want to whiteboard
+d&w`ducking and weaving
+e2eg`ear to ear grin
+ed`emotionally disturbed
+edp`emotionally disturbed person
+edt`eastern daylight savings time
+<eg>`evil grin
+eif`exercise in futility
+elol`evil laughing out loud
+emsg`email message
+eob`end of business
+eod`end of discussion
+eof`end of file
+eol`end of lecture
+eom`end of message
+eot`end of thread
+epid`every person is different
+esosl`endless snorts of stupid laughter
+esp`especially
+est`eastern standard time
+eta`estimated time of arrival
+etla`extended three letter acronym
+f2f`face to face
+faq`frequently asked question
+faq`frequently asked questions
+fart`fathers against radical teenagers
+fcfs`first come first served
+fcol`for crying out loud
+fdrotfl`falling down rolling on the floor laughing
+fftfm`fun for the feeble minded
+ficcl`frankly i couldn't care less
+fil`father in law
+fiofy`figure it out for yourself
+first`forum of incident response and security teams
+fish`first in still here
+fitb`fill in the blank
+flea`four letter extended acronym
+flotus`first lady of the united states
+foaf`friend of a friend
+foafoag`father of a friend of a girlfriend
+foag`father of a girlfriend
+focl`fell off chair laughing
+fod`finger of death
 Acronym for microwave amplification by stimulated emission of radiation, a device that amplifies or generates microwaves or radio waves?`maser
 acronym for quasi-stellar radio source, any of the blue, starlike objects that are strong radio emitters and the spectra of what exhibit a strong red shift?`quasar
-Acronym: fotcl`falling off the chair laughing
-Acronym: fot`full of tripe
-Acronym: frz`fruitin' religious zealot
-Acronym: fsd`fools seldom differ
-Acronym: ftasb`faster than a speeding bullet
-Acronym: ftbomh`from the bottom of my heart
-Acronym: ftf`face to face
-Acronym: ftl`faster than light
-Acronym: ftp`file transfer protocol
-Acronym: ftr`for the record
-Acronym: fts`fixin to start
-Acronym: fubar`screwed
-Acronym: furtb`full up ready to burst
-Acronym: fwiw`for what it's worth
-Acronym: fwy`freeway
-Acronym: fya`for your amusement
-Acronym: fyi`for your information
-Acronym: g2g`got to go
-Acronym: gac`get a clue
-Acronym: gafia`get away from it all
-Acronym: ga`go ahead
-Acronym: gal`get a life
-Acronym: gbhandkb`great big hugs and kisses back
-Acronym: gbhandk`great big hugs and kisses
-Acronym: gbh`great big hug
-Acronym: gdandrf`grinning ducking and running fast
-Acronym: gdandr`grinning ducking and running
-Acronym: gdandrvvf`grinning ducking and running very very fast
-Acronym: gdandw`grinning ducking and weaving
-Acronym: gf`girlfriend
-Acronym: gfn`gone for now
-Acronym: gfr`grim file reaper
-Acronym: ggggg`geez!
-Acronym: gg`gotta go; good game
-Acronym: ggn`gotta go now
-Acronym: ggp`gotta go pee
-Acronym: g`grin
-Acronym: gh`getting hard (male)
-Acronym: gif`graphical interchange format
-Acronym: gigo`garbage in garbage out; garbage in gospel out
-Acronym: giwist`gee i wish i'd said that
-Acronym: gj`good job
-Acronym: gjp`good job partner
-Acronym: glg`goofy little grin
-Acronym: glgh`good luck and good hunting
-Acronym: gl`good luck
-Acronym: gmta`great minds think alike
-Acronym: gmt`greenwich mean time
-Acronym: gok`god only knows
-Acronym: gooml`get out of my life
-Acronym: gos`girlfriend over shoulder
-Acronym: gotfia`groaning on the floor in agony
-Acronym: gowi`get on with it
-Acronym: gpf`general protection fault; go puke fast
-Acronym: gr8`great
-Acronym: grq`get rich quick
-Acronym: gruit`get real you impudent thing
-Acronym: gsh`good sense of humour
-Acronym: gtbos`glad to be of service
-Acronym: gtgb`got to get beer
-Acronym: gtg`got to go
-Acronym: gtgn`got to go now
-Acronym: gtp`got to pee
-Acronym: gts`god that sucked
-Acronym: gtsu`glad/good to see you
-Acronym: gw`getting wet
-Acronym: h2`how to
-Acronym: h8`hate
-Acronym: habo`have a better one
-Acronym: hacb`horny as can be
-Acronym: hagn`have a good night
-Acronym: hago`have a good one
-Acronym: hak`hugs and kisses
-Acronym: hand`have a nice day
-Acronym: handk`hugs and kisses
-Acronym: hatm`howling at the moon
-Acronym: hb`honey bear; hummingbird
-Acronym: hcb`holy cow batman
-Acronym: hhb`hello honey bear
-Acronym: hhgttg`hitch hiker's guide to the galaxy
-Acronym: hhis`hanging head in shame
-Acronym: hho1/2k`ha ha only half kidding
-Acronym: hhoj`ha ha only joking
-Acronym: hhok`ha ha only kidding
-Acronym: hhos`ha ha only serious
-Acronym: hica`here it comes again
-Acronym: hng`horny net geek
-Acronym: hoas`hold on a second
-Acronym: hompr`hang on mobile phone's ringing
-Acronym: hopr`hang on phone's ringing
-Acronym: hos`husband over shoulder
-Acronym: houer`hanging on your every word
-Acronym: hoyer`hanging on your every word
-Acronym: hp`home page
-Acronym: hsik`how should i know
-Acronym: hsp`highly sensitive person
-Acronym: hth`hope this helps
-Acronym: html`hypertext markup language
-Acronym: http`hyper text transfer protocol
-Acronym: hw`hardware
-Acronym: hws(pest)`husband wants sex
-Acronym: hwy`highway
-Acronym: iaaa`i am an accountant
-Acronym: iaad`i am a doctor
-Acronym: iaal`i am a lawyer
-Acronym: iac`in any case
-Acronym: iae`in any event
-Acronym: iagfii`it's all good fun isn't it
-Acronym: ianaa`i am not an accountant
-Acronym: ianac`i am not a crook
-Acronym: ianad`i am not a doctor
-Acronym: iana`internet assigned numbers authority
-Acronym: ianal`i am not a lawyer
-Acronym: ianym`in a new york minute
-Acronym: ianys`in a new york second
-Acronym: iap`internet access provider
-Acronym: iash`i am so horny
-Acronym: iay`i adore you
-Acronym: ibc`inadequate but cute
-Acronym: ib`i'm back
-Acronym: ibm`inadequate but marketable
-Acronym: ibtd`i beg to differ
-Acronym: icam`i couldn't agree more
-Acronym: icb`i care because
-Acronym: icbw`i could be wrong
-Acronym: iccl`i couldn't care less
-Acronym: ic`i see
-Acronym: icp`internet content provider
-Acronym: ictybtihtky`i could tell you but then i'd have to kill you
-Acronym: icur`i see you are
-Acronym: idgad`i don't give a damn
-Acronym: idgi`i don't get it
-Acronym: id`identification
-Acronym: idk`i don't know
-Acronym: idn`i don't know
-Acronym: idot`internet development outreach and technology
-Acronym: idts`i don't think so
-Acronym: idtt`i'll drink to that
-Acronym: ie`in effect
-Acronym: ietf`internet engineering task force
-Acronym: igp`i gotta pee
-Acronym: iiabdfi`if it ain't broke don't fix it
-Acronym: iirc`if i remember correctly
-Acronym: ijls`i just like saying
-Acronym: ik`i know; inverse kinematics
-Acronym: ikwym`i know what you mean
-Acronym: ili`i like ike
-Acronym: ilu`i love you
-Acronym: iluis`i laughed until i stopped
-Acronym: ilut`i love you too
-Acronym: ily4e`i love you forever
-Acronym: ily`i love you
-Acronym: imao`in my arrogant opinion
-Acronym: imbo`in my biased opinion
-Acronym: imcdo`in my conceited dogmatic opinion
-Acronym: imco`in my considered opinion
-Acronym: ime`in my experience
-Acronym: imho`in my humble opinion
-Acronym: immor`i make my own rules
-Acronym: imnsho`in my not so humble opinion
-Acronym: imobo`in my own biased opinion
-Acronym: imo`in my opinion
-Acronym: impe`in my personal experience
-Acronym: impov`in my point of view
-Acronym: ims`i must say
-Acronym: imvho`in my very humble opinion
-Acronym: inc.`incorporated
-Acronym: ingsi`i'm not going to say it
-Acronym: inpo`in no particular order
-Acronym: int`i'll never tell
-Acronym: io`input/output
-Acronym: iou`i owe you
-Acronym: iow`in other words
-Acronym: ip`internet protocol
-Acronym: irc`internet relay chat
-Acronym: ir`inter racial
-Acronym: irl`in real life
-Acronym: irooc`i've run out of cigarettes
-Acronym: irt`in real time
-Acronym: isc`i stand corrected
-Acronym: isdn`integrated services digital network
-Acronym: iso`in search of
-Acronym: isp`internet service provider
-Acronym: istm`it seems to me
-Acronym: istr`i seem to remember
-Acronym: itak`it takes all kinds
-Acronym: itfa`in the final analysis
-Acronym: it`information technology
-Acronym: itma`its that man again
-Acronym: itym`i think you mean
-Acronym: iuthalorfh`i used to have a lot of respect for him/her
-Acronym: iutkats`i used to know all that stuff
-Acronym: iwalu`i will always love you
-Acronym: iwaly`i will always love you
-Acronym: iwbni`it would be nice if
-Acronym: iwik`i wish i knew
-Acronym: iyd`in your dreams
-Acronym: iyfeg`insert your favourite ethnic group
-Acronym: iyf`in your face
-Acronym: iykwim`if you know what i mean
-Acronym: iyq`i like you [say it, don't read it]
-Acronym: iyswim`if you see what i mean
-Acronym: jam`just a moment
-Acronym: jao`just another observer
-Acronym: jas`just a second
-Acronym: jff`just for fun
-Acronym: jftr`just for the record
-Acronym: jfyi`just for your information
-Acronym: jic`just in case
-Acronym: jit`just in time
-Acronym: jk`just kidding
-Acronym: jly`jesus loves you
-Acronym: jmho`just my humble opinion
-Acronym: jmo`just my opinion
-Acronym: jmooc`just my opinion of course
-Acronym: jotl`joy of the lord
-Acronym: jpeg`joint photographic experts group
-Acronym: jr`junior
-Acronym: jsyk`just so you know
-Acronym: jtlyk`just to let you know
-Acronym: jtusk`just thought you should know
-Acronym: jtymltk`just thought you might like to know
-Acronym: jtywtk`just thought you wanted to know
-Acronym: jvc`japan victor company
-Acronym: kia`know it all
-Acronym: kiss`keep it simple stupid
-Acronym: kma`kiss my ass
-Acronym: kmb`kiss my butt
-Acronym: kmwih`kick me where it hurts
-Acronym: kmyf`kiss me you fool
-Acronym: k`okay
-Acronym: kol`kiss on lips
-Acronym: kos`kids over shoulder
-Acronym: kotc`kiss on the cheek
-Acronym: kotl`kiss on the lips
-Acronym: kotm`kook of the month
-Acronym: ktcootn`keep this crap out of this newsgroup
-Acronym: kwim`know what i mean
-Acronym: kyhootw`keep your head out of the water
-Acronym: kyhu`keep your head up
-Acronym: l8r`later
-Acronym: l8trz`laters
-Acronym: lall`live and let live
-Acronym: lan`local area network
-Acronym: lart`luser attitude re-adjustment tool
-Acronym: ldto`lets ditch this one
-Acronym: ldwpkol`long deep wet passionate kiss on the lips
-Acronym: lhm`lord help me
-Acronym: lhu`lord help us
-Acronym: ljbf`let's just be friends
-Acronym: llap`live long and prosper
-Acronym: llta`lots and lots of thunderous applause
-Acronym: lma`leave me alone
-Acronym: lmc`lost my connection
-Acronym: lmcoa`lost my connection once again
-Acronym: lmk`let me know
-Acronym: loflol`lying on floor laughing out loud
-Acronym: lotr`lord of the rings
-Acronym: lsfiab`like shooting fish in a barrel
-Acronym: lshih`laughing so hard it hurts
-Acronym: lshipmp`laughing so hard i peed my pants
-Acronym: lshmbib`laughing so hard my belly is bouncing
-Acronym: lshmsb`laughing so hard my stitches burst
-Acronym: lsmif`laughing so much i farted
-Acronym: lsmismt`laughing so much i shot my tampax
-Acronym: lsp`less sensitive person
-Acronym: ltbf`learn to be funny
-Acronym: ltip`laughing til i puke
-Acronym: ltm`laughing to myself
-Acronym: ltmsh`laughing 'til my sides hurt
-Acronym: ltns`long time no see
-Acronym: ltr`long term relationship
-Acronym: luser`loser user
-Acronym: lyic`love you in christ
-Acronym: lylab`love you like a brother
-Acronym: lylas`love you like a sister
-Acronym: ly`love ya
-Acronym: lywamh`love you with all my heart
-Acronym: m8`mate
-Acronym: mayb`mad about you baby
-Acronym: may`mad about you
-Acronym: mb`message board
-Acronym: mbr`master boot record
-Acronym: mcibty`my computer is better than yours
-Acronym: md`mailed
-Acronym: mdt`mountain daily team
-Acronym: mfg`more friendly garbage
-Acronym: mhbfy`my heart bleeds for you
-Acronym: mhdc`my hard drive crashed
-Acronym: mhm`members helping members
-Acronym: mhoty`my hat's off to you
-Acronym: mil`mother in law
-Acronym: mime`multi-purpose internet mail extensions
-Acronym: ming`mailing
-Acronym: mips`meaningless information per second
-Acronym: mla`multiple letter acronym
-Acronym: ml`more later
-Acronym: mmif`my mouth is full
-Acronym: mm`multi media
-Acronym: mmx`multi-media extensions
-Acronym: mnc`mother nature calls
-Acronym: mof`matter of fact
-Acronym: momn`milk out my nose
-Acronym: morf`male or female
-Acronym: mos`member of the opposite sex
-Acronym: motas`member of the appropriate sex
-Acronym: motd`message of the day
-Acronym: motos`member of the opposite sex
-Acronym: motss`member of the same sex
-Acronym: mph`miles per hour
-Acronym: mscea`my southern comfort's empty again
-Acronym: msie`microsoft internet explorer
-Acronym: mss`member of the same sex
-Acronym: mst`mountain standard time
-Acronym: mtfbwy`may the force be with you
-Acronym: mt`my time
-Acronym: myob`mind your own business
-Acronym: nadm`never a dull moment
-Acronym: nagi`not a good idea
-Acronym: navy`never again volunteer yourself
-Acronym: nbd`no big deal
-Acronym: nbl`not bloody likely
-Acronym: nbtd`nothing better to do
-Acronym: ncb`never change baby
-Acronym: ndb`none of your damned business
-Acronym: ndm`no disrespect meant
-Acronym: ne1`anyone
-Acronym: nerd`national establishment for real dorks
-Acronym: ngt`not gonna tell
-Acronym: nhoh`never heard of her/him
-Acronym: nicbdat`nothing is certain but death and taxes
-Acronym: nidwtc`no i don't want to chat
-Acronym: nih`not invented here
-Acronym: nimby`not in my back yard
-Acronym: nimto`not in my term of office
-Acronym: nino`nothing in nothing out
-Acronym: nit`not in therapy
-Acronym: nli`not logged in
-Acronym: nlt`no later than
-Acronym: nmi`no middle initial
-Acronym: n/m`never mind
-Acronym: nmp`not my problem
-Acronym: nmsaa`not my style at all
-Acronym: nms`not my style
-Acronym: nn`night night
-Acronym: nntp`network news transfer protocol
-Acronym: nocem`no see 'em
-Acronym: nooto`nothing out of the ordinary
-Acronym: norwich`knickers off ready when i come home
-Acronym: noyb`none of your business
-Acronym: noyl`not on your life
-Acronym: npf`no problem found
-Acronym: nplu`not people like us
-Acronym: np`no problem
-Acronym: nqa`no questions asked
-Acronym: nqos`not quite our sort
-Acronym: nrn`no reply necessary
-Acronym: ns`netscape
-Acronym: ntg`not too good
-Acronym: nth`no therapy helpful
-Acronym: ntiboa`not that i'm bitter or anything
-Acronym: ntimm`not that it matters much
-Acronym: ntim`not that it matters
-Acronym: ntl`none the less
-Acronym: nt`no text
-Acronym: nui`network user identification
-Acronym: nyctmi`now you come to mention it
-Acronym: nyi`not yet implemented
-Acronym: nym`new york minute
-Acronym: nyp`not your problem
-Acronym: oatus`on a totally unrelated subject
-Acronym: oaus`on an unrelated subject
-Acronym: ob`obligatory; oh baby
-Acronym: obtw`oh by the way
-Acronym: od`overdose; oh dear
-Acronym: ofs`one finger salute
-Acronym: oic`oh i see
-Acronym: oma`on my ass
-Acronym: omb`on my butt
-Acronym: omg`oh my god
-Acronym: onna`oh no not again
-Acronym: onnta`oh no not that/this again
-Acronym: ooc`out of character
-Acronym: ooi`out of interest
-Acronym: oo`over and out
-Acronym: oosoom`out of sight out of mind
-Acronym: os`operating system
-Acronym: ot1h`on the one hand
-Acronym: otc`over the counter
-Acronym: otd`out the door
-Acronym: otf`on the floor
-Acronym: otgh`on the gripping hand
-Acronym: otl`out to lunch
-Acronym: ot`off topic
-Acronym: otoh`on the other hand
-Acronym: otooh`on the other other hand
-Acronym: otth`on the third hand
-Acronym: ottomh`off the top of my head
-Acronym: ott`over the top
-Acronym: otw`on the whole
-Acronym: ow`oh well
-Acronym: owtte`or words to that effect
-Acronym: pabg`pack a big gun
-Acronym: paw`parents are watching
-Acronym: pbm`play by mail
-Acronym: pcb`please call back
-Acronym: pcmcia`people can't master computer industry acronyms
-Acronym: pc`personal computer
-Acronym: pda`public display of affection
-Acronym: pdn`public data network
-Acronym: pdpmema`please don't post my email address
-Acronym: pd`public domain
-Acronym: pdq`pretty damn quick
-Acronym: pds`please don't shout
-Acronym: pdt`pacific daylight savings time
-Acronym: pebcak`problem exists between chair and keyboard
-Acronym: pem`privacy enhanced mail
-Acronym: pest`please excuse slow typing
-Acronym: pgp`pretty good privacy
-Acronym: phd`piled higher and deeper
-Acronym: pimp`pee in my pants
-Acronym: pkb`pot, kettle, black
-Acronym: pkoc`passionate kiss on the cheek
-Acronym: pkol`passionate kiss on the lips
-Acronym: plmko`please let me know ok
-Acronym: plmk`please let me know
-Acronym: plokta`press lots of keys to abort
-Acronym: pls`please
-Acronym: plz`please
-Acronym: pmbi`pardon my butting in
-Acronym: pmetc`pardon me etc
-Acronym: pmfbi`pardon me for butting in
-Acronym: pmfi`problem magically fixed itself
-Acronym: pmfjih`pardon me for jumping in here
-Acronym: pmfji`pardon me for jumping in
-Acronym: pmji`pardon my jumping in
-Acronym: pmp`peed my pants
-Acronym: poahf`put on a happy face
-Acronym: pom`phase of the moon
-Acronym: po`piss off
-Acronym: pop`point of presence
-Acronym: poqadcb`piss off quickly and don't come back
-Acronym: poq`piss off quickly
-Acronym: pos`parents over shoulder
-Acronym: pots`plain old telephone service/system
-Acronym: potus`president of the united states
-Acronym: pov`point of view
-Acronym: ppl`people
-Acronym: ppp`point-to-point protocol
-Acronym: pppp`previous paragraph was polemical position
-Acronym: ps`post script
-Acronym: pst`pacific standard time
-Acronym: ptb`powers that be
-Acronym: ptlapta`praise the lord and pass the ammunition
-Acronym: ptl`praise the lord
-Acronym: ptmm`please tell me more
-Acronym: ptmya`pleased to make your acquaintance
-Acronym: ptmy`pleased to meet you
-Acronym: pto`please turn over
-Acronym: pw`pathetic wanker
-Acronym: qpq`quid pro quo
-Acronym: q`queue
-Acronym: qt`cutie; quiet
-Acronym: ra`red alert
-Acronym: ras`running and screaming
-Acronym: re`regarding
-Acronym: rfc`request for comment
-Acronym: rfd`request for discussion
-Acronym: rfm`reply to flagged message
-Acronym: rft`request for thinking
-Acronym: rhip`rank hath its privileges
-Acronym: rlco`real life conference
-Acronym: rl`real life
-Acronym: rmh`real manly hug
-Acronym: rna`ring no answer
-Acronym: roffnar`rolling on the floor for no apparent reason
-Acronym: roflmho`rolling on floor laughing my head off
-Acronym: roflol`rolling on floor laughing out loud
-Acronym: rofl`rolling on floor laughing
-Acronym: rofluts`rolling on floor laughing unable to speak
-Acronym: roflwpimp`rolling on floor laughing whilst peeing in my pants
-Acronym: rotba`reality on the blink again
-Acronym: rotflas`rolling on the floor laughing and snorting
-Acronym: rotflbtc`rolling on the floor laughing biting the carpet
-Acronym: rotfl`rolling on the floor laughing
-Acronym: rotf`rolling on the floor
-Acronym: rotm`right on the money
-Acronym: rpg`role playing game
-Acronym: rsn`real soon now
-Acronym: rtm`read the manual
-Acronym: rt`real time
-Acronym: rts`read the screen; real time strategy
-Acronym: rumf`are you male or female
-Acronym: rumorf`are you male or female
-ACRONYMS: ABM`anti-ballistic missile
-Acronym: sahm`stay at home mum
-Acronym: sah`screw a hamster
-Acronym: sass`short attention span society/syndrome
-Acronym: sat`sorry about that
-Acronym: scnr`sorry, could not resist
-Acronym: sec`second, e.g. wait a sec
-Acronym: sep`somebody else's problem
-Acronym: sete`smiling ear to ear
-Acronym: sfaiaa`so far as i am aware
-Acronym: sfla`stupid four letter acronym
-Acronym: sgml`standardised generalised markup language
-Acronym: shtsi`somebody had to say it
-Acronym: sig`special interest group
-Acronym: siik`stuffed if i know
-Acronym: sil`sister in law
-Acronym: sitd`still in the dark
-Acronym: sit`stay in touch
-Acronym: slip`serial line interface protocol
-Acronym: smg`suck my goat
-ACRONYMS:MICV`Mechanized infantry combat vehicle
-Acronym: smoff`serious mode off
-Acronym: smop`small matter of programming
-Acronym: smo`serious mode on
-Acronym: smtp`simple mail transfer protocol
-Acronym: snert`snot-nosed egostical rude teenager
-Acronym: snr`signal to noise ratio
-Acronym: sohb`sense of humour bypass
-Acronym: sop`standard operating procedure
-Acronym: so`significant other
-Acronym: sotmg`short of time must go
-Acronym: sot`short of time
-Acronym Soup: AA`alcholics anonymous
-Acronym Soup: AAMOF`as a matter of fact
-Acronym Soup: Abbr.`abbreviation
-Acronym Soup: ACK`acknowledgement
-Acronym Soup: ACRONYM`abbreviated coded rendition of name yielding meaning
-Acronym Soup: ADN`any day now
-Acronym Soup: AFAIAA`as far as i am aware
-Acronym Soup: AFAIAC`as far as i am concerned
-Acronym Soup: AFAICT`as far as i can tell
-Acronym Soup: AFAIK`as far as i know
-Acronym Soup: AFAIR`as far as i remember
-Acronym Soup: AFAIUI`as far as i understand it
-Acronym Soup: AFK`away for a kwickie
-Acronym Soup: AFK`away from the keyboard
-Acronym Soup: AFL`absofreakinlutely
-Acronym Soup: AI`artificial intelligence
-Acronym Soup: AIMP`always in my prayers
-Acronym Soup: AISB`as i said before; as it should be
-Acronym Soup: AISE`as i said earlier
-Acronym Soup: AISI`as i see it
-Acronym Soup: AIUI`as i understand it
-Acronym Soup: AIW`as it were
-Acronym Soup: AKA`also known as
-Acronym Soup: ANFAWFOS`and now for a word from our sponsor
-Acronym Soup: ANSI`american national standards institute
-Acronym Soup: AOB`any other business
-Acronym Soup: AOBTD`another one bites the dust
-Acronym Soup: AOL`america on line
-Acronym Soup: APAC`all praise and credit
-Acronym Soup: API`application program interface
-Acronym Soup: ARPA`advanced research projects agency
-Acronym Soup: A/S?`age/sex?
-Acronym Soup: ASAP`as soon as possible
-Acronym Soup: ASCII`american standard code for information interchange
-Acronym Soup: A/S/L?`age/sex/location?
-Acronym Soup: ATB`all the best
-Acronym Soup: ATK`at the keyboard
-Acronym Soup: ATLA`another three letter acronym
-Acronym Soup: ATM`at the moment
-Acronym Soup: ATTN`attention
-Acronym Soup: ATTYOB`anything that turns you on baby
-Acronym Soup: AU`australia
-Acronym Soup: aVG`average
-Acronym Soup: AWCIGO`and where can i get one
-Acronym Soup: AWGTHTGTATA`are we going to have to go through all this/that again
-Acronym Soup: AWGTHTGTTA`are we going to have to go through this/that again
-Acronym Soup: AWHFY`are we having fun yet
-Acronym Soup: AYT`are you there
-Acronym Soup: B4`before
-Acronym Soup: B4N`bye for now
-Acronym Soup: BAC`by any chance
-Acronym Soup: BAD`broken as designed
-Acronym Soup: BAK`back at keyboard
-Acronym Soup: BBB`busy beyond belief
-Acronym Soup: BBFN`bye bye for now
-Acronym Soup: BBIAB`be back in a bit
-Acronym Soup: BBIAF`be back in a flash
-Acronym Soup: BBIAM`be back in a minute
-Acronym Soup: BBIAS`be back in a sec
-Acronym Soup: BBL`be back later
-Acronym Soup: BBN`bye bye now
-Acronym Soup: BBR`burnt beyond repair
-Acronym Soup: BBS`bulletin board system
-Acronym Soup: BC`basket case; because
-Acronym Soup: B/C`because
-Acronym Soup: BCC`blind carbon copy
-Acronym Soup: BCNU`be seein' you
-Acronym Soup: <BEG>`big evil grin
-Acronym Soup: BF`boy friend
-Acronym Soup: BFH`bastard from hell
-Acronym Soup: BFMI`brute force and massive ignorance
-Acronym Soup: BFN`bye for now
-Acronym Soup: <BG>`big grin
-Acronym Soup: BIC`best in class
-Acronym Soup: BIL`brother in law
-Acronym Soup: BION`believe it or not
-Acronym Soup: BITD`beaten it to death
-Acronym Soup: BK`because
-Acronym Soup: BMA`bite my ass
-Acronym Soup: BM`blonde moment; bite me
-Acronym Soup: BMHATK`banging my head against the keyboard
-Acronym Soup: BMHATW`banging my head against the wall
-Acronym Soup: BMOC`big man on campus
-Acronym Soup: BMTA`brilliant minds think alike
-Acronym Soup: BMTIPG`brilliant minds think in parallel gutters
-Acronym Soup: BNF`big name fan
-Acronym Soup: BOC`but of course
-Acronym Soup: BOF`birds of a feather
-Acronym Soup: BOFH`bastard operator from hell
-Acronym Soup: BOHICA`bend over here it comes again
-Acronym Soup: BOHOF`back of hand on forehead
-Acronym Soup: BOL`best of luck
-Acronym Soup: BOS`big orange switch; boyfriend over shoulder
-Acronym Soup: BOT`back on topic
-Acronym Soup: BOTEC`back of the envelope calculation
-Acronym Soup: BRB`be right back
-Acronym Soup: BRBGP`be right back gotta pee
-Acronym Soup: BRBIGP`be right back i gotta pee
-Acronym Soup: BRO`brother
-Acronym Soup: Bros.`brothers
-Acronym Soup: BRS`big red switch
-Acronym Soup: BRT`be right there
-Acronym Soup: BSG`big smiling grin; broad sweeping generalisation
-Acronym Soup: BSOD`blue screen of death
-Acronym Soup: BST`british summer time
-Acronym Soup: BTA`but then again
-Acronym Soup: BTAICBW`but then again i could be wrong
-Acronym Soup: BTAIM`be that as it may
-Acronym Soup: BTDT`been there done that
-Acronym Soup: BTDTGTTS`been there done that got the t-shirt
-Acronym Soup: BTG`buck tooth grin
-Acronym Soup: BTOBD`be there or be dead
-Acronym Soup: BTOBS`be there or be square
-Acronym Soup: BTTP`back to the point
-Acronym Soup: BTW`by the way
-Acronym Soup: BWL`bursting with laughter
-Acronym Soup: BWQ`buzz word quotient
-Acronym Soup: BY`busy
-Acronym Soup: BYKTA`but you know/knew that already
-Acronym Soup: BYKT`but you know/knew that
-Acronym Soup: BYOB`bring your own bottle/booze
-Acronym Soup: CADET`can't add doesn't even try
-Acronym Soup: CB`call back
-Acronym Soup: CC`carbon copy
-Acronym Soup: CCWC`can't cook won't cook
-Acronym Soup: CE`creative editing
-Acronym Soup: CERT`computer emergency response team
-Acronym Soup: CFD`call for discussion
-Acronym Soup: CFV`call for votes
-Acronym Soup: <CG>`cute grin
-Acronym Soup: CGI`common gateway interface
-Acronym Soup: CHOWUR`see how you are
-Acronym Soup: CHP`california highway patrol
-Acronym Soup: CHUR`see how you are
-Acronym Soup: CIAC`computer incident advisory capability
-Acronym Soup: CIAO`goodbye [pronounced chow]
-Acronym Soup: CIC`christ i'm confused
-Acronym Soup: CICO`coffee in coffee out
-Acronym Soup: CID`crying in disgrace
-Acronym Soup: CIO`cut it out
-Acronym Soup: Cir.`circle
-Acronym Soup: CLAB`crying like a baby
-Acronym Soup: CLM`career limiting move
-Acronym Soup: CMIIW`correct me if i'm wrong
-Acronym Soup: CNP`continued next post
-Acronym Soup: C/O`care of
-Acronym Soup: CO`conference
-Acronym Soup: COD`cash on delivery
-Acronym Soup: CP`chat post
-Acronym Soup: C&P`copy & paste
-Acronym Soup: CPF`can pigs fly
-Acronym Soup: CRC`cyclic redundancy check
-Acronym Soup: CS`cop shop
-Acronym Soup: CSG`chuckle snicker grin
-Acronym Soup: CST`central standard time
-Acronym Soup: CTR`choose the right
-Acronym Soup: CTTD`cute things they do
-Acronym Soup: CTTS`cute things they say
-Acronym Soup: CUL8R`see you later
-Acronym Soup: CUL`see you later
-Acronym Soup: CU`see you
-Acronym Soup: CV`curriculum vitae
-Acronym Soup: CWYL`chat with you later
-Acronym Soup: CYL`see you later
-Acronym Soup: DAMHIK`don't ask me how i know
-Acronym Soup: DAP`parents against dyslexia
-Acronym Soup: DARFC`ducking and running for cover
-Acronym Soup: DBA`doing business as
-Acronym Soup: DD`due diligence
-Acronym Soup: DEG`deliciously evil grin
-Acronym Soup: DFM`don't flame me
-Acronym Soup: DFU`don't forget units
-Acronym Soup: DH`dear/damn husband
-Acronym Soup: DICA`do i care asshole
-Acronym Soup: DIFA`dumb intellectual fat ass
-Acronym Soup: DIIK`damned if i know
-Acronym Soup: DIIN`damned if i know
-Acronym Soup: DIY`do it yourself
-Acronym Soup: DK`don't know
-Acronym Soup: D/L`download
-Acronym Soup: DLG`devilish little grin
-Acronym Soup: DLTBBB`don't let the bed bugs bite
-Acronym Soup: DNA`did not answer
-Acronym Soup: DNS`domain name system
-Acronym Soup: DOA`dead on arrival
-Acronym Soup: DOB`date of birth
-Acronym Soup: DOM`dirty old man
-Acronym Soup: DOS`disk operating system
-Acronym Soup: DPKOL`deep passionate kiss on the lips
-Acronym Soup: Dr`doctor
-Acronym Soup: DTOKAB`drop to one knee and bow/blow
-Acronym Soup: DTP`desktop publishing
-Acronym Soup: DTRT`do the right thing
-Acronym Soup: DTTAH`don't try this at home
-Acronym Soup: DUCWIC`do you see what i see
-Acronym Soup: DUK`dead upon keyboard
-Acronym Soup: DUWTWB`do you want to whiteboard
-Acronym Soup: DUWWB`do you want to whiteboard
-Acronym Soup: D&W`ducking and weaving
-Acronym Soup: DWIMC`do what i mean correctly
-Acronym Soup: DWIM`do what i mean
-Acronym Soup: DWIMNWIS`do what i mean not what i say
-Acronym Soup: DWISNWID`do what i say not what i do
-Acronym Soup: DWPKOL`deep wet passionate kiss on the lips
-Acronym Soup: DYE`damn your eyes
-Acronym Soup: DYHWIH`do you hear what i hear
-Acronym Soup: DYSWIS`do you see what i see
-Acronym Soup: E2EG`ear to ear grin
-Acronym Soup: ED`emotionally disturbed
-Acronym Soup: EDP`emotionally disturbed person
-Acronym Soup: EDT`eastern daylight savings time
-Acronym Soup: <EG>`evil grin
-Acronym Soup: EIF`exercise in futility
-Acronym Soup: ELOL`evil laughing out loud
-Acronym Soup: EMSG`email message
-Acronym Soup: EOB`end of business
-Acronym Soup: EOD`end of discussion
-Acronym Soup: E&OE`errors and omissions excepted
-Acronym Soup: EOF`end of file
-Acronym Soup: EOL`end of lecture
-Acronym Soup: eom`end of message
-Acronym Soup: EOT`end of thread
-Acronym Soup: EPID`every person is different
-Acronym Soup: ESOSL`endless snorts of stupid laughter
-Acronym Soup: ESP`especially
-Acronym Soup: EST`eastern standard time
-Acronym Soup: ETA`estimated time of arrival
-Acronym Soup: ETLA`extended three letter acronym
-Acronym Soup: F2F`face to face
-Acronym Soup: FAQ`frequently asked question
+fotcl`falling off the chair laughing
+fot`full of tripe
+frz`fruitin' religious zealot
+fsd`fools seldom differ
+ftasb`faster than a speeding bullet
+ftbomh`from the bottom of my heart
+ftf`face to face
+ftl`faster than light
+ftp`file transfer protocol
+ftr`for the record
+fts`fixin to start
+fubar`screwed
+furtb`full up ready to burst
+fwiw`for what it's worth
+fwy`freeway
+fya`for your amusement
+fyi`for your information
+g2g`got to go
+gac`get a clue
+gafia`get away from it all
+ga`go ahead
+gal`get a life
+gbhandkb`great big hugs and kisses back
+gbhandk`great big hugs and kisses
+gbh`great big hug
+gdandrf`grinning ducking and running fast
+gdandr`grinning ducking and running
+gdandrvvf`grinning ducking and running very very fast
+gdandw`grinning ducking and weaving
+gf`girlfriend
+gfn`gone for now
+gfr`grim file reaper
+ggggg`geez!
+gg`gotta go; good game
+ggn`gotta go now
+ggp`gotta go pee
+g`grin
+gh`getting hard (male)
+gif`graphical interchange format
+gigo`garbage in garbage out; garbage in gospel out
+giwist`gee i wish i'd said that
+gj`good job
+gjp`good job partner
+glg`goofy little grin
+glgh`good luck and good hunting
+gl`good luck
+gmta`great minds think alike
+gmt`greenwich mean time
+gok`god only knows
+gooml`get out of my life
+gos`girlfriend over shoulder
+gotfia`groaning on the floor in agony
+gowi`get on with it
+gpf`general protection fault; go puke fast
+gr8`great
+grq`get rich quick
+gruit`get real you impudent thing
+gsh`good sense of humour
+gtbos`glad to be of service
+gtgb`got to get beer
+gtg`got to go
+gtgn`got to go now
+gtp`got to pee
+gts`god that sucked
+gtsu`glad/good to see you
+gw`getting wet
+h2`how to
+h8`hate
+habo`have a better one
+hacb`horny as can be
+hagn`have a good night
+hago`have a good one
+hak`hugs and kisses
+hand`have a nice day
+handk`hugs and kisses
+hatm`howling at the moon
+hb`honey bear; hummingbird
+hcb`holy cow batman
+hhb`hello honey bear
+hhgttg`hitch hiker's guide to the galaxy
+hhis`hanging head in shame
+hho1/2k`ha ha only half kidding
+hhoj`ha ha only joking
+hhok`ha ha only kidding
+hhos`ha ha only serious
+hica`here it comes again
+hng`horny net geek
+hoas`hold on a second
+hompr`hang on mobile phone's ringing
+hopr`hang on phone's ringing
+hos`husband over shoulder
+houer`hanging on your every word
+hoyer`hanging on your every word
+hp`home page
+hsik`how should i know
+hsp`highly sensitive person
+hth`hope this helps
+html`hypertext markup language
+http`hyper text transfer protocol
+hw`hardware
+hws(pest)`husband wants sex
+hwy`highway
+iaaa`i am an accountant
+iaad`i am a doctor
+iaal`i am a lawyer
+iac`in any case
+iae`in any event
+iagfii`it's all good fun isn't it
+ianaa`i am not an accountant
+ianac`i am not a crook
+ianad`i am not a doctor
+iana`internet assigned numbers authority
+ianal`i am not a lawyer
+ianym`in a new york minute
+ianys`in a new york second
+iap`internet access provider
+iash`i am so horny
+iay`i adore you
+ibc`inadequate but cute
+ib`i'm back
+ibm`inadequate but marketable
+ibtd`i beg to differ
+icam`i couldn't agree more
+icb`i care because
+icbw`i could be wrong
+iccl`i couldn't care less
+icp`internet content provider
+ictybtihtky`i could tell you but then i'd have to kill you
+icur`i see you are
+idgad`i don't give a damn
+idgi`i don't get it
+id`identification
+idk`i don't know
+idn`i don't know
+idot`internet development outreach and technology
+idts`i don't think so
+idtt`i'll drink to that
+ie`in effect
+ietf`internet engineering task force
+igp`i gotta pee
+iiabdfi`if it ain't broke don't fix it
+iirc`if i remember correctly
+ijls`i just like saying
+ik`i know; inverse kinematics
+ikwym`i know what you mean
+ili`i like ike
+ilu`i love you
+iluis`i laughed until i stopped
+ilut`i love you too
+ily4e`i love you forever
+ily`i love you
+imao`in my arrogant opinion
+imbo`in my biased opinion
+imcdo`in my conceited dogmatic opinion
+imco`in my considered opinion
+ime`in my experience
+imho`in my humble opinion
+immor`i make my own rules
+imnsho`in my not so humble opinion
+imobo`in my own biased opinion
+imo`in my opinion
+impe`in my personal experience
+impov`in my point of view
+ims`i must say
+imvho`in my very humble opinion
+inc.`incorporated
+ingsi`i'm not going to say it
+inpo`in no particular order
+int`i'll never tell
+io`input/output
+iou`i owe you
+iow`in other words
+ip`internet protocol
+irc`internet relay chat
+ir`inter racial
+irl`in real life
+irooc`i've run out of cigarettes
+irt`in real time
+isc`i stand corrected
+isdn`integrated services digital network
+iso`in search of
+isp`internet service provider
+istm`it seems to me
+istr`i seem to remember
+itak`it takes all kinds
+itfa`in the final analysis
+it`information technology
+itma`its that man again
+itym`i think you mean
+iuthalorfh`i used to have a lot of respect for him/her
+iutkats`i used to know all that stuff
+iwalu`i will always love you
+iwaly`i will always love you
+iwbni`it would be nice if
+iwik`i wish i knew
+iyd`in your dreams
+iyfeg`insert your favourite ethnic group
+iyf`in your face
+iykwim`if you know what i mean
+iyq`i like you [say it, don't read it]
+iyswim`if you see what i mean
+jam`just a moment
+jao`just another observer
+jas`just a second
+jff`just for fun
+jftr`just for the record
+jfyi`just for your information
+jic`just in case
+jit`just in time
+jk`just kidding
+jly`jesus loves you
+jmho`just my humble opinion
+jmo`just my opinion
+jmooc`just my opinion of course
+jotl`joy of the lord
+jpeg`joint photographic experts group
+jr`junior
+jsyk`just so you know
+jtlyk`just to let you know
+jtusk`just thought you should know
+jtymltk`just thought you might like to know
+jtywtk`just thought you wanted to know
+jvc`japan victor company
+kia`know it all
+kiss`keep it simple stupid
+kma`kiss my ass
+kmb`kiss my butt
+kmwih`kick me where it hurts
+kmyf`kiss me you fool
+k`okay
+kol`kiss on lips
+kos`kids over shoulder
+kotc`kiss on the cheek
+kotl`kiss on the lips
+kotm`kook of the month
+ktcootn`keep this crap out of this newsgroup
+kwim`know what i mean
+kyhootw`keep your head out of the water
+kyhu`keep your head up
+l8r`later
+l8trz`laters
+lall`live and let live
+lan`local area network
+lart`luser attitude re-adjustment tool
+ldto`lets ditch this one
+ldwpkol`long deep wet passionate kiss on the lips
+lhm`lord help me
+lhu`lord help us
+ljbf`let's just be friends
+llap`live long and prosper
+llta`lots and lots of thunderous applause
+lma`leave me alone
+lmc`lost my connection
+lmcoa`lost my connection once again
+lmk`let me know
+loflol`lying on floor laughing out loud
+lotr`lord of the rings
+lsfiab`like shooting fish in a barrel
+lshih`laughing so hard it hurts
+lshipmp`laughing so hard i peed my pants
+lshmbib`laughing so hard my belly is bouncing
+lshmsb`laughing so hard my stitches burst
+lsmif`laughing so much i farted
+lsmismt`laughing so much i shot my tampax
+lsp`less sensitive person
+ltbf`learn to be funny
+ltip`laughing til i puke
+ltm`laughing to myself
+ltmsh`laughing 'til my sides hurt
+ltns`long time no see
+ltr`long term relationship
+luser`loser user
+lyic`love you in christ
+lylab`love you like a brother
+lylas`love you like a sister
+ly`love ya
+lywamh`love you with all my heart
+m8`mate
+mayb`mad about you baby
+may`mad about you
+mb`message board
+mbr`master boot record
+mcibty`my computer is better than yours
+md`mailed
+mdt`mountain daily team
+mfg`more friendly garbage
+mhbfy`my heart bleeds for you
+mhdc`my hard drive crashed
+mhm`members helping members
+mhoty`my hat's off to you
+mil`mother in law
+mime`multi-purpose internet mail extensions
+ming`mailing
+mips`meaningless information per second
+mla`multiple letter acronym
+ml`more later
+mmif`my mouth is full
+mm`multi media
+mmx`multi-media extensions
+mnc`mother nature calls
+mof`matter of fact
+momn`milk out my nose
+morf`male or female
+mos`member of the opposite sex
+motas`member of the appropriate sex
+motd`message of the day
+motos`member of the opposite sex
+motss`member of the same sex
+mph`miles per hour
+mscea`my southern comfort's empty again
+msie`microsoft internet explorer
+mss`member of the same sex
+mst`mountain standard time
+mtfbwy`may the force be with you
+mt`my time
+myob`mind your own business
+nadm`never a dull moment
+nagi`not a good idea
+navy`never again volunteer yourself
+nbd`no big deal
+nbl`not bloody likely
+nbtd`nothing better to do
+ncb`never change baby
+ndb`none of your damned business
+ndm`no disrespect meant
+ne1`anyone
+nerd`national establishment for real dorks
+ngt`not gonna tell
+nhoh`never heard of her/him
+nicbdat`nothing is certain but death and taxes
+nidwtc`no i don't want to chat
+nih`not invented here
+nimby`not in my back yard
+nimto`not in my term of office
+nino`nothing in nothing out
+nit`not in therapy
+nli`not logged in
+nlt`no later than
+nmi`no middle initial
+n/m`never mind
+nmp`not my problem
+nmsaa`not my style at all
+nms`not my style
+nn`night night
+nntp`network news transfer protocol
+nocem`no see 'em
+nooto`nothing out of the ordinary
+norwich`knickers off ready when i come home
+noyb`none of your business
+noyl`not on your life
+npf`no problem found
+nplu`not people like us
+np`no problem
+nqa`no questions asked
+nqos`not quite our sort
+nrn`no reply necessary
+ns`netscape
+ntg`not too good
+nth`no therapy helpful
+ntiboa`not that i'm bitter or anything
+ntimm`not that it matters much
+ntim`not that it matters
+ntl`none the less
+nt`no text
+nui`network user identification
+nyctmi`now you come to mention it
+nyi`not yet implemented
+nym`new york minute
+nyp`not your problem
+oatus`on a totally unrelated subject
+oaus`on an unrelated subject
+ob`obligatory; oh baby
+obtw`oh by the way
+od`overdose; oh dear
+ofs`one finger salute
+oic`oh i see
+oma`on my ass
+omb`on my butt
+omg`oh my god
+onna`oh no not again
+onnta`oh no not that/this again
+ooc`out of character
+ooi`out of interest
+oo`over and out
+oosoom`out of sight out of mind
+os`operating system
+ot1h`on the one hand
+otc`over the counter
+otd`out the door
+otf`on the floor
+otgh`on the gripping hand
+otl`out to lunch
+ot`off topic
+otoh`on the other hand
+otooh`on the other other hand
+otth`on the third hand
+ottomh`off the top of my head
+ott`over the top
+otw`on the whole
+ow`oh well
+owtte`or words to that effect
+pabg`pack a big gun
+paw`parents are watching
+pbm`play by mail
+pcb`please call back
+pcmcia`people can't master computer industry acronyms
+pc`personal computer
+pda`public display of affection
+pdn`public data network
+pdpmema`please don't post my email address
+pd`public domain
+pdq`pretty damn quick
+pds`please don't shout
+pdt`pacific daylight savings time
+pebcak`problem exists between chair and keyboard
+pem`privacy enhanced mail
+pest`please excuse slow typing
+pgp`pretty good privacy
+phd`piled higher and deeper
+pimp`pee in my pants
+pkb`pot, kettle, black
+pkoc`passionate kiss on the cheek
+pkol`passionate kiss on the lips
+plmko`please let me know ok
+plmk`please let me know
+plokta`press lots of keys to abort
+pls`please
+plz`please
+pmbi`pardon my butting in
+pmetc`pardon me etc
+pmfbi`pardon me for butting in
+pmfi`problem magically fixed itself
+pmfjih`pardon me for jumping in here
+pmfji`pardon me for jumping in
+pmji`pardon my jumping in
+pmp`peed my pants
+poahf`put on a happy face
+pom`phase of the moon
+po`piss off
+pop`point of presence
+poqadcb`piss off quickly and don't come back
+poq`piss off quickly
+pos`parents over shoulder
+pots`plain old telephone service/system
+potus`president of the united states
+pov`point of view
+ppl`people
+ppp`point-to-point protocol
+pppp`previous paragraph was polemical position
+ps`post script
+pst`pacific standard time
+ptb`powers that be
+ptlapta`praise the lord and pass the ammunition
+ptl`praise the lord
+ptmm`please tell me more
+ptmya`pleased to make your acquaintance
+ptmy`pleased to meet you
+pto`please turn over
+pw`pathetic wanker
+qpq`quid pro quo
+q`queue
+qt`cutie; quiet
+ra`red alert
+ras`running and screaming
+re`regarding
+rfc`request for comment
+rfd`request for discussion
+rfm`reply to flagged message
+rft`request for thinking
+rhip`rank hath its privileges
+rlco`real life conference
+rl`real life
+rmh`real manly hug
+rna`ring no answer
+roffnar`rolling on the floor for no apparent reason
+roflmho`rolling on floor laughing my head off
+roflol`rolling on floor laughing out loud
+rofl`rolling on floor laughing
+rofluts`rolling on floor laughing unable to speak
+roflwpimp`rolling on floor laughing whilst peeing in my pants
+rotba`reality on the blink again
+rotflas`rolling on the floor laughing and snorting
+rotflbtc`rolling on the floor laughing biting the carpet
+rotfl`rolling on the floor laughing
+rotf`rolling on the floor
+rotm`right on the money
+rpg`role playing game
+rsn`real soon now
+rtm`read the manual
+rt`real time
+rts`read the screen; real time strategy
+rumf`are you male or female
+rumorf`are you male or female
+ABM`anti-ballistic missile
+sahm`stay at home mum
+sah`screw a hamster
+sass`short attention span society/syndrome
+sat`sorry about that
+scnr`sorry, could not resist
+sec`second, e.g. wait a sec
+sep`somebody else's problem
+sete`smiling ear to ear
+sfaiaa`so far as i am aware
+sfla`stupid four letter acronym
+sgml`standardised generalised markup language
+shtsi`somebody had to say it
+sig`special interest group
+siik`stuffed if i know
+sil`sister in law
+sitd`still in the dark
+sit`stay in touch
+slip`serial line interface protocol
+smg`suck my goat
+MICV`Mechanized infantry combat vehicle
+smoff`serious mode off
+smop`small matter of programming
+smo`serious mode on
+smtp`simple mail transfer protocol
+snert`snot-nosed egostical rude teenager
+snr`signal to noise ratio
+sohb`sense of humour bypass
+sop`standard operating procedure
+so`significant other
+sotmg`short of time must go
+sot`short of time
+AA`alcholics anonymous
+AAMOF`as a matter of fact
+Abbr.`abbreviation
+ACK`acknowledgement
+ACRONYM`abbreviated coded rendition of name yielding meaning
+ADN`any day now
+AFAIAA`as far as i am aware
+AFAIAC`as far as i am concerned
+AFAICT`as far as i can tell
+AFAIK`as far as i know
+AFAIR`as far as i remember
+AFAIUI`as far as i understand it
+AFK`away for a kwickie
+AFK`away from the keyboard
+AFL`absofreakinlutely
+AI`artificial intelligence
+AIMP`always in my prayers
+AISB`as i said before; as it should be
+AISE`as i said earlier
+AISI`as i see it
+AIUI`as i understand it
+AIW`as it were
+AKA`also known as
+ANFAWFOS`and now for a word from our sponsor
+ANSI`american national standards institute
+AOB`any other business
+AOBTD`another one bites the dust
+AOL`america on line
+APAC`all praise and credit
+API`application program interface
+ARPA`advanced research projects agency
+A/S?`age/sex?
+ASAP`as soon as possible
+ASCII`american standard code for information interchange
+A/S/L?`age/sex/location?
+ATB`all the best
+ATK`at the keyboard
+ATLA`another three letter acronym
+ATM`at the moment
+ATTN`attention
+ATTYOB`anything that turns you on baby
+AU`australia
+aVG`average
+AWCIGO`and where can i get one
+AWGTHTGTATA`are we going to have to go through all this/that again
+AWGTHTGTTA`are we going to have to go through this/that again
+AWHFY`are we having fun yet
+AYT`are you there
+B4`before
+B4N`bye for now
+BAC`by any chance
+BAD`broken as designed
+BAK`back at keyboard
+BBB`busy beyond belief
+BBFN`bye bye for now
+BBIAB`be back in a bit
+BBIAF`be back in a flash
+BBIAM`be back in a minute
+BBIAS`be back in a sec
+BBL`be back later
+BBN`bye bye now
+BBR`burnt beyond repair
+BBS`bulletin board system
+BC`basket case; because
+B/C`because
+BCC`blind carbon copy
+BCNU`be seein' you
+<BEG>`big evil grin
+BF`boy friend
+BFH`bastard from hell
+BFMI`brute force and massive ignorance
+BFN`bye for now
+<BG>`big grin
+BIC`best in class
+BIL`brother in law
+BION`believe it or not
+BITD`beaten it to death
+BK`because
+BMA`bite my ass
+BM`blonde moment; bite me
+BMHATK`banging my head against the keyboard
+BMHATW`banging my head against the wall
+BMOC`big man on campus
+BMTA`brilliant minds think alike
+BMTIPG`brilliant minds think in parallel gutters
+BNF`big name fan
+BOC`but of course
+BOF`birds of a feather
+BOFH`bastard operator from hell
+BOHICA`bend over here it comes again
+BOHOF`back of hand on forehead
+BOL`best of luck
+BOS`big orange switch; boyfriend over shoulder
+BOT`back on topic
+BOTEC`back of the envelope calculation
+BRB`be right back
+BRBGP`be right back gotta pee
+BRBIGP`be right back i gotta pee
+BRO`brother
+Bros.`brothers
+BRS`big red switch
+BRT`be right there
+BSG`big smiling grin; broad sweeping generalisation
+BSOD`blue screen of death
+BST`british summer time
+BTA`but then again
+BTAICBW`but then again i could be wrong
+BTAIM`be that as it may
+BTDT`been there done that
+BTDTGTTS`been there done that got the t-shirt
+BTG`buck tooth grin
+BTOBD`be there or be dead
+BTOBS`be there or be square
+BTTP`back to the point
+BTW`by the way
+BWL`bursting with laughter
+BWQ`buzz word quotient
+BY`busy
+BYKTA`but you know/knew that already
+BYKT`but you know/knew that
+BYOB`bring your own bottle/booze
+CADET`can't add doesn't even try
+CB`call back
+CC`carbon copy
+CCWC`can't cook won't cook
+CE`creative editing
+CERT`computer emergency response team
+CFD`call for discussion
+CFV`call for votes
+<CG>`cute grin
+CGI`common gateway interface
+CHOWUR`see how you are
+CHP`california highway patrol
+CHUR`see how you are
+CIAC`computer incident advisory capability
+CIAO`goodbye [pronounced chow]
+CIC`christ i'm confused
+CICO`coffee in coffee out
+CID`crying in disgrace
+CIO`cut it out
+Cir.`circle
+CLAB`crying like a baby
+CLM`career limiting move
+CMIIW`correct me if i'm wrong
+CNP`continued next post
+C/O`care of
+CO`conference
+COD`cash on delivery
+CP`chat post
+C&P`copy & paste
+CPF`can pigs fly
+CRC`cyclic redundancy check
+CS`cop shop
+CSG`chuckle snicker grin
+CST`central standard time
+CTR`choose the right
+CTTD`cute things they do
+CTTS`cute things they say
+CUL8R`see you later
+CUL`see you later
+CU`see you
+CV`curriculum vitae
+CWYL`chat with you later
+CYL`see you later
+DAMHIK`don't ask me how i know
+DAP`parents against dyslexia
+DARFC`ducking and running for cover
+DBA`doing business as
+DD`due diligence
+DEG`deliciously evil grin
+DFM`don't flame me
+DFU`don't forget units
+DH`dear/damn husband
+DICA`do i care asshole
+DIFA`dumb intellectual fat ass
+DIIK`damned if i know
+DIIN`damned if i know
+DIY`do it yourself
+DK`don't know
+D/L`download
+DLG`devilish little grin
+DLTBBB`don't let the bed bugs bite
+DNA`did not answer
+DNS`domain name system
+DOA`dead on arrival
+DOB`date of birth
+DOM`dirty old man
+DOS`disk operating system
+DPKOL`deep passionate kiss on the lips
+Dr`doctor
+DTOKAB`drop to one knee and bow/blow
+DTP`desktop publishing
+DTRT`do the right thing
+DTTAH`don't try this at home
+DUCWIC`do you see what i see
+DUK`dead upon keyboard
+DUWTWB`do you want to whiteboard
+DUWWB`do you want to whiteboard
+D&W`ducking and weaving
+DWIMC`do what i mean correctly
+DWIM`do what i mean
+DWIMNWIS`do what i mean not what i say
+DWISNWID`do what i say not what i do
+DWPKOL`deep wet passionate kiss on the lips
+DYE`damn your eyes
+DYHWIH`do you hear what i hear
+DYSWIS`do you see what i see
+E2EG`ear to ear grin
+ED`emotionally disturbed
+EDP`emotionally disturbed person
+EDT`eastern daylight savings time
+<EG>`evil grin
+EIF`exercise in futility
+ELOL`evil laughing out loud
+EMSG`email message
+EOB`end of business
+EOD`end of discussion
+E&OE`errors and omissions excepted
+EOF`end of file
+EOL`end of lecture
+eom`end of message
+EOT`end of thread
+EPID`every person is different
+ESOSL`endless snorts of stupid laughter
+ESP`especially
+EST`eastern standard time
+ETA`estimated time of arrival
+ETLA`extended three letter acronym
+F2F`face to face
+FAQ`frequently asked question
 Acronym Soup FAQ`frequently asked questions
-Acronym Soup: FART`fathers against radical teenagers
-Acronym Soup: FCFS`first come first served
-Acronym Soup: FCOL`for crying out loud
-Acronym Soup: FDROTFL`falling down rolling on the floor laughing
-Acronym Soup: FFTFM`fun for the feeble minded
-Acronym Soup: FICCL`frankly i couldn't care less
-Acronym Soup: FIL`father in law
-Acronym Soup: FIOFY`figure it out for yourself
-Acronym Soup: FIRST`forum of incident response and security teams
-Acronym Soup: FISH`first in still here
-Acronym Soup: FITB`fill in the blank
-Acronym Soup: FLEA`four letter extended acronym
-Acronym Soup: FLOTUS`first lady of the united states
-Acronym Soup: FOAF`friend of a friend
-Acronym Soup: FOAFOAG`father of a friend of a girlfriend
-Acronym Soup: FOAG`father of a girlfriend
-Acronym Soup: FOCL`fell off chair laughing
-Acronym Soup: FOD`finger of death
-Acronym Soup: FOOBAR`used as a programming expression
-Acronym Soup: FOTCL`falling off the chair laughing
-Acronym Soup: FOT`full of tripe
-Acronym Soup: FRZ`fruitin' religious zealot
-Acronym Soup: FSD`fools seldom differ
-Acronym Soup: FTASB`faster than a speeding bullet
-Acronym Soup: FTBOMH`from the bottom of my heart
-Acronym Soup: FTF`face to face
-Acronym Soup: FTL`faster than light
-Acronym Soup: FTP`file transfer protocol
-Acronym Soup: FTR`for the record
-Acronym Soup: FTS`fixin' to start
-Acronym Soup: FURTB`full up ready to burst
-Acronym Soup: FWIW`for what it's worth
-Acronym Soup: FWY`freeway
-Acronym Soup: FYA`for your amusement
-Acronym Soup: FYI`for your information
-Acronym Soup: G2G`got to go
-Acronym Soup: GAC`get a clue
-Acronym Soup: GAFIA`get away from it all
-Acronym Soup: GA`go ahead
-Acronym Soup: GAL`get a life
-Acronym Soup: GBH`great big hug
-Acronym Soup: GBH&KB`great big hugs & kisses back
-Acronym Soup: GBH&K`great big hugs & kisses
-Acronym Soup: GD&RF`grinning ducking and running fast
-Acronym Soup: GD&R`grinning ducking and running
-Acronym Soup: GD&RVVF`grinning ducking and running very very fast
-Acronym Soup: GD&W`grinning ducking and weaving
-Acronym Soup: GF`girlfriend
-Acronym Soup: GFN`gone for now
-Acronym Soup: GFR`grim file reaper
-Acronym Soup: GGGGG`geez!
-Acronym Soup: GG`gotta go; good game
-Acronym Soup: GGN`gotta go now
-Acronym Soup: GGP`gotta go pee
-Acronym Soup: G`grin
-Acronym Soup: GH`getting hard (male)
-Acronym Soup: GIF`graphical interchange format
-Acronym Soup: GIGO`garbage in garbage out; garbage in gospel out
-Acronym Soup: GIWIST`gee i wish i'd said that
-Acronym Soup: GJ`good job
-Acronym Soup: GJP`good job partner
-Acronym Soup: GLG`goofy little grin
-Acronym Soup: GLGH`good luck and good hunting
-Acronym Soup: GL`good luck
-Acronym Soup: GMTA`great minds think alike
-Acronym Soup: GMT`greenwich mean time
-Acronym Soup: GOK`god only knows
-Acronym Soup: GOOML`get out of my life
-Acronym Soup: GOS`girlfriend over shoulder
-Acronym Soup: GOTFIA`groaning on the floor in agony
-Acronym Soup: GOWI`get on with it
-Acronym Soup: GPF`general protection fault; go puke fast
-Acronym Soup: GR8`great
-Acronym Soup: GRQ`get rich quick
-Acronym Soup: GRUIT`get real you impudent thing
-Acronym Soup: GSH`good sense of humour
-Acronym Soup: GTBOS`glad to be of service
-Acronym Soup: GTGB`got to get beer
-Acronym Soup: GTG`got to go
-Acronym Soup: GTGN`got to go now
-Acronym Soup: GTP`got to pee
-Acronym Soup: GTS`god that sucked
-Acronym Soup: GTSU`glad/good to see you
-Acronym Soup: GW`getting wet
-Acronym Soup: H2`how to
+FART`fathers against radical teenagers
+FCFS`first come first served
+FCOL`for crying out loud
+FDROTFL`falling down rolling on the floor laughing
+FFTFM`fun for the feeble minded
+FICCL`frankly i couldn't care less
+FIL`father in law
+FIOFY`figure it out for yourself
+FIRST`forum of incident response and security teams
+FISH`first in still here
+FITB`fill in the blank
+FLEA`four letter extended acronym
+FLOTUS`first lady of the united states
+FOAF`friend of a friend
+FOAFOAG`father of a friend of a girlfriend
+FOAG`father of a girlfriend
+FOCL`fell off chair laughing
+FOD`finger of death
+FOOBAR`used as a programming expression
+FOTCL`falling off the chair laughing
+FOT`full of tripe
+FRZ`fruitin' religious zealot
+FSD`fools seldom differ
+FTASB`faster than a speeding bullet
+FTBOMH`from the bottom of my heart
+FTF`face to face
+FTL`faster than light
+FTP`file transfer protocol
+FTR`for the record
+FTS`fixin' to start
+FURTB`full up ready to burst
+FWIW`for what it's worth
+FWY`freeway
+FYA`for your amusement
+FYI`for your information
+G2G`got to go
+GAC`get a clue
+GAFIA`get away from it all
+GA`go ahead
+GAL`get a life
+GBH`great big hug
+GBH&KB`great big hugs & kisses back
+GBH&K`great big hugs & kisses
+GD&RF`grinning ducking and running fast
+GD&R`grinning ducking and running
+GD&RVVF`grinning ducking and running very very fast
+GD&W`grinning ducking and weaving
+GF`girlfriend
+GFN`gone for now
+GFR`grim file reaper
+GGGGG`geez!
+GG`gotta go; good game
+GGN`gotta go now
+GGP`gotta go pee
+G`grin
+GH`getting hard (male)
+GIF`graphical interchange format
+GIGO`garbage in garbage out; garbage in gospel out
+GIWIST`gee i wish i'd said that
+GJ`good job
+GJP`good job partner
+GLG`goofy little grin
+GLGH`good luck and good hunting
+GL`good luck
+GMTA`great minds think alike
+GMT`greenwich mean time
+GOK`god only knows
+GOOML`get out of my life
+GOS`girlfriend over shoulder
+GOTFIA`groaning on the floor in agony
+GOWI`get on with it
+GPF`general protection fault; go puke fast
+GR8`great
+GRQ`get rich quick
+GRUIT`get real you impudent thing
+GSH`good sense of humour
+GTBOS`glad to be of service
+GTGB`got to get beer
+GTG`got to go
+GTGN`got to go now
+GTP`got to pee
+GTS`god that sucked
+GTSU`glad/good to see you
+GW`getting wet
+H2`how to
 Acronym Soup H8`hate
-Acronym Soup: HABO`have a better one
-Acronym Soup: HACB`horny as can be
-Acronym Soup: HAGN`have a good night
-Acronym Soup: HAGO`have a good one
-Acronym Soup: HAK`hugs and kisses
-Acronym Soup: HAND`have a nice day
-Acronym Soup: HATM`howling at the moon
-Acronym Soup: HB`honey bear; hummingbird
-Acronym Soup: HCB`holy cow batman
-Acronym Soup: HHB`hello honey bear
-Acronym Soup: HHGTTG`hitch hiker's guide to the galaxy
-Acronym Soup: HHIS`hanging head in shame
-Acronym Soup: HHO1/2K`ha ha only half kidding
-Acronym Soup: HHOJ`ha ha only joking
-Acronym Soup: HHOK`ha ha only kidding
-Acronym Soup: HHOS`ha ha only serious
-Acronym Soup: HICA`here it comes again
-Acronym Soup: H&K`hugs & kisses
-Acronym Soup: HNG`horny net geek
-Acronym Soup: HOAS`hold on a second
-Acronym Soup: HOMPR`hang on mobile phone's ringing
-Acronym Soup: HOPR`hang on phone's ringing
-Acronym Soup: HOS`husband over shoulder
-Acronym Soup: HOUER`hanging on your every word
-Acronym Soup: HOYER`hanging on your every word
-Acronym Soup: HP`home page
-Acronym Soup: HSIK`how should i know
-Acronym Soup: HSP`highly sensitive person
-Acronym Soup: HTH`hope this helps
-Acronym Soup: HTML`hypertext markup language
-Acronym Soup: HTTP`hyper text transfer protocol
-Acronym Soup: HW`hardware
-Acronym Soup: HWS(PEST)`husband wants sex (please excuse slow typing)
-Acronym Soup: HWY`highway
-Acronym Soup: IAAA`i am an accountant
-Acronym Soup: IAAD`i am a doctor
-Acronym Soup: IAAL`i am a lawyer
-Acronym Soup: IAC`in any case
-Acronym Soup: IAE`in any event
-Acronym Soup: IAGFII`it's all good fun isn't it
-Acronym Soup: IANAA`i am not an accountant
-Acronym Soup: IANAC`i am not a crook
-Acronym Soup: IANAD`i am not a doctor
-Acronym Soup: IANA`internet assigned numbers authority
-Acronym Soup: IANAL`i am not a lawyer
-Acronym Soup: IANYM`in a new york minute
-Acronym Soup: IANYS`in a new york second
-Acronym Soup: IAP`internet access provider
-Acronym Soup: IASH`i am so horny
-Acronym Soup: IAY`i adore you
-Acronym Soup: IBC`inadequate but cute
-Acronym Soup: IB`i'm back
-Acronym Soup: IBM`inadequate but marketable
-Acronym Soup: IBTD`i beg to differ
-Acronym Soup: ICAM`i couldn't agree more
-Acronym Soup: ICB`i care because
-Acronym Soup: ICBW`i could be wrong
-Acronym Soup: ICCL`i couldn't care less
-Acronym Soup: IC`i see
-Acronym Soup: ICP`internet content provider
-Acronym Soup: ICUR`i see you are
-Acronym Soup: IDGAD`i don't give a damn
-Acronym Soup: IDGI`i don't get it
-Acronym Soup: ID`identification
-Acronym Soup: IDK`i don't know
-Acronym Soup: IDN`i don't know
-Acronym Soup: iDOT`internet development outreach and technology
-Acronym Soup: IDTS`i don't think so
-Acronym Soup: IDTT`i'll drink to that
-Acronym Soup: IE`in effect
-Acronym Soup: IETF`internet engineering task force
-Acronym Soup: IGP`i gotta pee
-Acronym Soup: IIABDFI`if it ain't broke don't fix it
-Acronym Soup: IIRC`if i recall/remember correctly
-Acronym Soup: IJLS`i just like saying
-Acronym Soup: IK`i know; inverse kinematics
-Acronym Soup: IKWUM`i know what you mean
-Acronym Soup: IKWYM`i know what you mean
-Acronym Soup: ILI`i like ike
-Acronym Soup: ILU`i love you
-Acronym Soup: ILUIS`i laughed until i stopped
-Acronym Soup: ILUT`i love you too
-Acronym Soup: ILY4E`i love you forever
-Acronym Soup: ILY`i love you
-Acronym Soup: IMAO`in my arrogant opinion
-Acronym Soup: IMBO`in my biased opinion
-Acronym Soup: IMCDO`in my conceited dogmatic opinion
-Acronym Soup: IMCO`in my considered opinion
-Acronym Soup: IME`in my experience
-Acronym Soup: IMHO`in my humble opinion
-Acronym Soup: IMMOR`i make my own rules
-Acronym Soup: IMNSHO`in my not so humble opinion
-Acronym Soup: IMOBO`in my own biased opinion
-Acronym Soup: IMO`in my opinion
-Acronym Soup: IMPE`in my personal/previous experience
-Acronym Soup: IMPOV`in my point of view
-Acronym Soup: IMS`i must say
-Acronym Soup: IMVHO`in my very humble opinion
-Acronym Soup: Inc.`incorporated
-Acronym Soup: INGSI`i'm not going to say it
-Acronym Soup: INPO`in no particular order
-Acronym Soup: INT`i'll never tell
-Acronym Soup: IO`input/output
-Acronym Soup: IOU`i owe you
-Acronym Soup: IOW`in other words
-Acronym Soup: IP`internet protocol
-Acronym Soup: IRC`internet relay chat
-Acronym Soup: IR`inter racial
-Acronym Soup: IRL`in real life
-Acronym Soup: IROOC`i've run out of cigarettes
-Acronym Soup: IRT`in real time
-Acronym Soup: ISC`i stand corrected
-Acronym Soup: ISDN`integrated services digital network
-Acronym Soup: ISO`in search of
-Acronym Soup: ISP`internet service provider
-Acronym Soup: ISTM`it seems to me
-Acronym Soup: ISTR`i seem to remember
-Acronym Soup: ITAK`it takes all kinds
-Acronym Soup: ITFA`in the final analysis
-Acronym Soup: IT`information technology
-Acronym Soup: ITMA`its that man again
-Acronym Soup: ITYM`i think you mean
-Acronym Soup: IUTHALORFH`i used to have a lot of respect for him/her
-Acronym Soup: IUTKATS`i used to know all that stuff
-Acronym Soup: IWALU`i will always love you
-Acronym Soup: IWALY`i will always love you
-Acronym Soup: IWBNI`it would be nice if
-Acronym Soup: IWIK`i wish i knew
-Acronym Soup: IYD`in your dreams
-Acronym Soup: IYFEG`insert your favourite ethnic group
-Acronym Soup: IYF`in your face
-Acronym Soup: IYKWIM`if you know what i mean
-Acronym Soup: IYQ`i like you [say it, don't read it]
-Acronym Soup: IYSWIM`if you see what i mean
-Acronym Soup: JAM`just a moment
-Acronym Soup: JAO`just another observer
-Acronym Soup: JAS`just a second
-Acronym Soup: JFF`just for fun
-Acronym Soup: JFTR`just for the record
-Acronym Soup: JFYI`just for your information
-Acronym Soup: JIC`just in case
-Acronym Soup: JIT`just in time
-Acronym Soup: J/K`just kidding
-Acronym Soup: JLY`jesus loves you
-Acronym Soup: JMHO`just my humble opinion
-Acronym Soup: JMO`just my opinion
-Acronym Soup: JMOOC`just my opinion of course
-Acronym Soup: JOTL`joy of the lord
-Acronym Soup: JPEG`joint photographic experts group
-Acronym Soup: Jr`junior
-Acronym Soup: JSYK`just so you know
-Acronym Soup: JTLYK`just to let you know
-Acronym Soup: JTUSK`just thought you should know
-Acronym Soup: JTYMLTK`just thought you might like to know
-Acronym Soup: JTYWTK`just thought you wanted to know
+HABO`have a better one
+HACB`horny as can be
+HAGN`have a good night
+HAGO`have a good one
+HAK`hugs and kisses
+HAND`have a nice day
+HATM`howling at the moon
+HB`honey bear; hummingbird
+HCB`holy cow batman
+HHB`hello honey bear
+HHGTTG`hitch hiker's guide to the galaxy
+HHIS`hanging head in shame
+HHO1/2K`ha ha only half kidding
+HHOJ`ha ha only joking
+HHOK`ha ha only kidding
+HHOS`ha ha only serious
+HICA`here it comes again
+H&K`hugs & kisses
+HNG`horny net geek
+HOAS`hold on a second
+HOMPR`hang on mobile phone's ringing
+HOPR`hang on phone's ringing
+HOS`husband over shoulder
+HOUER`hanging on your every word
+HOYER`hanging on your every word
+HP`home page
+HSIK`how should i know
+HSP`highly sensitive person
+HTH`hope this helps
+HTML`hypertext markup language
+HTTP`hyper text transfer protocol
+HW`hardware
+HWS(PEST)`husband wants sex (please excuse slow typing)
+HWY`highway
+IAAA`i am an accountant
+IAAD`i am a doctor
+IAAL`i am a lawyer
+IAC`in any case
+IAE`in any event
+IAGFII`it's all good fun isn't it
+IANAA`i am not an accountant
+IANAC`i am not a crook
+IANAD`i am not a doctor
+IANA`internet assigned numbers authority
+IANAL`i am not a lawyer
+IANYM`in a new york minute
+IANYS`in a new york second
+IAP`internet access provider
+IASH`i am so horny
+IAY`i adore you
+IBC`inadequate but cute
+IB`i'm back
+IBM`inadequate but marketable
+IBTD`i beg to differ
+ICAM`i couldn't agree more
+ICB`i care because
+ICBW`i could be wrong
+ICCL`i couldn't care less
+ICP`internet content provider
+ICUR`i see you are
+IDGAD`i don't give a damn
+IDGI`i don't get it
+ID`identification
+IDK`i don't know
+IDN`i don't know
+iDOT`internet development outreach and technology
+IDTS`i don't think so
+IDTT`i'll drink to that
+IE`in effect
+IETF`internet engineering task force
+IGP`i gotta pee
+IIABDFI`if it ain't broke don't fix it
+IIRC`if i recall/remember correctly
+IJLS`i just like saying
+IK`i know; inverse kinematics
+IKWUM`i know what you mean
+IKWYM`i know what you mean
+ILI`i like ike
+ILU`i love you
+ILUIS`i laughed until i stopped
+ILUT`i love you too
+ILY4E`i love you forever
+ILY`i love you
+IMAO`in my arrogant opinion
+IMBO`in my biased opinion
+IMCDO`in my conceited dogmatic opinion
+IMCO`in my considered opinion
+IME`in my experience
+IMHO`in my humble opinion
+IMMOR`i make my own rules
+IMNSHO`in my not so humble opinion
+IMOBO`in my own biased opinion
+IMO`in my opinion
+IMPE`in my personal/previous experience
+IMPOV`in my point of view
+IMS`i must say
+IMVHO`in my very humble opinion
+Inc.`incorporated
+INGSI`i'm not going to say it
+INPO`in no particular order
+INT`i'll never tell
+IO`input/output
+IOU`i owe you
+IOW`in other words
+IP`internet protocol
+IRC`internet relay chat
+IR`inter racial
+IRL`in real life
+IROOC`i've run out of cigarettes
+IRT`in real time
+ISC`i stand corrected
+ISDN`integrated services digital network
+ISO`in search of
+ISP`internet service provider
+ISTM`it seems to me
+ISTR`i seem to remember
+ITAK`it takes all kinds
+ITFA`in the final analysis
+IT`information technology
+ITMA`its that man again
+ITYM`i think you mean
+IUTHALORFH`i used to have a lot of respect for him/her
+IUTKATS`i used to know all that stuff
+IWALU`i will always love you
+IWALY`i will always love you
+IWBNI`it would be nice if
+IWIK`i wish i knew
+IYD`in your dreams
+IYFEG`insert your favourite ethnic group
+IYF`in your face
+IYKWIM`if you know what i mean
+IYQ`i like you [say it, don't read it]
+IYSWIM`if you see what i mean
+JAM`just a moment
+JAO`just another observer
+JAS`just a second
+JFF`just for fun
+JFTR`just for the record
+JFYI`just for your information
+JIC`just in case
+JIT`just in time
+J/K`just kidding
+JLY`jesus loves you
+JMHO`just my humble opinion
+JMO`just my opinion
+JMOOC`just my opinion of course
+JOTL`joy of the lord
+JPEG`joint photographic experts group
+Jr`junior
+JSYK`just so you know
+JTLYK`just to let you know
+JTUSK`just thought you should know
+JTYMLTK`just thought you might like to know
+JTYWTK`just thought you wanted to know
 Acronym Soup - JVC`japan victor company
-Acronym Soup: KIA`know it all
-Acronym Soup: KISS`keep it simple stupid
-Acronym Soup: KMB`kiss my butt
-Acronym Soup: KMWIH`kick me where it hurts
-Acronym Soup: KMYF`kiss me you fool
-Acronym Soup: K`okay
-Acronym Soup: KOL`kiss on lips
-Acronym Soup: KOS`kids over shoulder
-Acronym Soup: KOTC`kiss on the cheek
-Acronym Soup: KOTL`kiss on the lips
-Acronym Soup: KOTM`kook of the month
-Acronym Soup: KTCOOTN`keep this crap out of this newsgroup
-Acronym Soup: KWIM`know what i mean
-Acronym Soup: KYHOOTW`keep your head out of the water
-Acronym Soup: KYHU`keep your head up
-Acronym Soup: L8R`later
-Acronym Soup: L8TRZ`laters
-Acronym Soup: LALL`live and let live
-Acronym Soup: LAN`local area network
-Acronym Soup: LART`luser attitude re-adjustment tool
-Acronym Soup: LDTO`lets ditch this one
-Acronym Soup: LDWPKOL`long deep wet passionate kiss on the lips
-Acronym Soup: LHM`lord help me
-Acronym Soup: LHU`lord help us
-Acronym Soup: LJBF`let's just be friends
-Acronym Soup: LLAP`live long and prosper
-Acronym Soup: LLTA`lots and lots of thunderous applause
-Acronym Soup: LMA`leave me alone
-Acronym Soup: LMC`lost my connection
-Acronym Soup: LMCOA`lost my connection once again
-Acronym Soup: LMK`let me know
-Acronym Soup: LOFLOL`lying on floor laughing out loud
-Acronym Soup: LoTR`lord of the rings
-Acronym Soup: LSFIAB`like shooting fish in a barrel
-Acronym Soup: LSHIH`laughing so hard it hurts
-Acronym Soup: LSHIPMP`laughing so hard i peed my pants
-Acronym Soup: LSHMBIB`laughing so hard my belly is bouncing
-Acronym Soup: LSHMSB`laughing so hard my stitches burst
-Acronym Soup: LSMIF`laughing so much i farted
-Acronym Soup: LSMISMT`laughing so much i shot my tampax
-Acronym Soup: LSP`less sensitive person
-Acronym Soup: LTBF`learn to be funny
-Acronym Soup: LTIP`laughing 'til i puke
-Acronym Soup: LTM`laughing to myself
-Acronym Soup: LTMSH`laughing 'til my sides hurt
-Acronym Soup: LTNS`long time no see
-Acronym Soup: LTR`long term relationship
-Acronym Soup: LUSER`loser user
-Acronym Soup: LYIC`love you in christ
-Acronym Soup: LYLAB`love you like a brother
-Acronym Soup: LYLAS`love you like a sister
-Acronym Soup: LY`love ya
-Acronym Soup: LYWAMH`love you with all my heart
-Acronym Soup: M8`mate
-Acronym Soup: MAYB`mad about you baby
-Acronym Soup: MAY`mad about you
-Acronym Soup: MB`message board
-Acronym Soup: MBR`master boot record
-Acronym Soup: MCIBTY`my computer is better than yours
-Acronym Soup: MD`mailed
-Acronym Soup: MDT`mountain daily team
-Acronym Soup: MFG`more friendly garbage
-Acronym Soup: MHBFY`my heart bleeds for you
-Acronym Soup: MHDC`my hard drive crashed
-Acronym Soup: MHM`members helping members
-Acronym Soup: MHOTY`my hat's off to you
-Acronym Soup: MIL`mother in law
-Acronym Soup: MIME`multi-purpose internet mail extensions
-Acronym Soup: MING`mailing
-Acronym Soup: MIPS`meaningless information per second
-Acronym Soup: MLA`multiple letter acronym
-Acronym Soup: ML`more later
-Acronym Soup: MMIF`my mouth is full
-Acronym Soup: MM`multi media
-Acronym Soup: MMX`multi-media extensions
-Acronym Soup: MNC`mother nature calls
-Acronym Soup: MOF`matter of fact
-Acronym Soup: MOMN`milk out my nose
-Acronym Soup: MORF`male or female
-Acronym Soup: MOS`member of the opposite sex
-Acronym Soup: MOTAS`member of the appropriate sex
-Acronym Soup: MOTD`message of the day
-Acronym Soup: MOTOS`member of the opposite sex
-Acronym Soup: MOTSS`member of the same sex
-Acronym Soup: MPH`miles per hour
-Acronym Soup: MSCEA`my southern comfort's empty again
-Acronym Soup: MSIE`microsoft internet explorer
-Acronym Soup: MSS`member of the same sex
-Acronym Soup: MST`mountain standard time
-Acronym Soup: MTFBWY`may the force be with you
-Acronym Soup: MT`my time
-Acronym Soup: MUD`multi-user dungeon/domain
-Acronym Soup: MUNG`mash/mung until no good
-Acronym Soup: MYOB`mind your own business
-Acronym Soup: NADM`never a dull moment
-Acronym Soup: NAGI`not a good idea
-Acronym Soup: NAVY`never again volunteer yourself
-Acronym Soup: NBD`no big deal
-Acronym Soup: NBL`not bloody likely
-Acronym Soup: NBTD`nothing better to do
-Acronym Soup: NCB`never change baby
-Acronym Soup: NDB`none of your damned business
-Acronym Soup: NDM`no disrespect meant
-Acronym Soup: NE1`anyone
-Acronym Soup: NERD`national establishment for real dorks
-Acronym Soup: NGT`not gonna tell
-Acronym Soup: NHOH`never heard of her/him
-Acronym Soup: NICBDAT`nothing is certain but death and taxes
-Acronym Soup: NIDWTC`no i don't want to chat
-Acronym Soup: NIH`not invented here
-Acronym Soup: NIMBY`not in my back yard
-Acronym Soup: NIMTO`not in my term of office
-Acronym Soup: NINO`nothing in nothing out
-Acronym Soup: NIT`not in therapy
-Acronym Soup: NLI`not logged in
-Acronym Soup: NLT`no later than
-Acronym Soup: NMI`no middle initial
-Acronym Soup: N/M`never mind
-Acronym Soup: NMP`not my problem
-Acronym Soup: NMSAA`not my style at all
-Acronym Soup: NMS`not my style
-Acronym Soup: NN`night night
-Acronym Soup: NNTP`network news transfer protocol
-Acronym Soup: NoCeM`no see 'em
-Acronym Soup: NOOTO`nothing out of the ordinary
-Acronym Soup: NORWICH`knickers off ready when i come home
-Acronym Soup: NOYB`none of your business
-Acronym Soup: NOYL`not on your life
-Acronym Soup: NPF`no problem found
-Acronym Soup: NPLU`not people like us
-Acronym Soup: NP`no problem
-Acronym Soup: NQA`no questions asked
-Acronym Soup: NQOS`not quite our sort
-Acronym Soup: NRN`no reply necessary
-Acronym Soup: NS`netscape
-Acronym Soup: NTG`not too good
-Acronym Soup: NTH`no therapy helpful
-Acronym Soup: NTIBOA`not that i'm bitter or anything
-Acronym Soup: NTIMM`not that it matters much
-Acronym Soup: NTIM`not that it matters
-Acronym Soup: NTL`none the less
-Acronym Soup: NT`no text
-Acronym Soup: NUI`network user identification
-Acronym Soup: NYCTMI`now you come to mention it
-Acronym Soup: NYI`not yet implemented
-Acronym Soup: NYM`new york minute
-Acronym Soup: NYP`not your problem
-Acronym Soup: OATUS`on a totally unrelated subject
-Acronym Soup: OAUS`on an unrelated subject
+KIA`know it all
+KISS`keep it simple stupid
+KMB`kiss my butt
+KMWIH`kick me where it hurts
+KMYF`kiss me you fool
+K`okay
+KOL`kiss on lips
+KOS`kids over shoulder
+KOTC`kiss on the cheek
+KOTL`kiss on the lips
+KOTM`kook of the month
+KTCOOTN`keep this crap out of this newsgroup
+KWIM`know what i mean
+KYHOOTW`keep your head out of the water
+KYHU`keep your head up
+L8R`later
+L8TRZ`laters
+LALL`live and let live
+LAN`local area network
+LART`luser attitude re-adjustment tool
+LDTO`lets ditch this one
+LDWPKOL`long deep wet passionate kiss on the lips
+LHM`lord help me
+LHU`lord help us
+LJBF`let's just be friends
+LLAP`live long and prosper
+LLTA`lots and lots of thunderous applause
+LMA`leave me alone
+LMC`lost my connection
+LMCOA`lost my connection once again
+LMK`let me know
+LOFLOL`lying on floor laughing out loud
+LoTR`lord of the rings
+LSFIAB`like shooting fish in a barrel
+LSHIH`laughing so hard it hurts
+LSHIPMP`laughing so hard i peed my pants
+LSHMBIB`laughing so hard my belly is bouncing
+LSHMSB`laughing so hard my stitches burst
+LSMIF`laughing so much i farted
+LSMISMT`laughing so much i shot my tampax
+LSP`less sensitive person
+LTBF`learn to be funny
+LTIP`laughing 'til i puke
+LTM`laughing to myself
+LTMSH`laughing 'til my sides hurt
+LTNS`long time no see
+LTR`long term relationship
+LUSER`loser user
+LYIC`love you in christ
+LYLAB`love you like a brother
+LYLAS`love you like a sister
+LY`love ya
+LYWAMH`love you with all my heart
+M8`mate
+MAYB`mad about you baby
+MAY`mad about you
+MB`message board
+MBR`master boot record
+MCIBTY`my computer is better than yours
+MD`mailed
+MDT`mountain daily team
+MFG`more friendly garbage
+MHBFY`my heart bleeds for you
+MHDC`my hard drive crashed
+MHM`members helping members
+MHOTY`my hat's off to you
+MIL`mother in law
+MIME`multi-purpose internet mail extensions
+MING`mailing
+MIPS`meaningless information per second
+MLA`multiple letter acronym
+ML`more later
+MMIF`my mouth is full
+MM`multi media
+MMX`multi-media extensions
+MNC`mother nature calls
+MOF`matter of fact
+MOMN`milk out my nose
+MORF`male or female
+MOS`member of the opposite sex
+MOTAS`member of the appropriate sex
+MOTD`message of the day
+MOTOS`member of the opposite sex
+MOTSS`member of the same sex
+MPH`miles per hour
+MSCEA`my southern comfort's empty again
+MSIE`microsoft internet explorer
+MSS`member of the same sex
+MST`mountain standard time
+MTFBWY`may the force be with you
+MT`my time
+MUD`multi-user dungeon/domain
+MUNG`mash/mung until no good
+MYOB`mind your own business
+NADM`never a dull moment
+NAGI`not a good idea
+NAVY`never again volunteer yourself
+NBD`no big deal
+NBL`not bloody likely
+NBTD`nothing better to do
+NCB`never change baby
+NDB`none of your damned business
+NDM`no disrespect meant
+NE1`anyone
+NERD`national establishment for real dorks
+NGT`not gonna tell
+NHOH`never heard of her/him
+NICBDAT`nothing is certain but death and taxes
+NIDWTC`no i don't want to chat
+NIH`not invented here
+NIMBY`not in my back yard
+NIMTO`not in my term of office
+NINO`nothing in nothing out
+NIT`not in therapy
+NLI`not logged in
+NLT`no later than
+NMI`no middle initial
+N/M`never mind
+NMP`not my problem
+NMSAA`not my style at all
+NMS`not my style
+NN`night night
+NNTP`network news transfer protocol
+NoCeM`no see 'em
+NOOTO`nothing out of the ordinary
+NORWICH`knickers off ready when i come home
+NOYB`none of your business
+NOYL`not on your life
+NPF`no problem found
+NPLU`not people like us
+NP`no problem
+NQA`no questions asked
+NQOS`not quite our sort
+NRN`no reply necessary
+NS`netscape
+NTG`not too good
+NTH`no therapy helpful
+NTIBOA`not that i'm bitter or anything
+NTIMM`not that it matters much
+NTIM`not that it matters
+NTL`none the less
+NT`no text
+NUI`network user identification
+NYCTMI`now you come to mention it
+NYI`not yet implemented
+NYM`new york minute
+NYP`not your problem
+OATUS`on a totally unrelated subject
+OAUS`on an unrelated subject
 Abbr. Abb. Used as a title for such a person`abbess
 Abbr. Bart. or Bt. Used as the title for such a man`baronet
 Abbr. B Games. A usually miter-shaped chess piece that can move diagonally across any number of unoccupied spaces`bishop
 Abbr. cal The unit of heat equal to 1/100 the quantity of heat required to raise the temperature of 1 gram ofwater from 0 to 100 C at 1 atmosphere pressure`calorie
-Abbr. c. A measure of this ability: volume`capacities
+volume`capacities
 Abbr. CDR A commissioned rank in the U.S. Navy or Coast Guard that is above lieutenant --------- and below captain`commander
 Abbr. Cpl or Cpl. A noncommissioned rank in the U.S. Marine Corps that is above lance -------- and below sergeant`corporal
 Abbr. Ct. A short street, especially a wide alley walled by buildings on three sides`court
 Abbr. Ct. A short street, especially a wide alley walled by buildings on three sides`courting
 Abbr. E. Used as a title for such a nobleman`earl
-Abbreviations:commonly called DNA, what is its full name`Deoxyribonucleic acid
-Abbreviations:commonly called RNA, what is its full name`Ribonucleic Acid
-abbreviations: cricket's lbw:` leg before wicket
-Abbreviations-Short Forms: Calif stands for`california
-abbreviations-short forms:  fbi stands for _____?`federal bureau of investigation
-Abbreviations-Short Forms: rn stands for`royal navy
-abbreviations: unicef:`united nations international children's emergency fund
-Abbreviations: What Does A.D. Actually Stand For`Anno Domini
-Abbreviations: What Does A.M Stand For`Ante Meridian
-Abbreviations: What Does A.N.C Stand For`African National Congress
-Abbreviations: What Does Atp Stand For`Adenine Triphosphate
-Abbreviations: What Does Awol Stand For`Absent Without Leave
-Abbreviations: What Does Basf Stand For`Baden Aniline And Soda Factory
-Abbreviations: What Does Basic Stand For`Beginner's All Purpose Symbolic Instruction Code
-Abbreviations: What Does Bbiab Mean`Be Back In A Bit
-Abbreviations: What Does Bmw Stand For`Bavarian Motor Works
-Abbreviations: What Does Bmx Stand For`Bicycle Motocross
-Abbreviations: What Does Brb Mean`Be Right Back
-Abbreviations: What Does B.T.U Stand For`British Thermal Unit
-Abbreviations: What Does C.B.S Stand For`Columbia Broadcasting System
-Abbreviations: What Does Cb Stand For`Citizen's Band
-Abbreviations: What Does C.I.A Stand For`Central Intelligence Agency
-Abbreviations: What Does 'Cjd' Stand For`Creutzfeldt-Jakob Disease
-Abbreviations: What Does C.O.B.O.L Stand For`Common Business Oriented Language
-Abbreviations: What Does C.O.D. Mean In The Business World`Cash On Delivery
-Abbreviations: What Does C.O.D Stand For`Cash On Delivery
-Abbreviations: What Does Conus Stand For`Continental United States
-Abbreviations: What Does D.N.A Stand For`Deoxyribose Nucleic Acid
-Abbreviations: What Does 'Dvd' Stand For`Digital Versatile Disc
-Abbreviations: What Does E.C.G Stand For`Electrocardiogram
-Abbreviations: What Does Epcot Stand For`Experimental Prototype Community Of Tomorrow
-Abbreviations: What Does E.T.A Stand For`Estimated Time Of Arrival
-Abbreviations: What Does F.B.I Stands For`Federal Bureau Of Investigation
-Abbreviations: What Does 'Fm' An Abbreviation Of`Frequency Modulation
-Abbreviations: What Does 'Fred' Stand For`Field Remote Expeditionary Device
-Abbreviations: What Does F.T.P Stand For`File Transfer Protocol
-Abbreviations: What Does Gaap Stand For`Generally Accepted Accounting Principles
-Abbreviations: What Does 'Gdo' Stand For`Garage Door Opener
-Abbreviations: What Does G.D.P Stand For`Gross Domestic Product
-Abbreviations: What Does H.D.P.E Stand For`High Density Polyethylene
-Abbreviations: What Does 'Http' Stand For`Hypertext Transfer Protocol
-Abbreviations: What Does H.U.D Stand For`Head Up Display
-Abbreviations: What Does I.B.M Stand For`International Business Machines
-Abbreviations: What Does Icbm Stand For`Intercontinental Ballistic Missile
-Abbreviations: What Does Ietf Stand For`Internet Engineering Task Force
-Abbreviations: What Does 'I.O.U' Mean`I Owe Unto
-Abbreviations: What Does I.R.C Stand For`Internet Relay Chat
-Abbreviations: What Does L.A.N Stand For`Local Area Network
-Abbreviations: What Does 'Laser' Stand For`Light Amplification By Stimulated Emission Of Radiation
-Abbreviations: What Does L.E.D Stand For`Light Emitting Diode
-Abbreviations: What Does M.A.S.K. Stand For`Mobile Armoured Strike Kommand
-Abbreviations: What Does Msg Stand For`Monosodium Glutamate
-Abbreviations: What Does M.T.A Stand For Among Frisbee Freaks`Maximum Time Aloft
-Abbreviations: What Does N.A.S.A Stand For`National Aeronautics And Space Administration
-Abbreviations: What Does N.A.T.O Stand For`North Atlantic Treaty Organisation
-Abbreviations: What Does 'N.B.A' Mean`National Basketball Association
-Abbreviations: What Does Nhs Stand For In Relation To British Healthcare`National Health Service
-Abbreviations: What Does Ohg Stand For`Old High German
-Abbreviations: What Does O.P.E.C Stand For`Organisation Of Petroleum Exporting Countries
-Abbreviations: What Does S.O.S Stand For`Save Our Souls
-Abbreviations: What Does S.R.O Stand For`Standing Room Only
-Abbreviations: What Does The Abbreviation A.M. Stand For`Ante Meridian
-Abbreviations: What Does The Acronym Cia Stand For`Central Intelligence Agency
-Abbreviations: What Does The Acronym Scuba Stand For`Self-Contained Underwater Breathing Apparatus
-Abbreviations: What Does The British Charity 'Rspca' Stand For`Royal Society For The Prevention Of Cruelty To Animals
-Abbreviations: What Does The Drug 'Lsd' Stand For`Lysergic Acid Diethylamide
-Abbreviations: What Does The Term 'Gps' Mean`Global Positioning System
-Abbreviations: What Does Tko Stand For`Technical Knock Out
-Abbreviations: What Does Vrml Stand For`Virtual Reality Modeling Language
-Abbreviations: What Do The Initials J.P. Stand For After A Person's Name`Justice Of The Peace
-Abbreviations: What Do The Initials V.S.O.P Stand For On A Bottle Of Brandy`Very Special Old Pale
-Abbreviations: What Do The Letter Rcmp Stand For`Royal Canadian Mounted Police
-Abbreviations: What Do The Letters Era Mean In Baseball`Earned Run Average
-Abbreviations: What Do The Letters F.D. On British Coins Mean`Defender Of The Faith
-Abbreviations: What Do The Letters In Sam Missiles Refer To`Surface-To-Air Missile
-Abbreviations: What Do The Letters 'R.E.M.' Stand For`Rapid Eye Movement
-Abbreviations: What Do The Letters 'S.A.M' Mean In Sam Missiles`Surface To Air Missiles
+commonly called DNA, what is its full name`Deoxyribonucleic acid
+commonly called RNA, what is its full name`Ribonucleic Acid
+` leg before wicket
+Calif stands for`california
+ fbi stands for _____?`federal bureau of investigation
+rn stands for`royal navy
+`united nations international children's emergency fund
+What Does A.D. Actually Stand For`Anno Domini
+What Does A.M Stand For`Ante Meridian
+What Does A.N.C Stand For`African National Congress
+What Does Atp Stand For`Adenine Triphosphate
+What Does Awol Stand For`Absent Without Leave
+What Does Basf Stand For`Baden Aniline And Soda Factory
+What Does Basic Stand For`Beginner's All Purpose Symbolic Instruction Code
+What Does Bbiab Mean`Be Back In A Bit
+What Does Bmw Stand For`Bavarian Motor Works
+What Does Bmx Stand For`Bicycle Motocross
+What Does Brb Mean`Be Right Back
+What Does B.T.U Stand For`British Thermal Unit
+What Does C.B.S Stand For`Columbia Broadcasting System
+What Does Cb Stand For`Citizen's Band
+What Does C.I.A Stand For`Central Intelligence Agency
+What Does 'Cjd' Stand For`Creutzfeldt-Jakob Disease
+What Does C.O.B.O.L Stand For`Common Business Oriented Language
+What Does C.O.D. Mean In The Business World`Cash On Delivery
+What Does C.O.D Stand For`Cash On Delivery
+What Does Conus Stand For`Continental United States
+What Does D.N.A Stand For`Deoxyribose Nucleic Acid
+What Does 'Dvd' Stand For`Digital Versatile Disc
+What Does E.C.G Stand For`Electrocardiogram
+What Does Epcot Stand For`Experimental Prototype Community Of Tomorrow
+What Does E.T.A Stand For`Estimated Time Of Arrival
+What Does F.B.I Stands For`Federal Bureau Of Investigation
+What Does 'Fm' An Abbreviation Of`Frequency Modulation
+What Does 'Fred' Stand For`Field Remote Expeditionary Device
+What Does F.T.P Stand For`File Transfer Protocol
+What Does Gaap Stand For`Generally Accepted Accounting Principles
+What Does 'Gdo' Stand For`Garage Door Opener
+What Does G.D.P Stand For`Gross Domestic Product
+What Does H.D.P.E Stand For`High Density Polyethylene
+What Does 'Http' Stand For`Hypertext Transfer Protocol
+What Does H.U.D Stand For`Head Up Display
+What Does I.B.M Stand For`International Business Machines
+What Does Icbm Stand For`Intercontinental Ballistic Missile
+What Does Ietf Stand For`Internet Engineering Task Force
+What Does 'I.O.U' Mean`I Owe Unto
+What Does I.R.C Stand For`Internet Relay Chat
+What Does L.A.N Stand For`Local Area Network
+What Does 'Laser' Stand For`Light Amplification By Stimulated Emission Of Radiation
+What Does L.E.D Stand For`Light Emitting Diode
+What Does M.A.S.K. Stand For`Mobile Armoured Strike Kommand
+What Does Msg Stand For`Monosodium Glutamate
+What Does M.T.A Stand For Among Frisbee Freaks`Maximum Time Aloft
+What Does N.A.S.A Stand For`National Aeronautics And Space Administration
+What Does N.A.T.O Stand For`North Atlantic Treaty Organisation
+What Does 'N.B.A' Mean`National Basketball Association
+What Does Nhs Stand For In Relation To British Healthcare`National Health Service
+What Does Ohg Stand For`Old High German
+What Does O.P.E.C Stand For`Organisation Of Petroleum Exporting Countries
+What Does S.O.S Stand For`Save Our Souls
+What Does S.R.O Stand For`Standing Room Only
+What Does The Abbreviation A.M. Stand For`Ante Meridian
+What Does The Acronym Cia Stand For`Central Intelligence Agency
+What Does The Acronym Scuba Stand For`Self-Contained Underwater Breathing Apparatus
+What Does The British Charity 'Rspca' Stand For`Royal Society For The Prevention Of Cruelty To Animals
+What Does The Drug 'Lsd' Stand For`Lysergic Acid Diethylamide
+What Does The Term 'Gps' Mean`Global Positioning System
+What Does Tko Stand For`Technical Knock Out
+What Does Vrml Stand For`Virtual Reality Modeling Language
+What Do The Initials J.P. Stand For After A Person's Name`Justice Of The Peace
+What Do The Initials V.S.O.P Stand For On A Bottle Of Brandy`Very Special Old Pale
+What Do The Letter Rcmp Stand For`Royal Canadian Mounted Police
+What Do The Letters Era Mean In Baseball`Earned Run Average
+What Do The Letters F.D. On British Coins Mean`Defender Of The Faith
+What Do The Letters In Sam Missiles Refer To`Surface-To-Air Missile
+What Do The Letters 'R.E.M.' Stand For`Rapid Eye Movement
+What Do The Letters 'S.A.M' Mean In Sam Missiles`Surface To Air Missiles
 Abbr. Knt. or Kt. A medieval gentleman-soldier, usually high-born, raised by a sovereign to privileged military status after training as a page and squire`knight
 Abbr. mo. One of the 12 divisions of a year as determined by a calendar, especially the Gregorian calendar. Also called calendar`month
 Abbr. mo. One of the 12 divisions of a year as determined by a calendar, especially the Gregorian calendar. Also called calendar month`months
@@ -1464,528 +1462,528 @@ Abbr. S. A tract of water within an ocean`seas
 Abbr. sc. or scr. A unit of apothecary weight equal to about 1.3 grams, or 20 grains`scruple
 Abbr. SN A noncommissioned rank in the U.S. Navy or Coast Guard that is above ------ apprentice and below petty officer`seaman
 Abbr. Visct. or Vis. or V. Used as a title for such a nobleman`viscount
-Abbr. wk. A seven-day calendar period, especially one starting with Sunday and continuing through Saturday: 'this ----.'`week
+'this ----.'`week
 Acronym Soup VHS`video home system
-Acronym Soup: <wg>`wide grin
-Acronym Soup: O`over [to you]
-Acronym Soup: OB`obligatory; oh baby
-Acronym Soup: OBTW`oh by the way
-Acronym Soup: OD`overdose; oh dear
-Acronym Soup: OFS`one finger salute
-Acronym Soup: OIC`oh i see
-Acronym Soup: OMA`on my ass
-Acronym Soup: OMB`on my butt
-Acronym Soup: OMG`oh my god
-Acronym Soup: ONNA`oh no not again
-Acronym Soup: ONNTA`oh no not that/this again
-Acronym Soup: OO`over and out
-Acronym Soup: OOC`out of character
-Acronym Soup: OOI`out of interest
-Acronym Soup: OOSOOM`out of sight out of mind
-Acronym Soup: OS`operating system
-Acronym Soup: OT`off topic
-Acronym Soup: OT1H`on the one hand
-Acronym Soup: OTC`over the counter
-Acronym Soup: OTD`out the door
-Acronym Soup: OTF`on the floor
-Acronym Soup: OTGH`on the gripping hand
-Acronym Soup: OTL`out to lunch
-Acronym Soup: OTOH`on the other hand
-Acronym Soup: OTOOH`on the other other hand
-Acronym Soup: OTT`over the top
-Acronym Soup: OTTH`on the third hand
-Acronym Soup: OTTOMH`off the top of my head
-Acronym Soup: OTW `on the whole
-Acronym Soup: OW`oh well
-Acronym Soup: OWTTE`or words to that effect
-Acronym Soup: PABG`pack a big gun
-Acronym Soup: PAW`parents are watching
-Acronym Soup: PBM`play by mail (games)
-Acronym Soup: PC`personal computer
-Acronym Soup: PCB`please call back
-Acronym Soup: PCMCIA`people can't master computer industry acronyms
-Acronym Soup: PD`public domain
-Acronym Soup: PDA`public display of affection
-Acronym Soup: PDN`public data network
-Acronym Soup: PDPMEMA`please don't post my email address
-Acronym Soup: PDQ`pretty damn quick
-Acronym Soup: PDS`please don't shout
-Acronym Soup: PDT`pacific daylight savings time
-Acronym Soup: PEBCAK`problem exists between chair and keyboard
-Acronym Soup: PEM`privacy enhanced mail
-Acronym Soup: PEST`please excuse slow typing
-Acronym Soup: PGP`pretty good privacy
-Acronym Soup: PhD`piled higher and deeper
-Acronym Soup: PIMP`pee in my pants
-Acronym Soup: PKB`pot, kettle, black
-Acronym Soup: PKOC`passionate kiss on the cheek
-Acronym Soup: PKOL`passionate kiss on the lips
-Acronym Soup: PLMK`please let me know
-Acronym Soup: PLMKO`please let me know ok
-Acronym Soup: PLOKTA`press lots of keys to abort
-Acronym Soup: PLS`please
-Acronym Soup: PLZ`please
-Acronym Soup: PMBI`pardon my butting in
-Acronym Soup: PMETC`pardon me etc
-Acronym Soup: PMFBI `pardon me for butting in
-Acronym Soup: PMFI`problem magically fixed itself
-Acronym Soup: PMFJI`pardon me for jumping in
-Acronym Soup: PMFJIH`pardon me for jumping in here
-Acronym Soup: PMJI`pardon my jumping in
-Acronym Soup: PMP`peed my pants
-Acronym Soup: PO`piss off
-Acronym Soup: POAHF`put on a happy face
-Acronym Soup: POM`phase of the moon
-Acronym Soup: POP`point of presence
-Acronym Soup: POQ`piss off quickly
-Acronym Soup: POQADCB`piss off quickly and don't come back
-Acronym Soup: POS`parents over shoulder
-Acronym Soup: POTS`plain old telephone service/system
-Acronym Soup: POTUS`president of the united states
-Acronym Soup: POV`point of view
-Acronym Soup: PPL`people
-Acronym Soup: PPP`point-to-point protocol
-Acronym Soup: PPPP`previous paragraph was polemical position
-Acronym Soup: PS`post script
-Acronym Soup: PST`pacific standard time
-Acronym Soup: PTB`powers that be
-Acronym Soup: PTL`praise the lord
-Acronym Soup: PTLAPTA`praise the lord and pass the ammunition
-Acronym Soup: PTMM`please tell me more
-Acronym Soup: PTMY`pleased to meet you
-Acronym Soup: PTMYA `pleased to make your acquaintance
-Acronym Soup: PTO`please turn over
-Acronym Soup: PW`pathetic wanker
-Acronym Soup: Q`queue
-Acronym Soup: QPQ`quid pro quo
-Acronym Soup: QT`cutie; quiet
-Acronym Soup: RA`red alert
-Acronym Soup: RAS`running and screaming
-Acronym Soup: RE`regarding
-Acronym Soup: RFC`request for comment
-Acronym Soup: RFD`request for discussion
-Acronym Soup: RFM`reply to flagged message
-Acronym Soup: RFT`request for thinking
-Acronym Soup: RHIP`rank hath its privileges
-Acronym Soup: RL`real life
-Acronym Soup: RLCO`real life conference
-Acronym Soup: RMH`real manly hug
-Acronym Soup: RNA`ring no answer
-Acronym Soup: ROFFNAR`rolling on the floor for no apparent reason
-Acronym Soup: ROFL`rolling on floor laughing
-Acronym Soup: ROFLMHO`rolling on floor laughing my head off
-Acronym Soup: ROFLOL`rolling on floor laughing out loud
-Acronym Soup: ROFLUTS`rolling on floor laughing unable to speak
-Acronym Soup: ROFLWPIMP`rolling on floor laughing whilst peeing in my pants
-Acronym Soup: ROTBA`reality on the blink again
-Acronym Soup: ROTF`rolling on the floor
-Acronym Soup: ROTFL`rolling on the floor laughing
-Acronym Soup: ROTFLAS`rolling on the floor laughing and snorting
-Acronym Soup: ROTFLBTC`rolling on the floor laughing biting the carpet
-Acronym Soup: ROTM`right on the money
-Acronym Soup: RPG`role playing game
-Acronym Soup: RSN`real soon now
-Acronym Soup: RT`real time
-Acronym Soup: RTM`read the manual
-Acronym Soup: RTS`read the screen: real time strategy
-Acronym Soup: RUMF`are you male or female
-Acronym Soup: RUMORF`are you male or female
-Acronym Soup: SAH `screw a hamster
-Acronym Soup: SAHM`stay at home mum
-Acronym Soup: SASS`short attention span society/syndrome
-Acronym Soup: SAT`sorry about that
-Acronym Soup: SCNR`sorry, could not resist
-Acronym Soup: SEC`second, e.g. wait a sec
-Acronym Soup: SEP`somebody else's problem
-Acronym Soup: SETE`smiling ear to ear
-Acronym Soup: SFAIAA`so far as i am aware
-Acronym Soup: SFLA`stupid four letter acronym
-Acronym Soup: SGML`standardised generalised markup language
-Acronym Soup: SHTSI`somebody had to say it
-Acronym Soup: SIG`special interest group
-Acronym Soup: SIIK`stuffed if i know
-Acronym Soup: SIL`sister in law
-Acronym Soup: SIT`stay in touch
-Acronym Soup: SITD`still in the dark
-Acronym Soup: SLIP`serial line interface protocol
-Acronym Soup: SMG`suck my goat
-Acronym Soup: SMO`serious mode on
-Acronym Soup: SMOFF`serious mode off
-Acronym Soup: SMOP`small matter of programming
-Acronym Soup: SMTP`simple mail transfer protocol
-Acronym Soup: SNERT`snot-nosed egostical rude teenager
-Acronym Soup: SNR`signal to noise ratio
-Acronym Soup: SO`significant other
-Acronym Soup: SOHB`sense of humour bypass
-Acronym Soup: SOI`stink on ice; state of insanity
-Acronym Soup: SOP`standard operating procedure
-Acronym Soup: SOT`short of time
-Acronym Soup: SOTMG`short of time must go
-Acronym Soup: SOVS`someone very special
-Acronym Soup: SRY`sorry
-Acronym Soup: ST`such that
-Acronym Soup: ST-DS9`star trek deep space 9
-Acronym Soup: ST-TNG`star trek the next generation
-Acronym Soup: ST-TOS`star trek the original series
-Acronym Soup: ST-VOY`star trek voyager
-Acronym Soup: STS`so to speak
-Acronym Soup: SUCDIC`situation under control dickheads in charge
-Acronym Soup: SUFID`screwing up face in disgust
-Acronym Soup: SUL`see you later
-Acronym Soup: SUNOILTY`shut up no one is listening to you
-Acronym Soup: SUP`what's up
-Acronym Soup: SUYP`shut up you pervert
-Acronym Soup: SWAK`sealed with a kiss
-Acronym Soup: SWALK`sealed with a loving kiss
-Acronym Soup: SWDYRTW`since when do you rule the web
-Acronym Soup: SWL`screaming with laughter
-Acronym Soup: SWMBO `she who must be obeyed
-Acronym Soup: SWYP`so what's your problem
-Acronym Soup: SYL`see you later
-Acronym Soup: SYSOP`system operator
-Acronym Soup: SYT`sweet young thing
-Acronym Soup: SYWWBY`see ya
-Acronym Soup: TABA`throws a beer at
-Acronym Soup: TAF`that's all folks
-Acronym Soup: TAFN`that's all for now
-Acronym Soup: TANJ`there ain't no justice
-Acronym Soup: TANSTAAFL`there ain't no such thing as a free lunch
-Acronym Soup: TASW`that's all she wrote
-Acronym Soup: TAWIS`that ain't what i said
-Acronym Soup: TBC`to be continued
-Acronym Soup: TBE`to be expected
-Acronym Soup: TBYB`try before you buy
-Acronym Soup: TC`telephone call; take care
-Acronym Soup: TCB`taking care of business
-Acronym Soup: TCD`the cat's dead
-Acronym Soup: TDD`the dog's dead
-Acronym Soup: TDM`too damn many
-Acronym Soup: TEOTWAWKI`the end of the world as we know it
-Acronym Soup: TFTT`thanks for the thought
-Acronym Soup: TGAL`think globally act locally
-Acronym Soup: TGIF`thank god it's friday
-Acronym Soup: TGTF`thank god tomorrow's friday
-Acronym Soup: TIA`thanks in advance
-Acronym Soup: TIATLG`truly i am the living god
-Acronym Soup: TIC`tongue in cheek
-Acronym Soup: TIIC`those idiots in control
-Acronym Soup: TIME`tears in my eyes
-Acronym Soup: TIMTOWTDI`there is more than one way to do it
-Acronym Soup: TINALO`this is not a legal opinion
-Acronym Soup: TINAR`this is not a recommendation
-Acronym Soup: TINC`there is no cabal
-Acronym Soup: TINWIS`that is not what i said
-Acronym Soup: TIP`to insure promptness
-Acronym Soup: TJATAW`truth justice and the american way
-Acronym Soup: TLA`three letter acronym
-Acronym Soup: TLC`tender loving care
-Acronym Soup: TLG`the living god
-Acronym Soup: TM`thread mangler
-Acronym Soup: TMI`too much information
-Acronym Soup: TMIKTLIU`the more i know the less i understand
-Acronym Soup: TN`telnet
-Acronym Soup: TNOTVS`there's nothing on television so
-Acronym Soup: TNX`thanks
-Acronym Soup: TOTBAL`there ought to be a law
-Acronym Soup: TPAE`the possibilities are endless
-Acronym Soup: TPS(S)`this program sucks (severely)
-Acronym Soup: TPTB`the powers that be
-Acronym Soup: TRDMC`tears running down my cheeks
-Acronym Soup: TSOHF`total sense of humour failure
-Acronym Soup: TSR`terminate and stay resident
-Acronym Soup: TTBE`that's to be expected
-Acronym Soup: TTBOMK`to the best of my knowledge
-Acronym Soup: TTFN`ta ta for now
-Acronym Soup: TTL4N`that's the lot for now
-Acronym Soup: TTM`to the moderator
-Acronym Soup: TTSP`this too shall pass
-Acronym Soup: TTTT`these things take time
-Acronym Soup: TTUL`talk/type to you later
-Acronym Soup: TTYL`talk to you later
-Acronym Soup: TTYRS`talk to you real soon
-Acronym Soup: TVB`top versus bottom
-Acronym Soup: TWAIN`technology without an important name
-Acronym Soup: TWIMC `to whom it may concern
-Acronym Soup: TWIS`that's what i said
-Acronym Soup: TWTST`that will take some thought
-Acronym Soup: TWYAS`that's what you all say
-Acronym Soup: TWYT`that's what you think
-Acronym Soup: TY`thank you
-Acronym Soup: TYT`take your time
-Acronym Soup: TYVM`thank you very much
-Acronym Soup: U/L`upload
-Acronym Soup: UAE`unrecoverable application error
-Acronym Soup: UBE`unsolicited bulk email
-Acronym Soup: UFLA`unidentified four letter acronym
-Acronym Soup: UGTBK`you've got to be kidding
-Acronym Soup: UOK`you ok?
-Acronym Soup: URL`uniform resource locator
-Acronym Soup: URLCM`you are welcome
-Acronym Soup: USU`usually
-Acronym Soup: UT4S`you type for shit
-Acronym Soup: UTT`under the table
-Acronym Soup: UUCP`unix-tounix copy
-Acronym Soup: VBG`very big grin
-Acronym Soup: VDPKOL`very deep passionate kiss on the lips
-Acronym Soup: VDWPKOL`very deep wet passionate kiss on the lips
-Acronym Soup: VH`virtual hug
-Acronym Soup: VR`virtual reality
-Acronym Soup: VRML`virtual reality modelling language
-Acronym Soup: VT`virtual time
-Acronym Soup: W/`with
-Acronym Soup: W/O`with out
-Acronym Soup: W8`wait
-Acronym Soup: W8ING`waiting
-Acronym Soup: WAB`what another bill
-Acronym Soup: WAEF`when all else fails
-Acronym Soup: WAG`wild assed guess
-Acronym Soup: WAIS`wide area information server
-Acronym Soup: WALOC`what a load of crap
-Acronym Soup: WAN`wide area network
-Acronym Soup: WB`welcome back
-Acronym Soup: WBS`write back soon
-Acronym Soup: WBSP`write back soon please
-Acronym Soup: WC`way cool
-Acronym Soup: WCAGA`what comes around goes around
-Acronym Soup: WDYMBT`what do you mean by that
-Acronym Soup: WFHC`why for how come?
-Acronym Soup: WFM`works for me
-Acronym Soup: WIBNIF`wouldn't it be nice if
-Acronym Soup: WITY`what's it to you
-Acronym Soup: WMMOWS`wash my mouth out with soap
-Acronym Soup: WOA`work of art
-Acronym Soup: WOM`word of mouth
-Acronym Soup: WOMBAT`waste of money brains and time
-Acronym Soup: WOS`wife over shoulder
-Acronym Soup: WPKOL`wet passionate kiss on the lips
-Acronym Soup: WRT`with regard/respect to
-Acronym Soup: WSDMU`we sure did miss you
-Acronym Soup: WTG`way to go
-Acronym Soup: WTH`what the hell
-Acronym Soup: WUC`why you cry?
-Acronym Soup: WWW`world wide web; world wide wait
-Acronym Soup: WWYC`write when you can
-Acronym Soup: WYGIWYG`what you got is what you get
-Acronym Soup: WYGIWYPF`what you get is what you pay for
-Acronym Soup: WYM`what you mean?
-Acronym Soup: WYP`what's your point?
-Acronym Soup: WYSIWYG`what you see is what you get
-Acronym Soup: WYSOH`where's your sense of humour?
-Acronym Soup: XYZ`examine your zipper
-Acronym Soup: Y2K`the year 2000
-Acronym Soup: YAABH`you are a big help
-Acronym Soup: YABA`yet another bloody acronym
-Acronym Soup: YAOTM`yet another off-topic message
-Acronym Soup: YASAWYAB`you are so angry when you are beautiful
-Acronym Soup: YASBWYAA`you are so beautiful when you are angry
-Acronym Soup: YBS`you'll be sorry
-Acronym Soup: YCIITM`your check/cheque is in the mail
-Acronym Soup: YCLIU`you can look it up
-Acronym Soup: YCTFS`you can't type for shit
-Acronym Soup: YGGM`your guess is as good as mine
-Acronym Soup: YGTBK`you've got to be kidding
-Acronym Soup: YHBW`you have been warned
-Acronym Soup: YHL`you have lost
-Acronym Soup: YHTBT`you had to be there
-Acronym Soup: YIAH`yes i am here
-Acronym Soup: YKINOK`your kink is not ok
-Acronym Soup: YKWIM`you know what i mean
-Acronym Soup: YKYATP`you know you're a tired parent
-Acronym Soup: YM`you mean
-Acronym Soup: YOYO`you're on your own
-Acronym Soup: YOYOW`you own your own words
-Acronym Soup: YR`yeah right
-Acronym Soup: YSS`you suck severely
-Acronym Soup: YT`yours truly
-Acronym Soup: YTMOB`you turn me on baby
-Acronym Soup: YW`you're welcome
-Acronym Soup: YWSYLS`you win some you lose some
-Acronym Soup: YYBBHH`yeh yeh beep beep honk honk
-Acronym Soup: YYSSW`ya ya sure sure whatever
+<wg>`wide grin
+O`over [to you]
+OB`obligatory; oh baby
+OBTW`oh by the way
+OD`overdose; oh dear
+OFS`one finger salute
+OIC`oh i see
+OMA`on my ass
+OMB`on my butt
+OMG`oh my god
+ONNA`oh no not again
+ONNTA`oh no not that/this again
+OO`over and out
+OOC`out of character
+OOI`out of interest
+OOSOOM`out of sight out of mind
+OS`operating system
+OT`off topic
+OT1H`on the one hand
+OTC`over the counter
+OTD`out the door
+OTF`on the floor
+OTGH`on the gripping hand
+OTL`out to lunch
+OTOH`on the other hand
+OTOOH`on the other other hand
+OTT`over the top
+OTTH`on the third hand
+OTTOMH`off the top of my head
+OTW `on the whole
+OW`oh well
+OWTTE`or words to that effect
+PABG`pack a big gun
+PAW`parents are watching
+PBM`play by mail (games)
+PC`personal computer
+PCB`please call back
+PCMCIA`people can't master computer industry acronyms
+PD`public domain
+PDA`public display of affection
+PDN`public data network
+PDPMEMA`please don't post my email address
+PDQ`pretty damn quick
+PDS`please don't shout
+PDT`pacific daylight savings time
+PEBCAK`problem exists between chair and keyboard
+PEM`privacy enhanced mail
+PEST`please excuse slow typing
+PGP`pretty good privacy
+PhD`piled higher and deeper
+PIMP`pee in my pants
+PKB`pot, kettle, black
+PKOC`passionate kiss on the cheek
+PKOL`passionate kiss on the lips
+PLMK`please let me know
+PLMKO`please let me know ok
+PLOKTA`press lots of keys to abort
+PLS`please
+PLZ`please
+PMBI`pardon my butting in
+PMETC`pardon me etc
+PMFBI `pardon me for butting in
+PMFI`problem magically fixed itself
+PMFJI`pardon me for jumping in
+PMFJIH`pardon me for jumping in here
+PMJI`pardon my jumping in
+PMP`peed my pants
+PO`piss off
+POAHF`put on a happy face
+POM`phase of the moon
+POP`point of presence
+POQ`piss off quickly
+POQADCB`piss off quickly and don't come back
+POS`parents over shoulder
+POTS`plain old telephone service/system
+POTUS`president of the united states
+POV`point of view
+PPL`people
+PPP`point-to-point protocol
+PPPP`previous paragraph was polemical position
+PS`post script
+PST`pacific standard time
+PTB`powers that be
+PTL`praise the lord
+PTLAPTA`praise the lord and pass the ammunition
+PTMM`please tell me more
+PTMY`pleased to meet you
+PTMYA `pleased to make your acquaintance
+PTO`please turn over
+PW`pathetic wanker
+Q`queue
+QPQ`quid pro quo
+QT`cutie; quiet
+RA`red alert
+RAS`running and screaming
+RE`regarding
+RFC`request for comment
+RFD`request for discussion
+RFM`reply to flagged message
+RFT`request for thinking
+RHIP`rank hath its privileges
+RL`real life
+RLCO`real life conference
+RMH`real manly hug
+RNA`ring no answer
+ROFFNAR`rolling on the floor for no apparent reason
+ROFL`rolling on floor laughing
+ROFLMHO`rolling on floor laughing my head off
+ROFLOL`rolling on floor laughing out loud
+ROFLUTS`rolling on floor laughing unable to speak
+ROFLWPIMP`rolling on floor laughing whilst peeing in my pants
+ROTBA`reality on the blink again
+ROTF`rolling on the floor
+ROTFL`rolling on the floor laughing
+ROTFLAS`rolling on the floor laughing and snorting
+ROTFLBTC`rolling on the floor laughing biting the carpet
+ROTM`right on the money
+RPG`role playing game
+RSN`real soon now
+RT`real time
+RTM`read the manual
+RTS`read the screen: real time strategy
+RUMF`are you male or female
+RUMORF`are you male or female
+SAH `screw a hamster
+SAHM`stay at home mum
+SASS`short attention span society/syndrome
+SAT`sorry about that
+SCNR`sorry, could not resist
+SEC`second, e.g. wait a sec
+SEP`somebody else's problem
+SETE`smiling ear to ear
+SFAIAA`so far as i am aware
+SFLA`stupid four letter acronym
+SGML`standardised generalised markup language
+SHTSI`somebody had to say it
+SIG`special interest group
+SIIK`stuffed if i know
+SIL`sister in law
+SIT`stay in touch
+SITD`still in the dark
+SLIP`serial line interface protocol
+SMG`suck my goat
+SMO`serious mode on
+SMOFF`serious mode off
+SMOP`small matter of programming
+SMTP`simple mail transfer protocol
+SNERT`snot-nosed egostical rude teenager
+SNR`signal to noise ratio
+SO`significant other
+SOHB`sense of humour bypass
+SOI`stink on ice; state of insanity
+SOP`standard operating procedure
+SOT`short of time
+SOTMG`short of time must go
+SOVS`someone very special
+SRY`sorry
+ST`such that
+ST-DS9`star trek deep space 9
+ST-TNG`star trek the next generation
+ST-TOS`star trek the original series
+ST-VOY`star trek voyager
+STS`so to speak
+SUCDIC`situation under control dickheads in charge
+SUFID`screwing up face in disgust
+SUL`see you later
+SUNOILTY`shut up no one is listening to you
+SUP`what's up
+SUYP`shut up you pervert
+SWAK`sealed with a kiss
+SWALK`sealed with a loving kiss
+SWDYRTW`since when do you rule the web
+SWL`screaming with laughter
+SWMBO `she who must be obeyed
+SWYP`so what's your problem
+SYL`see you later
+SYSOP`system operator
+SYT`sweet young thing
+SYWWBY`see ya
+TABA`throws a beer at
+TAF`that's all folks
+TAFN`that's all for now
+TANJ`there ain't no justice
+TANSTAAFL`there ain't no such thing as a free lunch
+TASW`that's all she wrote
+TAWIS`that ain't what i said
+TBC`to be continued
+TBE`to be expected
+TBYB`try before you buy
+TC`telephone call; take care
+TCB`taking care of business
+TCD`the cat's dead
+TDD`the dog's dead
+TDM`too damn many
+TEOTWAWKI`the end of the world as we know it
+TFTT`thanks for the thought
+TGAL`think globally act locally
+TGIF`thank god it's friday
+TGTF`thank god tomorrow's friday
+TIA`thanks in advance
+TIATLG`truly i am the living god
+TIC`tongue in cheek
+TIIC`those idiots in control
+TIME`tears in my eyes
+TIMTOWTDI`there is more than one way to do it
+TINALO`this is not a legal opinion
+TINAR`this is not a recommendation
+TINC`there is no cabal
+TINWIS`that is not what i said
+TIP`to insure promptness
+TJATAW`truth justice and the american way
+TLA`three letter acronym
+TLC`tender loving care
+TLG`the living god
+TM`thread mangler
+TMI`too much information
+TMIKTLIU`the more i know the less i understand
+TN`telnet
+TNOTVS`there's nothing on television so
+TNX`thanks
+TOTBAL`there ought to be a law
+TPAE`the possibilities are endless
+TPS(S)`this program sucks (severely)
+TPTB`the powers that be
+TRDMC`tears running down my cheeks
+TSOHF`total sense of humour failure
+TSR`terminate and stay resident
+TTBE`that's to be expected
+TTBOMK`to the best of my knowledge
+TTFN`ta ta for now
+TTL4N`that's the lot for now
+TTM`to the moderator
+TTSP`this too shall pass
+TTTT`these things take time
+TTUL`talk/type to you later
+TTYL`talk to you later
+TTYRS`talk to you real soon
+TVB`top versus bottom
+TWAIN`technology without an important name
+TWIMC `to whom it may concern
+TWIS`that's what i said
+TWTST`that will take some thought
+TWYAS`that's what you all say
+TWYT`that's what you think
+TY`thank you
+TYT`take your time
+TYVM`thank you very much
+U/L`upload
+UAE`unrecoverable application error
+UBE`unsolicited bulk email
+UFLA`unidentified four letter acronym
+UGTBK`you've got to be kidding
+UOK`you ok?
+URL`uniform resource locator
+URLCM`you are welcome
+USU`usually
+UT4S`you type for shit
+UTT`under the table
+UUCP`unix-tounix copy
+VBG`very big grin
+VDPKOL`very deep passionate kiss on the lips
+VDWPKOL`very deep wet passionate kiss on the lips
+VH`virtual hug
+VR`virtual reality
+VRML`virtual reality modelling language
+VT`virtual time
+W/`with
+W/O`with out
+W8`wait
+W8ING`waiting
+WAB`what another bill
+WAEF`when all else fails
+WAG`wild assed guess
+WAIS`wide area information server
+WALOC`what a load of crap
+WAN`wide area network
+WB`welcome back
+WBS`write back soon
+WBSP`write back soon please
+WC`way cool
+WCAGA`what comes around goes around
+WDYMBT`what do you mean by that
+WFHC`why for how come?
+WFM`works for me
+WIBNIF`wouldn't it be nice if
+WITY`what's it to you
+WMMOWS`wash my mouth out with soap
+WOA`work of art
+WOM`word of mouth
+WOMBAT`waste of money brains and time
+WOS`wife over shoulder
+WPKOL`wet passionate kiss on the lips
+WRT`with regard/respect to
+WSDMU`we sure did miss you
+WTG`way to go
+WTH`what the hell
+WUC`why you cry?
+WWW`world wide web; world wide wait
+WWYC`write when you can
+WYGIWYG`what you got is what you get
+WYGIWYPF`what you get is what you pay for
+WYM`what you mean?
+WYP`what's your point?
+WYSIWYG`what you see is what you get
+WYSOH`where's your sense of humour?
+XYZ`examine your zipper
+Y2K`the year 2000
+YAABH`you are a big help
+YABA`yet another bloody acronym
+YAOTM`yet another off-topic message
+YASAWYAB`you are so angry when you are beautiful
+YASBWYAA`you are so beautiful when you are angry
+YBS`you'll be sorry
+YCIITM`your check/cheque is in the mail
+YCLIU`you can look it up
+YCTFS`you can't type for shit
+YGGM`your guess is as good as mine
+YGTBK`you've got to be kidding
+YHBW`you have been warned
+YHL`you have lost
+YHTBT`you had to be there
+YIAH`yes i am here
+YKINOK`your kink is not ok
+YKWIM`you know what i mean
+YKYATP`you know you're a tired parent
+YM`you mean
+YOYO`you're on your own
+YOYOW`you own your own words
+YR`yeah right
+YSS`you suck severely
+YT`yours truly
+YTMOB`you turn me on baby
+YW`you're welcome
+YWSYLS`you win some you lose some
+YYBBHH`yeh yeh beep beep honk honk
+YYSSW`ya ya sure sure whatever
 Acronym used for direct data transfers between disk & ram`dma
 Acronym used for direct data transfers between disk and ram`dma
-Acronym: <wg>`wide grin
-Acronym: sovs`someone very special
-Acronym: sry`sorry
-Acronym: st`such that
-Acronym: st-ds9`star trek deep space 9
-Acronym: st-tng`star trek the next generation
-Acronym: st-tos`star trek the original series
-Acronym: st-voy`star trek voyager
-Acronym: sts`so to speak
-Acronym: sucdic`situation under control dickheads in charge
-Acronym: sufid`screwing up face in disgust
-Acronym: sul`see you later
-Acronym: sunoilty`shut up no one is listening to you
-Acronym: sup`what's up
-Acronym: suyp`shut up you pervert
-Acronym: swak`sealed with a kiss
-Acronym: swalk`sealed with a loving kiss
-Acronym: swdyrtw`since when do you rule the web
-Acronym: swl`screaming with laughter
-Acronym: swmbo`she who must be obeyed
-Acronym: swyp`so what's your problem
-Acronym: syl`see you later
-Acronym: sysop`system operator
-Acronym: syt`sweet young thing
-Acronym: taba`throws a beer at
-Acronym: taf`that's all folks
-Acronym: tafn`that's all for now
-Acronym: tanj`there ain't no justice
-Acronym: tanstaafl`there ain't no such thing as a free lunch
-Acronym: tasw`that's all she wrote
-Acronym: tawis`that ain't what i said
-Acronym: tbc`to be continued
-Acronym: tbe`to be expected
-Acronym: tbyb`try before you buy
-Acronym: tc`telephone call; take care
-Acronym: tcb`taking care of business
-Acronym: tcd`the cat's dead
-Acronym: tdd`the dog's dead
-Acronym: tdm`too damn many
-Acronym: teotwawki`the end of the world as we know it
-Acronym: tftt`thanks for the thought
-Acronym: tgal`think globally act locally
-Acronym: tgif`thank god it's friday
-Acronym: tgtf`thank god tomorrow's friday
-Acronym: tia`thanks in advance
-Acronym: tiatlg`truly i am the living god
-Acronym: tic`tongue in cheek
-Acronym: tiic`those idiots in control
-Acronym: time`tears in my eyes
-Acronym: timtowtdi`there is more than one way to do it
-Acronym: tinalo`this is not a legal opinion
-Acronym: tinar`this is not a recommendation
-Acronym: tinc`there is no cabal
-Acronym: tinwis`that is not what i said
-Acronym: tip`to insure promptness
-Acronym: tjataw`truth justice and the american way
-Acronym: tla`three letter acronym
-Acronym: tlc`tender loving care
-Acronym: tlg`the living god
-Acronym: tm`thread mangler
-Acronym: tmi`too much information
-Acronym: tmiktliu`the more i know the less i understand
-Acronym: tn`telnet
-Acronym: tnotvs`there's nothing on television so
-Acronym: tnx`thanks
-Acronym: totbal`there ought to be a law
-Acronym: tpae`the possibilities are endless
-Acronym: tps(s)`this program sucks (severely)
-Acronym: tptb`the powers that be
-Acronym: trdmc`tears running down my cheeks
-Acronym: tsohf`total sense of humour failure
-Acronym: tsr`terminate and stay resident
-Acronym: ttbe`that's to be expected
-Acronym: ttbomk`to the best of my knowledge
-Acronym: ttfn`ta ta for now
-Acronym: ttl4n`that's the lot for now
-Acronym: ttm`to the moderator
-Acronym: ttsp`this too shall pass
-Acronym: tttt`these things take time
-Acronym: ttyl`talk to you later
-Acronym: ttyrs`talk to you real soon
-Acronym: tvb`top versus bottom
-Acronym: twain`technology without an important name
-Acronym: twimc`to whom it may concern
-Acronym: twis`that's what i said
-Acronym: twtst`that will take some thought
-Acronym: twyas`that's what you all say
-Acronym: twyt`that's what you think
-Acronym: ty`thank you
-Acronym: tyt`take your time
-Acronym: tyvm`thank you very much
-Acronym: u/l`upload
-Acronym: uae`unrecoverable application error
-Acronym: ube`unsolicited bulk email
-Acronym: ufla`unidentified four letter acronym
-Acronym: ugtbk`you've got to be kidding
-Acronym: uok`you ok
-Acronym: url`uniform resource locator
-Acronym: urlcm`you are welcome
-Acronym: usu`usually
-Acronym: ut4s`you type for sh#t
-Acronym: utt`under the table
-Acronym: uucp`unix-tounix copy
-Acronym: vbg`very big grin
-Acronym: vdpkol`very deep passionate kiss on the lips
-Acronym: vdwpkol`very deep wet passionate kiss on the lips
-Acronym: vh`virtual hug
-Acronym: vhs`video home system
-Acronym: vr`virtual reality
-Acronym: vrml`virtual reality modelling language
-Acronym: vt`virtual time
-Acronym: w/`with
-Acronym: w/o`with out
-Acronym: w8`wait
-Acronym: w8ing`waiting
-Acronym: wab`what another bill
-Acronym: waef`when all else fails
-Acronym: wag`wild assed guess
-Acronym: wais`wide area information server
-Acronym: waloc`what a load of crap
-Acronym: wan`wide area network
-Acronym: wb`welcome back
-Acronym: wbs`write back soon
-Acronym: wbsp`write back soon please
-Acronym: wc`way cool
-Acronym: wcaga`what comes around goes around
-Acronym: wdymbt`what do you mean by that
-Acronym: wfhc`why for how come
-Acronym: wfm`works for me
-Acronym: wibnif`wouldn't it be nice if
-Acronym: wity`what's it to you
-Acronym: wmmows`wash my mouth out with soap
-Acronym: woa`work of art
-Acronym: wom`word of mouth
-Acronym: wombat`waste of money brains and time
-Acronym: wos`wife over shoulder
-Acronym: wpkol`wet passionate kiss on the lips
-Acronym: wrt`with regard/respect to
-Acronym: wsdmu`we sure did miss you
-Acronym: wtg`way to go
-Acronym: wth`what the hell
-Acronym: wuc`why you cry
-Acronym: wwyc`write when you can
-Acronym: wygiwyg`what you got is what you get
-Acronym: wygiwypf`what you get is what you pay for
-Acronym: wym`what you mean
-Acronym: wyp`what's your point
-Acronym: wysiwyg`what you see is what you get
-Acronym: wysoh`where's your sense of humour
-Acronym: xyz`examine your zipper
-Acronym: y2k`the year 2000
-Acronym: yaabh`you are a big help
-Acronym: yaba`yet another bloody acronym
-Acronym: yaotm`yet another off-topic message
-Acronym: yasawyab`you are so angry when you are beautiful
-Acronym: yasbwyaa`you are so beautiful when you are angry
-Acronym: ybs`you'll be sorry
-Acronym: yciitm`your check/cheque is in the mail
-Acronym: ycliu`you can look it up
-Acronym: yctfs`you can't type for sh#t
-Acronym: yggm`your guess is as good as mine
-Acronym: ygtbk`you've got to be kidding
-Acronym: yhbw`you have been warned
-Acronym: yhl`you have lost
-Acronym: yhtbt`you had to be there
-Acronym: yiah`yes i am here
-Acronym: ykinok`your kink is not ok
-Acronym: ykwim`you know what i mean
-Acronym: ykyatp`you know you're a tired parent
-Acronym: ym`you mean
-Acronym: yoyo`you're on your own
-Acronym: yoyow`you own your own words
-Acronym: yr`yeah right
-Acronym: yss`you suck severely
-Acronym: yt`yours truly
-Acronym: ytmob`you turn me on baby
-Acronym: yw`you're welcome
-Acronym: ywsyls`you win some you lose some
-Acronym: yybbhh`yeh yeh beep beep honk honk
-Acronym: yyssw`ya ya sure sure whatever
-ACRONYM: What does S H A P E stand for`Supreme headquarters,allied powers,europe
-ACRONYMS: QUANTAS, what does it stand for`queensland and northern territory aerial services
-acronyms: waves`women accepted for volunteer emergency service
-Acronyms: What is the AALS?`association of American law schools
-ACRONYMS: ROM`Read only memory
+<wg>`wide grin
+sovs`someone very special
+sry`sorry
+st`such that
+st-ds9`star trek deep space 9
+st-tng`star trek the next generation
+st-tos`star trek the original series
+st-voy`star trek voyager
+sts`so to speak
+sucdic`situation under control dickheads in charge
+sufid`screwing up face in disgust
+sul`see you later
+sunoilty`shut up no one is listening to you
+sup`what's up
+suyp`shut up you pervert
+swak`sealed with a kiss
+swalk`sealed with a loving kiss
+swdyrtw`since when do you rule the web
+swl`screaming with laughter
+swmbo`she who must be obeyed
+swyp`so what's your problem
+syl`see you later
+sysop`system operator
+syt`sweet young thing
+taba`throws a beer at
+taf`that's all folks
+tafn`that's all for now
+tanj`there ain't no justice
+tanstaafl`there ain't no such thing as a free lunch
+tasw`that's all she wrote
+tawis`that ain't what i said
+tbc`to be continued
+tbe`to be expected
+tbyb`try before you buy
+tc`telephone call; take care
+tcb`taking care of business
+tcd`the cat's dead
+tdd`the dog's dead
+tdm`too damn many
+teotwawki`the end of the world as we know it
+tftt`thanks for the thought
+tgal`think globally act locally
+tgif`thank god it's friday
+tgtf`thank god tomorrow's friday
+tia`thanks in advance
+tiatlg`truly i am the living god
+tic`tongue in cheek
+tiic`those idiots in control
+time`tears in my eyes
+timtowtdi`there is more than one way to do it
+tinalo`this is not a legal opinion
+tinar`this is not a recommendation
+tinc`there is no cabal
+tinwis`that is not what i said
+tip`to insure promptness
+tjataw`truth justice and the american way
+tla`three letter acronym
+tlc`tender loving care
+tlg`the living god
+tm`thread mangler
+tmi`too much information
+tmiktliu`the more i know the less i understand
+tn`telnet
+tnotvs`there's nothing on television so
+tnx`thanks
+totbal`there ought to be a law
+tpae`the possibilities are endless
+tps(s)`this program sucks (severely)
+tptb`the powers that be
+trdmc`tears running down my cheeks
+tsohf`total sense of humour failure
+tsr`terminate and stay resident
+ttbe`that's to be expected
+ttbomk`to the best of my knowledge
+ttfn`ta ta for now
+ttl4n`that's the lot for now
+ttm`to the moderator
+ttsp`this too shall pass
+tttt`these things take time
+ttyl`talk to you later
+ttyrs`talk to you real soon
+tvb`top versus bottom
+twain`technology without an important name
+twimc`to whom it may concern
+twis`that's what i said
+twtst`that will take some thought
+twyas`that's what you all say
+twyt`that's what you think
+ty`thank you
+tyt`take your time
+tyvm`thank you very much
+u/l`upload
+uae`unrecoverable application error
+ube`unsolicited bulk email
+ufla`unidentified four letter acronym
+ugtbk`you've got to be kidding
+uok`you ok
+url`uniform resource locator
+urlcm`you are welcome
+usu`usually
+ut4s`you type for sh#t
+utt`under the table
+uucp`unix-tounix copy
+vbg`very big grin
+vdpkol`very deep passionate kiss on the lips
+vdwpkol`very deep wet passionate kiss on the lips
+vh`virtual hug
+vhs`video home system
+vr`virtual reality
+vrml`virtual reality modelling language
+vt`virtual time
+w/`with
+w/o`with out
+w8`wait
+w8ing`waiting
+wab`what another bill
+waef`when all else fails
+wag`wild assed guess
+wais`wide area information server
+waloc`what a load of crap
+wan`wide area network
+wb`welcome back
+wbs`write back soon
+wbsp`write back soon please
+wc`way cool
+wcaga`what comes around goes around
+wdymbt`what do you mean by that
+wfhc`why for how come
+wfm`works for me
+wibnif`wouldn't it be nice if
+wity`what's it to you
+wmmows`wash my mouth out with soap
+woa`work of art
+wom`word of mouth
+wombat`waste of money brains and time
+wos`wife over shoulder
+wpkol`wet passionate kiss on the lips
+wrt`with regard/respect to
+wsdmu`we sure did miss you
+wtg`way to go
+wth`what the hell
+wuc`why you cry
+wwyc`write when you can
+wygiwyg`what you got is what you get
+wygiwypf`what you get is what you pay for
+wym`what you mean
+wyp`what's your point
+wysiwyg`what you see is what you get
+wysoh`where's your sense of humour
+xyz`examine your zipper
+y2k`the year 2000
+yaabh`you are a big help
+yaba`yet another bloody acronym
+yaotm`yet another off-topic message
+yasawyab`you are so angry when you are beautiful
+yasbwyaa`you are so beautiful when you are angry
+ybs`you'll be sorry
+yciitm`your check/cheque is in the mail
+ycliu`you can look it up
+yctfs`you can't type for sh#t
+yggm`your guess is as good as mine
+ygtbk`you've got to be kidding
+yhbw`you have been warned
+yhl`you have lost
+yhtbt`you had to be there
+yiah`yes i am here
+ykinok`your kink is not ok
+ykwim`you know what i mean
+ykyatp`you know you're a tired parent
+ym`you mean
+yoyo`you're on your own
+yoyow`you own your own words
+yr`yeah right
+yss`you suck severely
+yt`yours truly
+ytmob`you turn me on baby
+yw`you're welcome
+ywsyls`you win some you lose some
+yybbhh`yeh yeh beep beep honk honk
+yyssw`ya ya sure sure whatever
+What does S H A P E stand for`Supreme headquarters,allied powers,europe
+QUANTAS, what does it stand for`queensland and northern territory aerial services
+waves`women accepted for volunteer emergency service
+What is the AALS?`association of American law schools
+ROM`Read only memory
