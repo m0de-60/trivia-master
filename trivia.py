@@ -213,7 +213,7 @@ async def evt_join(server, joindata):
     # trivia join message
     if pdata[server, chan]['trivia'] is True and pdata[server, chan]['game'] != 0:
         if pdata[server, chan]['game'] == 'time':
-            ctime = 20 - round(time.time() - float(pdata[server, chan]['timer']))
+            ctime = 15 - round(time.time() - float(pdata[server, chan]['timer']))
             if ctime < 0:
                 await trivia(server, dchannel, 'stop')
                 time.sleep(1)
@@ -372,7 +372,7 @@ async def evt_privmsg(server, message):
                 await trivia(server, channel.decode(), 'skip')
                 return
             if pdata[server, chan]['game'] == 'time':
-                ctime = 20 - round(time.time() - float(pdata[server, chan]['timer']))
+                ctime = 15 - round(time.time() - float(pdata[server, chan]['timer']))
                 time.sleep(0.04)
                 pc.privmsg_(server, channel, '\x0315,1New question coming up in\x02\x033,1 ' + str(ctime) + ' \x02\x03seconds.')
                 return
@@ -683,7 +683,7 @@ async def trivia(server, channel, opt, cat='', opt2=''):
 
             pdata[server, chan]['timerun'] = True
             pdata[server, chan]['timer'] = time.time()
-            pc.privmsg_(server, channel.encode(), '\x0315,1Next question in\x02\x033,1 20 \x02\x0315,1seconds...\x03')
+            pc.privmsg_(server, channel.encode(), '\x0315,1Next question in\x02\x033,1 15 \x02\x0315,1seconds...\x03')
             pdata[server, chan]['thread'] = threading.Thread(target=timer, args=(server, channel,), daemon=True)
             pdata[server, chan]['thread'].start()
 
@@ -695,7 +695,7 @@ async def trivia(server, channel, opt, cat='', opt2=''):
         pdata[server, chan]['response'] = time.time()
         pdata[server, chan]['pointimer'] = time.time()
         pc.privmsg_(server, channel.encode(), '\x02\x0310,1[\x033,1\x02No.\x02 ' + str(pdata[server, chan]['qnum']) + ' ' + pdata[server, chan]['category'] + '\x0310,1]\x0315,1   \x02 ' + pdata[server, chan]['question'] + '\x03')
-        pc.privmsg_(server, channel.encode(), '\x0315,1First hint in\x02\x033,1 20 \x02\x0315,1seconds...\x03')
+        pc.privmsg_(server, channel.encode(), '\x0315,1First hint in\x02\x033,1 15 \x02\x0315,1seconds...\x03')
 
         # testing
         # mprint(f'Q: {pdata[server, chan]['question']}')
@@ -1013,8 +1013,8 @@ def timer(server, channel):
                 math = pdata[server, chan]['points'] - pc.rand(435, 535)
                 pdata[server, chan]['points'] = math
 
-        # 20 second trivia cycle
-        if round(time.time() - float(pdata[server, chan]['timer'])) >= 20:  # 5:
+        # 15-20 second trivia cycle
+        if round(time.time() - float(pdata[server, chan]['timer'])) >= 15:  # 20:  # 5:
             # ask the question
             if pdata[server, chan]['hints'] == -1:
                 pdata[server, chan]['timerun'] = False
