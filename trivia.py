@@ -165,7 +165,7 @@ def plugin_init_():
         continue
 
     # data map complete
-    mprint(f'{pdata['ptitle']} * Version: {pdata['pversion']} By: {pdata['pauthor']} - Loaded successfully.')
+    mprint(f"{pdata['ptitle']} * Version: {pdata['pversion']} By: {pdata['pauthor']} - Loaded successfully.")
 
 # Screen printing [*REQUIRED FUNCTION*]---------------------------------------------------------------------------------
 # For module printing, logging and testing purposes, AFTER plugin is loaded use this instead of print()
@@ -655,10 +655,10 @@ async def trivia(server, channel, opt, cat='', opt2=''):
             pdata[server, chan]['answer'] = pc.gettok(filelines[qnum], 1, '`').replace('\n', '')
             pdata[server, chan]['points'] = 10000  # Starting points at 1000
 
-            mprint(f'CAT: {pdata[server, chan]['category']} NUM: {pdata[server, chan]['qnum']}')
+            mprint(f"CAT: {pdata[server, chan]['category']} NUM: {pdata[server, chan]['qnum']}")
             mprint(f'File: {filename}')
-            mprint(f'Q: {pdata[server, chan]['question']}')
-            mprint(f'A: {pdata[server, chan]['answer']}')
+            mprint(f"Q: {pdata[server, chan]['question']}")
+            mprint(f"A: {pdata[server, chan]['answer']}")
 
             # set hint data
             pdata[server, chan]['hints'] = -1
@@ -941,35 +941,35 @@ def timer(server, channel):
                 pdata['c_hour'] = pc.chour()
                 pdata[server, chan]['control_timer1'] = time.time()
                 pdata[server, chan]['controlA'] = '0'
-                mprint(f'Hour has changed to: {pdata['c_hour']}')
+                mprint(f"Hour has changed to: {pdata['c_hour']}")
                 asyncio.run(time_event(server, channel, 'hourly', 'new'))
 
             # day has changed
             if pdata['c_day'] != pc.cday():
                 pc.cnfwrite('trivia.cnf', 'trivia', 'day', str(pc.cday()))
                 pdata['c_day'] = pc.cday()
-                mprint(f'Day has changed to: {pdata['c_day']}')
+                mprint(f"Day has changed to: {pdata['c_day']}")
                 asyncio.run(time_event(server, channel, 'daily', 'new'))
 
             # week has changed
             if pdata['c_week'] != pc.cweek():
                 pc.cnfwrite('trivia.cnf', 'trivia', 'week', str(pc.cweek()))
                 pdata['c_week'] = pc.cweek()
-                mprint(f'Week has changed to: {pdata['c_week']}')
+                mprint(f"Week has changed to: {pdata['c_week']}")
                 asyncio.run(time_event(server, channel, 'weekly', 'new'))
 
             # month has changed
             if pdata['c_month'] != pc.cmonth():
                 pc.cnfwrite('trivia.cnf', 'trivia', 'month', str(pc.cmonth()))
                 pdata['c_month'] = pc.cmonth()
-                mprint(f'Month has changed to: {pdata['c_month']}')
+                mprint(f"Month has changed to: {pdata['c_month']}")
                 asyncio.run(time_event(server, channel, 'monthly', 'new'))
 
             # year has changed
             if pdata['c_year'] != pc.cyear():
                 pc.cnfwrite('trivia.cnf', 'trivia', 'year', str(pc.cyear()))
                 pdata['c_year'] = pc.cyear()
-                mprint(f'Year has changed to: {pdata['c_year']}')
+                mprint(f"Year has changed to: {pdata['c_year']}")
                 asyncio.run(time_event(server, channel, 'yearly', 'new'))
 
             tcu = time.time() - float(pdata[server, chan]['control_timer1'])
@@ -1771,7 +1771,7 @@ if test1 is True:
     hinting('a little longer testing answer')
 
 if test2 is True:
-    print(f'{playerstats('espernet', bytes('#testwookie', 'utf-8'), 'neo_nemesis', 'score')}')
-    print(f'{playerstats('espernet', bytes('#testwookie', 'utf-8'), 'neo_nemesis', 'wins')}')
-    print(f'{playerstats('espernet', bytes('#testwookie', 'utf-8'), 'neo_nemesis', 'streak')}')
-    print(f'{playerstats('espernet', bytes('#testwookie', 'utf-8'), 'neo_nemesis', 'best')}')
+    print(f"{playerstats('espernet', bytes('#testwookie', 'utf-8'), 'neo_nemesis', 'score')}")
+    print(f"{playerstats('espernet', bytes('#testwookie', 'utf-8'), 'neo_nemesis', 'wins')}")
+    print(f"{playerstats('espernet', bytes('#testwookie', 'utf-8'), 'neo_nemesis', 'streak')}")
+    print(f"{playerstats('espernet', bytes('#testwookie', 'utf-8'), 'neo_nemesis', 'best')}")
